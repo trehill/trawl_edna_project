@@ -1,0 +1,22 @@
+level,LCT,order,family,genus,species,all_species
+species,Alosa sapidissima,Clupeiformes,Clupeidae,Alosa,Alosa sapidissima,Alosa sapidissima
+species,Anoplopoma fimbria,Scorpaeniformes,Anoplopomatidae,Anoplopoma,Anoplopoma fimbria,Anoplopoma fimbria
+species,Citharichthys stigmaeus,Pleuronectiformes,Paralichthyidae,Citharichthys,Citharichthys stigmaeus,Citharichthys stigmaeus
+species,Clupea pallasii,Clupeiformes,Clupeidae,Clupea,Clupea pallasii,Clupea pallasii
+species,Cryptacanthodes giganteus,Perciformes,Cryptacanthodidae,Cryptacanthodes,Cryptacanthodes giganteus,Cryptacanthodes giganteus
+species,Gadus chalcogrammus,Gadiformes,Gadidae,Gadus,Gadus chalcogrammus,Gadus chalcogrammus
+species,Glyptocephalus zachirus,Pleuronectiformes,Pleuronectidae,Glyptocephalus,Glyptocephalus zachirus,Glyptocephalus zachirus
+species,Merluccius productus,Gadiformes,Merlucciidae,Merluccius,Merluccius productus,Merluccius productus
+species,Oncorhynchus gorbuscha,Salmoniformes,Salmonidae,Oncorhynchus,Oncorhynchus gorbuscha,Oncorhynchus gorbuscha
+species,Oncorhynchus keta,Salmoniformes,Salmonidae,Oncorhynchus,Oncorhynchus keta,Oncorhynchus keta
+species,Oncorhynchus kisutch,Salmoniformes,Salmonidae,Oncorhynchus,Oncorhynchus kisutch,Oncorhynchus kisutch
+species,Oncorhynchus nerka,Salmoniformes,Salmonidae,Oncorhynchus,Oncorhynchus nerka,Oncorhynchus nerka
+species,Oncorhynchus tshawytscha,Salmoniformes,Salmonidae,Oncorhynchus,Oncorhynchus tshawytscha,Oncorhynchus tshawytscha
+species,Pholis laeta,Perciformes,Pholidae,Pholis,Pholis laeta,Pholis laeta
+species,Sebastes alutus,Scorpaeniformes,Sebastidae,Sebastes,Sebastes alutus,Sebastes alutus
+species,Sebastes crameri,Scorpaeniformes,Sebastidae,Sebastes,Sebastes crameri,Sebastes crameri
+species,Sebastes entomelas,Scorpaeniformes,Sebastidae,Sebastes,Sebastes entomelas,Sebastes entomelas
+species,Sebastes mystinus,Scorpaeniformes,Sebastidae,Sebastes,Sebastes mystinus,Sebastes mystinus
+species,Thaleichthys pacificus,Osmeriformes,Osmeridae,Thaleichthys,Thaleichthys pacificus,Thaleichthys pacificus
+genus,Sebastes caurinus/maliger,Scorpaeniformes,Sebastidae,Sebastes,Sebastes caurinus/maliger,"Sebastes caurinus, Sebastes maliger"
+genus,Xiphister atropurpureus/mucosus,Perciformes,Stichaeidae,Xiphister,Xiphister atropurpureus/mucosus,"Xiphister atropurpureus, Xiphister mucosus"

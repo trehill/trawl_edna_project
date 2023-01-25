@@ -1,0 +1,25 @@
+level,LCT,class,order,family,genus,species,all_species
+species,Alosa sapidissima,Actinopterygii,Clupeiformes,Clupeidae,Alosa,Alosa sapidissima,Alosa sapidissima
+species,Anoplopoma fimbria,Actinopterygii,Scorpaeniformes,Anoplopomatidae,Anoplopoma,Anoplopoma fimbria,Anoplopoma fimbria
+species,Beringraja binoculata,Elasmobranchii,Rajiformes,Rajidae,Beringraja,Beringraja binoculata,Beringraja binoculata
+species,Clupea pallasii,Actinopterygii,Clupeiformes,Clupeidae,Clupea,Clupea pallasii,Clupea pallasii
+species,Eopsetta jordani,Actinopterygii,Pleuronectiformes,Pleuronectidae,Eopsetta,Eopsetta jordani,Eopsetta jordani
+species,Gadus chalcogrammus,Actinopterygii,Gadiformes,Gadidae,Gadus,Gadus chalcogrammus,Gadus chalcogrammus
+species,Glyptocephalus zachirus,Actinopterygii,Pleuronectiformes,Pleuronectidae,Glyptocephalus,Glyptocephalus zachirus,Glyptocephalus zachirus
+species,Hexagrammos decagrammus,Actinopterygii,Scorpaeniformes,Hexagrammidae,Hexagrammos,Hexagrammos decagrammus,Hexagrammos decagrammus
+species,Hippoglossoides elassodon,Actinopterygii,Pleuronectiformes,Pleuronectidae,Hippoglossoides,Hippoglossoides elassodon,Hippoglossoides elassodon
+species,Leptoclinus maculatus,Actinopterygii,Perciformes,Stichaeidae,Leptoclinus,Leptoclinus maculatus,Leptoclinus maculatus
+species,Merluccius productus,Actinopterygii,Gadiformes,Merlucciidae,Merluccius,Merluccius productus,Merluccius productus
+species,Microstomus pacificus,Actinopterygii,Pleuronectiformes,Pleuronectidae,Microstomus,Microstomus pacificus,Microstomus pacificus
+species,Oncorhynchus gorbuscha,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,Oncorhynchus gorbuscha,Oncorhynchus gorbuscha
+species,Oncorhynchus keta,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,Oncorhynchus keta,Oncorhynchus keta
+species,Oncorhynchus kisutch,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,Oncorhynchus kisutch,Oncorhynchus kisutch
+species,Oncorhynchus nerka,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,Oncorhynchus nerka,Oncorhynchus nerka
+species,Phytichthys chirus,Actinopterygii,Perciformes,Stichaeidae,Phytichthys,Phytichthys chirus,Phytichthys chirus
+species,Sebastes alutus,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,Sebastes alutus,Sebastes alutus
+species,Sebastes crameri,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,Sebastes crameri,Sebastes crameri
+species,Sebastes mystinus,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,Sebastes mystinus,Sebastes mystinus
+species,Squalus suckleyi,Elasmobranchii,Squaliformes,Squalidae,Squalus,Squalus suckleyi,Squalus suckleyi
+species,Thaleichthys pacificus,Actinopterygii,Osmeriformes,Osmeridae,Thaleichthys,Thaleichthys pacificus,Thaleichthys pacificus
+species,Reinhardtius evermanni,Actinopterygii,Pleuronectiformes,Pleuronectidae,Reinhardtius,Reinhardtius evermanni,Reinhardtius evermanni
+genus,Sebastes caurinus/maliger,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,Sebastes caurinus/maliger,"Sebastes caurinus, Sebastes maliger"

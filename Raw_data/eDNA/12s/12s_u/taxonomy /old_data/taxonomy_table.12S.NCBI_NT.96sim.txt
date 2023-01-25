@@ -1,0 +1,670 @@
+#Query	#lca rank	#lca taxon	#superkingdom	#kingdom	#phylum	#class	#order	#family	#genus	#species	#method
+ASV1	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV2	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV3	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV4	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV5	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV6	species	Anoplopoma fimbria	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Anoplopomatidae	Anoplopoma	Anoplopoma fimbria	best hit
+ASV7	species	Merluccius productus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV8	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV9	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV10	species	Oncorhynchus nerka	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus nerka	best hit
+ASV11	species	Microstomus kitt	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Microstomus	Microstomus kitt	best hit
+ASV12	species	Oncorhynchus kisutch	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus kisutch	best hit
+ASV13	species	Oncorhynchus nerka	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus nerka	best hit
+ASV14	species	Oncorhynchus tshawytscha	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV15	species	Sebastes aleutianus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes aleutianus	best hit
+ASV16	species	Sus scrofa	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Suidae	Sus	Sus scrofa	best hit
+ASV17	species	Bos taurus	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	best hit
+ASV18	species	Megaptera novaeangliae	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	Megaptera novaeangliae	best hit
+ASV19	species	Canis lupus familiaris	Eukaryota	Metazoa	Chordata	Mammalia	Carnivora	Canidae	Canis	Canis lupus familiaris	best hit
+ASV20	species	Oncorhynchus gorbuscha	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus gorbuscha	best hit
+ASV21	species	Merluccius productus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV22	species	Mirounga angustirostris	Eukaryota	Metazoa	Chordata	Mammalia	Carnivora	Phocidae	Mirounga	Mirounga angustirostris	best hit
+ASV23	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV24	species	Phocoena phocoena	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Phocoenidae	Phocoena	Phocoena phocoena	best hit
+ASV25	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV26	species	Gallus gallus gallus	Eukaryota	Metazoa	Chordata	Aves	Galliformes	Phasianidae	Gallus	Gallus gallus gallus	best hit
+ASV28	species	Sebastes aleutianus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes aleutianus	best hit
+ASV29	family	Stichaeidae	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Stichaeidae	no identification	no identification	lca
+ASV31	species	Clupea harengus	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea harengus	best hit
+ASV32	species	Cymatogaster aggregata	Eukaryota	Metazoa	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV33	family	Sebastidae	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV34	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV35	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV36	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV38	species	Sus scrofa	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Suidae	Sus	Sus scrofa	best hit
+ASV39	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV40	family	Stichaeidae	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Stichaeidae	no identification	no identification	lca
+ASV41	species	Oncorhynchus keta	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus keta	best hit
+ASV42	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV43	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV44	species	Orcinus orca	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Delphinidae	Orcinus	Orcinus orca	best hit
+ASV45	species	Hydrolagus colliei	Eukaryota	Metazoa	Chordata	Chondrichthyes	Chimaeriformes	Chimaeridae	Hydrolagus	Hydrolagus colliei	best hit
+ASV46	species	Sebastes aleutianus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes aleutianus	best hit
+ASV48	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV49	species	Microstomus kitt	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Microstomus	Microstomus kitt	best hit
+ASV50	species	Canis lupus familiaris	Eukaryota	Metazoa	Chordata	Mammalia	Carnivora	Canidae	Canis	Canis lupus familiaris	best hit
+ASV51	family	Pholidae	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	no identification	lca
+ASV52	species	Microstomus pacificus	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Microstomus	Microstomus pacificus	best hit
+ASV53	species	Sus scrofa	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Suidae	Sus	Sus scrofa	best hit
+ASV54	species	Oncorhynchus gorbuscha	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus gorbuscha	best hit
+ASV55	species	Cymatogaster aggregata	Eukaryota	Metazoa	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV56	species	Hydrolagus colliei	Eukaryota	Metazoa	Chordata	Chondrichthyes	Chimaeriformes	Chimaeridae	Hydrolagus	Hydrolagus colliei	best hit
+ASV57	species	Hippoglossoides platessoides	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Hippoglossoides	Hippoglossoides platessoides	best hit
+ASV58	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV59	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV60	species	Gadus morhua	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus morhua	best hit
+ASV61	species	Gadus morhua	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus morhua	best hit
+ASV62	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV64	species	Eopsetta jordani	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Eopsetta	Eopsetta jordani	best hit
+ASV65	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV66	species	Anoplopoma fimbria	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Anoplopomatidae	Anoplopoma	Anoplopoma fimbria	best hit
+ASV67	species	Felis catus	Eukaryota	Metazoa	Chordata	Mammalia	Carnivora	Felidae	Felis	Felis catus	best hit
+ASV68	species	Eumetopias jubatus	Eukaryota	Metazoa	Chordata	Mammalia	Carnivora	Otariidae	Eumetopias	Eumetopias jubatus	best hit
+ASV69	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV70	species	Anoplopoma fimbria	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Anoplopomatidae	Anoplopoma	Anoplopoma fimbria	best hit
+ASV71	species	Hexagrammos decagrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV72	species	Leptoclinus maculatus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Stichaeidae	Leptoclinus	Leptoclinus maculatus	best hit
+ASV73	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV74	species	Anoplopoma fimbria	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Anoplopomatidae	Anoplopoma	Anoplopoma fimbria	best hit
+ASV75	family	Paralichthyidae	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Paralichthyidae	Citharichthys	no identification	lca
+ASV76	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV77	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV78	species	Psettichthys melanostictus	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Psettichthys	Psettichthys melanostictus	best hit
+ASV79	species	Phocoena phocoena	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Phocoenidae	Phocoena	Phocoena phocoena	best hit
+ASV80	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV81	species	Canis lupus familiaris	Eukaryota	Metazoa	Chordata	Mammalia	Carnivora	Canidae	Canis	Canis lupus familiaris	best hit
+ASV82	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV83	species	Hydrolagus colliei	Eukaryota	Metazoa	Chordata	Chondrichthyes	Chimaeriformes	Chimaeridae	Hydrolagus	Hydrolagus colliei	best hit
+ASV86	species	Atheresthes evermanni	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Atheresthes	Atheresthes evermanni	best hit
+ASV87	species	Clinocottus acuticeps	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Cottidae	Clinocottus	Clinocottus acuticeps	best hit
+ASV89	family	Rajidae	Eukaryota	Metazoa	Chordata	Chondrichthyes	Rajiformes	Rajidae	Raja	no identification	lca
+ASV90	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV91	species	Anoplopoma fimbria	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Anoplopomatidae	Anoplopoma	Anoplopoma fimbria	best hit
+ASV92	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV93	species	Merluccius productus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV94	species	Clupea harengus	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea harengus	best hit
+ASV95	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV96	species	Raja rhina	Eukaryota	Metazoa	Chordata	Chondrichthyes	Rajiformes	Rajidae	Raja	Raja rhina	best hit
+ASV97	species	Anoplopoma fimbria	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Anoplopomatidae	Anoplopoma	Anoplopoma fimbria	best hit
+ASV98	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV101	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV102	species	Gadus morhua	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus morhua	best hit
+ASV103	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV104	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV105	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV107	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV108	species	Meleagris gallopavo	Eukaryota	Metazoa	Chordata	Aves	Galliformes	Phasianidae	Meleagris	Meleagris gallopavo	best hit
+ASV109	species	Phoca vitulina	Eukaryota	Metazoa	Chordata	Mammalia	Carnivora	Phocidae	Phoca	Phoca vitulina	best hit
+ASV110	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV111	species	Sebastes trivittatus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes trivittatus	best hit
+ASV113	species	Felis catus	Eukaryota	Metazoa	Chordata	Mammalia	Carnivora	Felidae	Felis	Felis catus	best hit
+ASV114	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV115	species	Mallotus villosus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Salangidae	Mallotus	Mallotus villosus	best hit
+ASV116	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV117	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV118	species	Clupea harengus	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea harengus	best hit
+ASV119	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV120	species	Bos taurus	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	best hit
+ASV122	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV123	species	Clupea harengus	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea harengus	best hit
+ASV125	species	Mallotus villosus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Salangidae	Mallotus	Mallotus villosus	best hit
+ASV127	species	Ophiodon elongatus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Hexagrammidae	Ophiodon	Ophiodon elongatus	best hit
+ASV128	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV129	species	Oncorhynchus nerka	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus nerka	best hit
+ASV130	species	Oncorhynchus nerka	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus nerka	best hit
+ASV131	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV132	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV134	species	Ascelichthys rhodorus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Cottidae	Ascelichthys	Ascelichthys rhodorus	best hit
+ASV135	species	Diaphus theta	Eukaryota	Metazoa	Chordata	Actinopteri	Myctophiformes	Myctophidae	Diaphus	Diaphus theta	best hit
+ASV136	family	Stichaeidae	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Stichaeidae	no identification	no identification	lca
+ASV139	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV140	species	Mirounga angustirostris	Eukaryota	Metazoa	Chordata	Mammalia	Carnivora	Phocidae	Mirounga	Mirounga angustirostris	best hit
+ASV141	species	Alosa fallax	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Alosa	Alosa fallax	best hit
+ASV142	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV143	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV144	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV145	species	Ammodytes personatus	Eukaryota	Metazoa	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV146	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV147	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV148	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV149	species	Canis lupus familiaris	Eukaryota	Metazoa	Chordata	Mammalia	Carnivora	Canidae	Canis	Canis lupus familiaris	best hit
+ASV150	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV151	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV152	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV153	family	Hominidae	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	no identification	lca
+ASV154	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV156	family	Rajidae	Eukaryota	Metazoa	Chordata	Chondrichthyes	Rajiformes	Rajidae	Raja	no identification	lca
+ASV157	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV158	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV159	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV160	species	Bos taurus	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	best hit
+ASV162	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV164	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV165	family	Phocoenidae	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Phocoenidae	Phocoena	no identification	lca
+ASV166	species	Bos taurus	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	best hit
+ASV167	species	Cymatogaster aggregata	Eukaryota	Metazoa	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV168	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV169	family	Sebastidae	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV170	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV171	species	Anoplopoma fimbria	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Anoplopomatidae	Anoplopoma	Anoplopoma fimbria	best hit
+ASV172	species	Merluccius productus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV173	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV174	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV176	species	Cymatogaster aggregata	Eukaryota	Metazoa	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV178	species	Canis lupus familiaris	Eukaryota	Metazoa	Chordata	Mammalia	Carnivora	Canidae	Canis	Canis lupus familiaris	best hit
+ASV179	family	Pholidae	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	no identification	lca
+ASV181	species	Hippoglossus stenolepis	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Hippoglossus	Hippoglossus stenolepis	best hit
+ASV182	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV183	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV184	species	Oncorhynchus nerka	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus nerka	best hit
+ASV185	species	Canis lupus familiaris	Eukaryota	Metazoa	Chordata	Mammalia	Carnivora	Canidae	Canis	Canis lupus familiaris	best hit
+ASV186	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV187	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV188	species	Bos taurus	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	best hit
+ASV189	family	Stichaeidae	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Stichaeidae	no identification	no identification	lca
+ASV190	species	Osmerus eperlanus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Osmerus	Osmerus eperlanus	best hit
+ASV191	species	Anoplopoma fimbria	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Anoplopomatidae	Anoplopoma	Anoplopoma fimbria	best hit
+ASV192	species	Oncorhynchus nerka	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus nerka	best hit
+ASV193	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV194	species	Ammodytes personatus	Eukaryota	Metazoa	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV195	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV196	family	Sebastidae	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV197	species	Mirounga angustirostris	Eukaryota	Metazoa	Chordata	Mammalia	Carnivora	Phocidae	Mirounga	Mirounga angustirostris	best hit
+ASV198	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV199	species	Salmo salar	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo salar	best hit
+ASV200	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV201	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV202	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV203	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV204	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV205	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV206	species	Anas platyrhynchos	Eukaryota	Metazoa	Chordata	Aves	Anseriformes	Anatidae	Anas	Anas platyrhynchos	best hit
+ASV207	family	Phocoenidae	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Phocoenidae	Phocoena	no identification	lca
+ASV208	species	Clupea harengus	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea harengus	best hit
+ASV209	species	Oncorhynchus nerka	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus nerka	best hit
+ASV210	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV211	species	Cymatogaster aggregata	Eukaryota	Metazoa	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV212	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV213	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV214	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV215	family	Sebastidae	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV216	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV217	family	Phocoenidae	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Phocoenidae	Phocoena	no identification	lca
+ASV219	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV220	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV221	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV222	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV223	family	Liparidae	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Liparidae	no identification	no identification	lca
+ASV224	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV225	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV226	species	Lepidopsetta bilineata	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Lepidopsetta	Lepidopsetta bilineata	best hit
+ASV227	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV228	species	Gallus gallus gallus	Eukaryota	Metazoa	Chordata	Aves	Galliformes	Phasianidae	Gallus	Gallus gallus gallus	best hit
+ASV229	species	Xiphister atropurpureus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Stichaeidae	Xiphister	Xiphister atropurpureus	best hit
+ASV230	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV231	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV233	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV234	family	Hominidae	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	no identification	lca
+ASV235	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV237	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV238	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV239	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV240	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV241	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV242	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV243	species	Gadus morhua	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus morhua	best hit
+ASV244	species	Bos taurus	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	best hit
+ASV245	species	Oncorhynchus nerka	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus nerka	best hit
+ASV246	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV247	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV248	species	Bos taurus	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	best hit
+ASV249	family	Pholidae	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	no identification	lca
+ASV250	species	Merluccius productus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV251	species	Salmo salar	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo salar	best hit
+ASV252	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV254	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV256	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV257	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV258	species	Anoplopoma fimbria	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Anoplopomatidae	Anoplopoma	Anoplopoma fimbria	best hit
+ASV259	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV260	species	Oncorhynchus nerka	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus nerka	best hit
+ASV261	species	Bos taurus	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	best hit
+ASV262	species	Sebastolobus macrochir	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastolobus	Sebastolobus macrochir	best hit
+ASV263	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV264	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV265	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV266	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV267	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV268	species	Hippoglossoides platessoides	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Hippoglossoides	Hippoglossoides platessoides	best hit
+ASV269	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV270	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV271	species	Clupea harengus	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea harengus	best hit
+ASV272	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV274	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV275	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV276	species	Microstomus kitt	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Microstomus	Microstomus kitt	best hit
+ASV277	species	Merluccius productus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV278	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV279	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV280	species	Oncorhynchus tshawytscha	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV281	species	Stenella longirostris	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Delphinidae	Stenella	Stenella longirostris	best hit
+ASV282	family	Paralichthyidae	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Paralichthyidae	Citharichthys	no identification	lca
+ASV283	species	Sprattus sprattus	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Sprattus	Sprattus sprattus	best hit
+ASV284	species	Merluccius productus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV285	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV286	species	Skeletonema marinoi	Eukaryota	unknown kingdom	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema marinoi	best hit
+ASV287	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV288	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV289	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV290	species	Oncorhynchus tshawytscha	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV291	species	Merluccius productus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV292	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV293	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV294	species	Sebastes aleutianus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes aleutianus	best hit
+ASV295	species	Oncorhynchus kisutch	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus kisutch	best hit
+ASV296	species	Gallus gallus gallus	Eukaryota	Metazoa	Chordata	Aves	Galliformes	Phasianidae	Gallus	Gallus gallus gallus	best hit
+ASV297	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV298	family	Osmeridae	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	no identification	no identification	lca
+ASV299	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV300	species	Ascelichthys rhodorus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Cottidae	Ascelichthys	Ascelichthys rhodorus	best hit
+ASV301	species	Canis lupus familiaris	Eukaryota	Metazoa	Chordata	Mammalia	Carnivora	Canidae	Canis	Canis lupus familiaris	best hit
+ASV302	family	Pleuronectidae	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	no identification	no identification	lca
+ASV303	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV304	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV305	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV307	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV308	species	Oncorhynchus kisutch	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus kisutch	best hit
+ASV309	species	Orcinus orca	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Delphinidae	Orcinus	Orcinus orca	best hit
+ASV310	species	Oncorhynchus nerka	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus nerka	best hit
+ASV311	species	Icelinus borealis	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Cottidae	Icelinus	Icelinus borealis	best hit
+ASV312	species	Bos taurus	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	best hit
+ASV313	species	Anoplopoma fimbria	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Anoplopomatidae	Anoplopoma	Anoplopoma fimbria	best hit
+ASV314	species	Sebastes trivittatus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes trivittatus	best hit
+ASV315	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV316	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV317	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV318	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV319	species	Atheresthes evermanni	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Atheresthes	Atheresthes evermanni	best hit
+ASV321	species	Oncorhynchus nerka	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus nerka	best hit
+ASV322	family	Hominidae	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	no identification	lca
+ASV323	species	Microstomus kitt	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Microstomus	Microstomus kitt	best hit
+ASV324	species	Oncorhynchus tshawytscha	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV325	species	Clupea harengus	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea harengus	best hit
+ASV326	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV327	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV328	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV329	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV330	family	Clupeidae	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	no identification	lca
+ASV332	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV333	species	Anoplopoma fimbria	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Anoplopomatidae	Anoplopoma	Anoplopoma fimbria	best hit
+ASV334	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV335	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV336	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV337	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV338	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV340	species	Merluccius productus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV341	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV342	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV344	family	Phocoenidae	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Phocoenidae	Phocoena	no identification	lca
+ASV345	species	Liparis fucensis	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Liparidae	Liparis	Liparis fucensis	best hit
+ASV346	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV347	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV348	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV349	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV350	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV351	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV353	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV354	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV355	species	Clupea harengus	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea harengus	best hit
+ASV356	species	Engraulis mordax	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Engraulidae	Engraulis	Engraulis mordax	best hit
+ASV357	species	Myzopsetta ferruginea	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Myzopsetta	Myzopsetta ferruginea	best hit
+ASV358	family	Clupeidae	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	no identification	lca
+ASV359	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV360	species	Microstomus kitt	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Microstomus	Microstomus kitt	best hit
+ASV361	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV362	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV363	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV364	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV365	species	Sus scrofa	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Suidae	Sus	Sus scrofa	best hit
+ASV367	species	Pleuronectes platessa	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Pleuronectes	Pleuronectes platessa	best hit
+ASV368	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV369	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV370	species	Gadus morhua	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus morhua	best hit
+ASV372	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV373	species	Liparis florae	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Liparidae	Liparis	Liparis florae	best hit
+ASV374	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV375	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV376	species	Merluccius productus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV377	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV378	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV379	family	Pholidae	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	no identification	lca
+ASV380	species	Merluccius productus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV381	species	Bos taurus	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	best hit
+ASV382	species	Canis lupus familiaris	Eukaryota	Metazoa	Chordata	Mammalia	Carnivora	Canidae	Canis	Canis lupus familiaris	best hit
+ASV383	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV384	family	Pleuronectidae	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	no identification	no identification	lca
+ASV385	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV386	species	Bos taurus	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	best hit
+ASV387	species	Oncorhynchus gorbuscha	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus gorbuscha	best hit
+ASV388	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV390	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV391	species	Merluccius productus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV392	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV393	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV394	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV395	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV396	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV397	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV398	species	Bos taurus	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	best hit
+ASV399	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV400	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV401	species	Hippoglossoides platessoides	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Hippoglossoides	Hippoglossoides platessoides	best hit
+ASV402	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV403	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV404	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV405	species	Merluccius productus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV406	species	Eopsetta jordani	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Eopsetta	Eopsetta jordani	best hit
+ASV407	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV408	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV409	species	Clupea harengus	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea harengus	best hit
+ASV410	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV411	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV412	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV413	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV414	species	Leptocottus armatus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV415	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV416	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV417	species	Gadus morhua	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus morhua	best hit
+ASV418	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV419	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV420	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV421	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV422	species	Merluccius productus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV423	species	Sus scrofa	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Suidae	Sus	Sus scrofa	best hit
+ASV424	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV425	species	Clupea harengus	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea harengus	best hit
+ASV426	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV428	species	Hydrolagus colliei	Eukaryota	Metazoa	Chordata	Chondrichthyes	Chimaeriformes	Chimaeridae	Hydrolagus	Hydrolagus colliei	best hit
+ASV429	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV430	species	Hippoglossus stenolepis	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Hippoglossus	Hippoglossus stenolepis	best hit
+ASV431	species	Merluccius productus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV432	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV433	species	Sebastes aleutianus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes aleutianus	best hit
+ASV434	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV436	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV437	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV438	species	Sus scrofa	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Suidae	Sus	Sus scrofa	best hit
+ASV439	species	Bos taurus	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	best hit
+ASV440	species	Oncorhynchus nerka	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus nerka	best hit
+ASV441	species	Clupea harengus	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea harengus	best hit
+ASV442	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV444	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV445	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV446	species	Hydrolagus colliei	Eukaryota	Metazoa	Chordata	Chondrichthyes	Chimaeriformes	Chimaeridae	Hydrolagus	Hydrolagus colliei	best hit
+ASV447	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV448	species	Oncorhynchus gorbuscha	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus gorbuscha	best hit
+ASV449	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV450	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV451	species	Sebastes aleutianus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes aleutianus	best hit
+ASV453	species	Anoplopoma fimbria	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Anoplopomatidae	Anoplopoma	Anoplopoma fimbria	best hit
+ASV454	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV455	species	Merluccius productus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV456	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV457	species	Hippoglossoides platessoides	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Hippoglossoides	Hippoglossoides platessoides	best hit
+ASV458	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV460	species	Anoplopoma fimbria	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Anoplopomatidae	Anoplopoma	Anoplopoma fimbria	best hit
+ASV461	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV462	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV463	family	Sebastidae	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV464	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV465	species	Merluccius productus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV466	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV467	species	Canis lupus familiaris	Eukaryota	Metazoa	Chordata	Mammalia	Carnivora	Canidae	Canis	Canis lupus familiaris	best hit
+ASV468	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV469	species	Anoplopoma fimbria	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Anoplopomatidae	Anoplopoma	Anoplopoma fimbria	best hit
+ASV470	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV471	species	Oncorhynchus tshawytscha	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV472	species	Engraulis mordax	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Engraulidae	Engraulis	Engraulis mordax	best hit
+ASV473	family	Osmeridae	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	no identification	no identification	lca
+ASV474	species	Oncorhynchus tshawytscha	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV475	species	Gallus gallus gallus	Eukaryota	Metazoa	Chordata	Aves	Galliformes	Phasianidae	Gallus	Gallus gallus gallus	best hit
+ASV476	species	Merluccius productus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV477	species	Sebastes aleutianus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes aleutianus	best hit
+ASV478	species	Bos taurus	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	best hit
+ASV479	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV480	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV481	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV482	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV483	species	Anoplopoma fimbria	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Anoplopomatidae	Anoplopoma	Anoplopoma fimbria	best hit
+ASV484	species	Oncorhynchus keta	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus keta	best hit
+ASV485	species	Oncorhynchus nerka	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus nerka	best hit
+ASV486	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV487	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV488	species	Anoplopoma fimbria	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Anoplopomatidae	Anoplopoma	Anoplopoma fimbria	best hit
+ASV489	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV490	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV491	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV492	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV493	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV494	species	Canis lupus familiaris	Eukaryota	Metazoa	Chordata	Mammalia	Carnivora	Canidae	Canis	Canis lupus familiaris	best hit
+ASV495	family	Paralichthyidae	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Paralichthyidae	Citharichthys	no identification	lca
+ASV496	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV497	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV498	family	Hominidae	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	no identification	lca
+ASV499	species	Oncorhynchus nerka	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus nerka	best hit
+ASV500	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV501	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV502	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV503	species	Oncorhynchus tshawytscha	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV504	species	Merluccius productus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV505	species	Oncorhynchus keta	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus keta	best hit
+ASV506	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV507	species	Oncorhynchus nerka	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus nerka	best hit
+ASV508	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV509	species	Gobiesox maeandricus	Eukaryota	Metazoa	Chordata	Actinopteri	Blenniiformes	Gobiesocidae	Gobiesox	Gobiesox maeandricus	best hit
+ASV510	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV511	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV512	species	Sebastes aleutianus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes aleutianus	best hit
+ASV514	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV515	species	Oncorhynchus nerka	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus nerka	best hit
+ASV516	species	Anoplopoma fimbria	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Anoplopomatidae	Anoplopoma	Anoplopoma fimbria	best hit
+ASV517	family	Sebastidae	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV518	species	Mirounga angustirostris	Eukaryota	Metazoa	Chordata	Mammalia	Carnivora	Phocidae	Mirounga	Mirounga angustirostris	best hit
+ASV519	species	Oncorhynchus nerka	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus nerka	best hit
+ASV520	species	Merluccius productus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV521	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV522	species	Oncorhynchus tshawytscha	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV524	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV525	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV526	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV527	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV528	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV529	species	Clupea harengus	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea harengus	best hit
+ASV530	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV531	family	Paralichthyidae	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Paralichthyidae	Citharichthys	no identification	lca
+ASV532	species	Artedius harringtoni	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius harringtoni	best hit
+ASV533	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV534	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV536	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV537	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV538	species	Clupea harengus	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea harengus	best hit
+ASV539	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV540	family	Squalidae	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	no identification	lca
+ASV541	species	Mallotus villosus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Salangidae	Mallotus	Mallotus villosus	best hit
+ASV542	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV544	species	Oncorhynchus gorbuscha	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus gorbuscha	best hit
+ASV545	species	Oncorhynchus tshawytscha	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV546	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV547	species	Atheresthes evermanni	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Atheresthes	Atheresthes evermanni	best hit
+ASV548	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV549	species	Oncorhynchus gorbuscha	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus gorbuscha	best hit
+ASV550	species	Bos taurus	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	best hit
+ASV551	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV552	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV553	species	Hexagrammos decagrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV554	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV555	species	Merluccius productus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV556	family	Myctophidae	Eukaryota	Metazoa	Chordata	Actinopteri	Myctophiformes	Myctophidae	Diaphus	no identification	lca
+ASV557	family	Pholidae	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	no identification	lca
+ASV558	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV559	family	Embiotocidae	Eukaryota	Metazoa	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	no identification	lca
+ASV560	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV561	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV562	family	Paralichthyidae	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Paralichthyidae	Citharichthys	no identification	lca
+ASV563	species	Oncorhynchus nerka	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus nerka	best hit
+ASV564	species	Canis lupus familiaris	Eukaryota	Metazoa	Chordata	Mammalia	Carnivora	Canidae	Canis	Canis lupus familiaris	best hit
+ASV565	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV566	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV567	species	Merluccius productus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV568	family	Paralichthyidae	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Paralichthyidae	Citharichthys	no identification	lca
+ASV569	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV570	species	Ascelichthys rhodorus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Cottidae	Ascelichthys	Ascelichthys rhodorus	best hit
+ASV571	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV572	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV573	species	Oncorhynchus keta	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus keta	best hit
+ASV574	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV575	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV576	species	Oncorhynchus tshawytscha	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV577	species	Sebastes aleutianus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes aleutianus	best hit
+ASV578	species	Enophrys bison	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Cottidae	Enophrys	Enophrys bison	best hit
+ASV579	family	Pleuronectidae	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	no identification	no identification	lca
+ASV580	species	Merluccius productus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV581	species	Meleagris gallopavo	Eukaryota	Metazoa	Chordata	Aves	Galliformes	Phasianidae	Meleagris	Meleagris gallopavo	best hit
+ASV582	species	Sebastes aleutianus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes aleutianus	best hit
+ASV583	species	Canis lupus familiaris	Eukaryota	Metazoa	Chordata	Mammalia	Carnivora	Canidae	Canis	Canis lupus familiaris	best hit
+ASV584	family	Balaenopteridae	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	no identification	lca
+ASV585	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV586	species	Microstomus kitt	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Microstomus	Microstomus kitt	best hit
+ASV587	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV588	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV589	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV590	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV591	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV592	species	Liparis mucosus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Liparidae	Liparis	Liparis mucosus	best hit
+ASV593	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV594	species	Sebastes aleutianus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes aleutianus	best hit
+ASV595	species	Sebastes aleutianus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes aleutianus	best hit
+ASV596	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV597	species	Osmerus mordax	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Osmerus	Osmerus mordax	best hit
+ASV598	species	Xiphister atropurpureus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Stichaeidae	Xiphister	Xiphister atropurpureus	best hit
+ASV599	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV600	species	Gallus gallus gallus	Eukaryota	Metazoa	Chordata	Aves	Galliformes	Phasianidae	Gallus	Gallus gallus gallus	best hit
+ASV603	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV604	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV605	species	Oncorhynchus kisutch	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus kisutch	best hit
+ASV606	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV607	species	Oncorhynchus tshawytscha	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV609	species	Merluccius productus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV610	species	Oncorhynchus keta	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus keta	best hit
+ASV611	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV612	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV613	species	Sprattus sprattus	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Sprattus	Sprattus sprattus	best hit
+ASV614	species	Merluccius productus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV615	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV616	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV618	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV619	species	Oncorhynchus tshawytscha	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV620	family	Osmeridae	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	no identification	no identification	lca
+ASV621	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV622	species	Gadus morhua	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus morhua	best hit
+ASV625	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV626	species	Oncorhynchus nerka	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus nerka	best hit
+ASV627	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	filtered out
+ASV628	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV629	species	Sebastes aleutianus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes aleutianus	best hit
+ASV631	species	Hippoglossoides platessoides	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Hippoglossoides	Hippoglossoides platessoides	best hit
+ASV633	species	Cymatogaster aggregata	Eukaryota	Metazoa	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	best hit
+ASV634	family	Rajidae	Eukaryota	Metazoa	Chordata	Chondrichthyes	Rajiformes	Rajidae	Raja	no identification	lca
+ASV635	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV636	family	Balaenopteridae	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Megaptera	no identification	lca
+ASV637	species	Ammodytes personatus	Eukaryota	Metazoa	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	Ammodytes personatus	best hit
+ASV638	family	Gadidae	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	no identification	lca
+ASV639	species	Sus scrofa	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Suidae	Sus	Sus scrofa	best hit
+ASV640	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV641	species	Sus scrofa	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Suidae	Sus	Sus scrofa	best hit
+ASV642	species	Raja rhina	Eukaryota	Metazoa	Chordata	Chondrichthyes	Rajiformes	Rajidae	Raja	Raja rhina	best hit
+ASV643	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV644	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV645	species	Clupea harengus	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea harengus	best hit
+ASV646	species	Gadus chalcogrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	best hit
+ASV647	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV648	species	alpha proteobacterium SCGC AAA076-E09	Bacteria	unknown kingdom	Proteobacteria	Alphaproteobacteria	unknown order	unknown family	unknown genus	alpha proteobacterium SCGC AAA076-E09	best hit
+ASV650	species	Clupea harengus	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea harengus	best hit
+ASV651	species	Sebastes aleutianus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes aleutianus	best hit
+ASV652	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV653	species	Canis lupus familiaris	Eukaryota	Metazoa	Chordata	Mammalia	Carnivora	Canidae	Canis	Canis lupus familiaris	best hit
+ASV654	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV655	species	Merluccius productus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV656	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV657	family	Salmonidae	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	no identification	lca
+ASV658	species	Bos taurus	Eukaryota	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	best hit
+ASV659	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV661	species	uncultured diatom	Eukaryota	unknown kingdom	Bacillariophyta	unknown class	unknown order	unknown family	unknown genus	uncultured diatom	best hit
+ASV662	species	Atheresthes evermanni	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Atheresthes	Atheresthes evermanni	best hit
+ASV663	species	Spirinchus lanceolatus	Eukaryota	Metazoa	Chordata	Actinopteri	Osmeriformes	Osmeridae	Spirinchus	Spirinchus lanceolatus	best hit
+ASV664	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV665	species	Salmo salar	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo salar	best hit
+ASV666	family	Salmonidae	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	no identification	lca
+ASV667	species	Leptocottus armatus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Cottidae	Leptocottus	Leptocottus armatus	best hit
+ASV668	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV669	species	Squalus acanthias	Eukaryota	Metazoa	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	Squalus acanthias	best hit
+ASV671	family	Hominidae	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	no identification	lca
+ASV672	species	Ascelichthys rhodorus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Cottidae	Ascelichthys	Ascelichthys rhodorus	best hit
+ASV675	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV677	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	filtered out
+ASV678	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	filtered out
+ASV679	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	filtered out
+ASV680	species	Sebastes aleutianus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes aleutianus	best hit
+ASV681	order	Perciformes	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	no identification	no identification	no identification	lca
+ASV682	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV683	species	uncultured Planctomycetaceae bacterium	Bacteria	unknown kingdom	Planctomycetes	Planctomycetia	Planctomycetales	Planctomycetaceae	unknown genus	uncultured Planctomycetaceae bacterium	best hit
+ASV684	species	Merluccius productus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV685	species	Hydrolagus colliei	Eukaryota	Metazoa	Chordata	Chondrichthyes	Chimaeriformes	Chimaeridae	Hydrolagus	Hydrolagus colliei	best hit
+ASV686	species	uncultured cyanobacterium	Bacteria	unknown kingdom	Cyanobacteria	unknown class	unknown order	unknown family	unknown genus	uncultured cyanobacterium	best hit
+ASV688	species	Chaetoceros socialis	Eukaryota	unknown kingdom	Bacillariophyta	Coscinodiscophyceae	Chaetocerotales	Chaetocerotaceae	Chaetoceros	Chaetoceros socialis	best hit
+ASV689	species	Skeletonema pseudocostatum	Eukaryota	unknown kingdom	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Skeletonemataceae	Skeletonema	Skeletonema pseudocostatum	best hit
+ASV690	species	Hexagrammos decagrammus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	Hexagrammos decagrammus	best hit
+ASV692	species	Aulorhynchus flavidus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Aulorhynchidae	Aulorhynchus	Aulorhynchus flavidus	best hit
+ASV693	species	Xiphister atropurpureus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Stichaeidae	Xiphister	Xiphister atropurpureus	best hit
+ASV694	species	Oncorhynchus tshawytscha	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	best hit
+ASV696	family	Chaetocerotaceae	Eukaryota	unknown kingdom	Bacillariophyta	Coscinodiscophyceae	Chaetocerotales	Chaetocerotaceae	Chaetoceros	no identification	lca
+ASV697	phylum	Bacillariophyta	Eukaryota	unknown kingdom	Bacillariophyta	no identification	no identification	no identification	no identification	no identification	lca
+ASV699	species	Canis lupus familiaris	Eukaryota	Metazoa	Chordata	Mammalia	Carnivora	Canidae	Canis	Canis lupus familiaris	best hit
+ASV700	species	Clupea pallasii	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea pallasii	best hit
+ASV702	species	uncultured Bacteroidetes bacterium	Bacteria	unknown kingdom	Bacteroidetes	unknown class	unknown order	unknown family	unknown genus	uncultured Bacteroidetes bacterium	best hit
+ASV706	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	filtered out
+ASV708	species	Merluccius productus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV709	species	Sebastes aleutianus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes aleutianus	best hit
+ASV710	species	Myzopsetta ferruginea	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Myzopsetta	Myzopsetta ferruginea	best hit
+ASV711	species	Scorpaenichthys marmoratus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Cottidae	Scorpaenichthys	Scorpaenichthys marmoratus	best hit
+ASV712	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	filtered out
+ASV713	family	Sebastidae	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV714	species	Pholis crassispina	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	Pholis crassispina	best hit
+ASV716	species	Artedius harringtoni	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius harringtoni	best hit
+ASV720	species	Gasterosteus aculeatus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	best hit
+ASV731	species	Engraulis mordax	Eukaryota	Metazoa	Chordata	Actinopteri	Clupeiformes	Engraulidae	Engraulis	Engraulis mordax	best hit
+ASV732	species	Oligocottus maculosus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Cottidae	Oligocottus	Oligocottus maculosus	best hit
+ASV734	species	Oncorhynchus gorbuscha	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus gorbuscha	best hit
+ASV735	species	Oncorhynchus mykiss	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus mykiss	best hit
+ASV738	species	Scorpaenichthys marmoratus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Cottidae	Scorpaenichthys	Scorpaenichthys marmoratus	best hit
+ASV740	species	Cottus cognatus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus cognatus	best hit
+ASV741	species	Hemilepidotus jordani	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Cottidae	Hemilepidotus	Hemilepidotus jordani	best hit
+ASV742	species	Ophiodon elongatus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Hexagrammidae	Ophiodon	Ophiodon elongatus	best hit
+ASV743	species	Oligocottus maculosus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Cottidae	Oligocottus	Oligocottus maculosus	best hit
+ASV744	species	Enophrys bison	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Cottidae	Enophrys	Enophrys bison	best hit
+ASV746	species	Psettichthys melanostictus	Eukaryota	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Psettichthys	Psettichthys melanostictus	best hit
+ASV747	species	Homo sapiens	Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	best hit
+ASV748	species	Cottus asper	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Cottidae	Cottus	Cottus asper	best hit
+ASV749	species	Pholis crassispina	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	Pholis crassispina	best hit
+ASV750	species	Oncorhynchus gorbuscha	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus gorbuscha	best hit
+ASV753	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	filtered out
+ASV754	species	uncultured Alphaproteobacteria bacterium	Bacteria	unknown kingdom	Proteobacteria	Alphaproteobacteria	unknown order	unknown family	unknown genus	uncultured Alphaproteobacteria bacterium	best hit
+ASV756	species	Merluccius productus	Eukaryota	Metazoa	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	Merluccius productus	best hit
+ASV757	species	Oncorhynchus kisutch	Eukaryota	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus kisutch	best hit
+ASV759	species	Polypera greeni	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Liparidae	Polypera	Polypera greeni	best hit
+ASV760	species	Artedius fenestralis	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius fenestralis	best hit
+ASV761	species	Liparis mucosus	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Liparidae	Liparis	Liparis mucosus	best hit
+ASV762	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	filtered out
+ASV763	family	Liparidae	Eukaryota	Metazoa	Chordata	Actinopteri	Perciformes	Liparidae	Liparis	no identification	lca

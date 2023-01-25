@@ -1,0 +1,42 @@
+﻿kingdom,phylum,class,order,family,genus,species,environment,depth_range_min,depth_range_max,max_length_cm,common_length_cm,in_range
+Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Allosmerus,Allosmerus elongatus,dermersal,1,103,22.9,NA,y
+Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Alosa,Alosa sapidissima,pelagic_neritic,0,250,76,50,n
+Animalia,Chordata,Actinopterygii,Scorpaeniformes,Anoplopomatidae,Anoplopoma,Anoplopoma fimbria,bathydemersal,175,2740,120,80,y
+Animalia,Chordata,Elasmobranchii,Rajiformes,Rajidae,Beringraja,Beringraja binoculata,dermersal,3,800,244,180,y
+Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Clinocottus,Clinocottus acuticeps,dermersal,0,20,6.4,4.4,y
+Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,Clupea pallasii,pelagic_neritic,0,475,46,25,y
+Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Cymatogaster,Cymatogaster aggregata,dermersal,1,146,20.3,11.5,y
+Animalia ,Chordata,Teleostei,Myctophiformes ,Myctophidae ,Diaphys,Diaphus theta,bathypelagic,10,3400,11.4,NA,y
+Animalia,Chordata,Actinopterygii,Clupeiformes,Engraulidae,Engraulis,Engraulis mordax,pelagic_neritic,0,310,24.8,15,y
+Animalia,Chordata,Cephalaspidomorphi,Petromyzontiformes,Petromyzontidae,Entosphenus,Entosphenus tridentatus,dermersal,0,1508,76,41,y
+Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Eopsetta,Eopsetta jordani,dermersal,0,550,53,42.5,y
+Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,Gadus chalcogrammus,benthopelagic,NA,1280,91,NA,y
+Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Glyptocephalus,Glyptocephalus zachirus,dermersal,0,900,60,36,y
+Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Hexagrammos,Hexagrammos decagrammus,dermersal,0,46,61,NA,y
+Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Hippoglossoides,Hippoglossoides elassodon,dermersal,0,1050,52,NA,y
+Animalia,Chordata,Actinopterygii,Perciformes,Stichaeidae,Leptoclinus,Leptoclinus maculatus,dermersal,2,607,20,NA,y
+Animalia,Chordata,Actinopterygii,Scorpaeniformes,Liparidae,Lipariscus,Lipariscus nanus,benthopelagic,0,910,6.3,,y
+Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Mallotus,Mallotus villosus,pelagic_oceanic,0,725,20,15,y
+Animalia,Chordata,Actinopterygii,Gadiformes,Merlucciidae,Merluccius,Merluccius productus,pelagic_neritic,0,1000,91,NA,y
+Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Microstomus,Microstomus pacificus,dermersal,10,1370,6,NA,y
+Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,Oncorhynchus gorbuscha,dermersal,0,250,76,,y
+Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,Oncorhynchus keta,benthopelagic,0,250,100,58,y
+Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,Oncorhynchus kisutch,pelagic,0,250,108,71,y
+Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,Oncorhynchus nerka,pelagic_oceanic,0,250,84,45,y
+Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,Oncorhynchus tshawytscha,benthopelagic,0,375,150,70,y
+Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Parophrys,Parophrys vetulus,dermersal,0,550,49,33,y
+Animalia,Chordata,Actinopterygii,Perciformes,Stichaeidae,Phytichthys,Phytichthys chirus,dermersal,0,12,20,NA,y
+Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Reinhardtius,Reinhardtius hippoglossoides,benthopelagic,1,2200,110,56,y
+Animalia,Chordata,Actinopterygii,Scorpaeniformes,Liparidae,Rhinoliparis,Rhinoliparis barbulifer,bathydemersal,28,2189,8.8,,y
+Animalia,Chordata,Actinopterygii,Pleuronectiformes,Scophthalmidae,Scophthalmus,Scophthalmus maximus,dermersal,20,70,100,70,n
+Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,Sebastes alutus,bathydemersal,0,825,53,NA,y
+Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,Sebastes caurinus,dermersal,10,183,58,NA,y
+Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,Sebastes crameri,bathydemersal,25,600,58,NA,y
+Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,Sebastes entomelas,pelagic_neritic,0,549,60,NA,y
+Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,Sebastes flavidus,reef_associated,0,549,66,NA,y
+Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,Sebastes maliger,dermersal,0,274,61,NA,y
+Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,Sebastes mystinus,reef_associated,0,550,61,NA,y
+Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Spirinchus,Spirinchus starksi,benthopelagic,NA,128,23,NA,y
+Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,Squalus acanthias,benthopelagic,0,1460,160,100,n
+Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,Squalus suckleyi,benthopelagic,15,1244,140,NA,y
+Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Thaleichthys,Thaleichthys pacificus,pelagic_neritic,0,300,34,20,y

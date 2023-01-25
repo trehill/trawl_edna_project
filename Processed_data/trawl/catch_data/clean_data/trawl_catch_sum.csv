@@ -1,0 +1,191 @@
+leg,location,set_number,date,species,size_class,number_retained_for_isotopes_and_other_analyses,fa_sample,comments,processed,individs_caught
+1,Johnston Strait,1,2018-08-01T00:00:00Z,Pink Salmon,NA,3,1,"For Leg 1, ""FA samples"" are also included in ""Number retained""; for Leg 2, ""Number retained"" represents the samples collected and put in the freezer -- if ""FA Sample"" is not included in the number, it is indicated in the comments",Y,3
+1,Johnston Strait,1,2018-08-01T00:00:00Z,Pacific Herring,NA,1,0,NA,Y,1
+1,Johnston Strait,2,2018-08-01T00:00:00Z,Spiny Dogfish,NA,1,1,tag in mouth,Y,1
+1,Johnston Strait,2,2018-08-01T00:00:00Z,Yellowtail Rockfish,NA,9,5,tags in mouths of FA fish,Y,9
+1,Johnston Strait,2,2018-08-01T00:00:00Z,Widow Rockfish,NA,1,1,tag in mouth,Y,1
+1,Johnston Strait,2,2018-08-01T00:00:00Z,Pacific Herring,NA,3,1,NA,Y,3
+1,Johnston Strait,2,2018-08-01T00:00:00Z,Neomysis rayii,NA,all,yes,Need measurements on krill and shrimp for Trawl 2,Y,12
+1,Johnston Strait,2,2018-08-01T00:00:00Z,Pasiphaea pacifica,NA,all,yes,Unidentified shrimp are consistently names (i.e. 'Pasiphaea pacifica' from Trawl 2 is the same as 'Pasiphaea pacifica' in Trawl 10),Y,31
+1,Johnston Strait,2,2018-08-01T00:00:00Z,Pasiphaea tarda,NA,all,yes,Shrim C appears to be Pacific glass shrimp (Pasiphaeapacifica),Y,16
+1,Johnston Strait,2,2018-08-01T00:00:00Z,Euphausia Pacifica spp.,NA,lots,yes,NA,Y,NA
+1,Johnston Strait,2,2018-08-01T00:00:00Z,Eulachon,NA,5,5,confirm eulachon IDs,Y,10
+1,Johnston Strait,2,2018-08-01T00:00:00Z,Myctophid (Diaphus theta),NA,1,NA,to ID,Y,NA
+1,Johnston Strait,3,2018-08-02T00:00:00Z,Euphasia spp.,NA,lots,0,NA,Y,NA
+1,Johnston Strait,3,2018-08-02T00:00:00Z,Pacific Herring,NA,100,2,NA,?,102
+1,Johnston Strait,3,2018-08-02T00:00:00Z,Walleye Pollock,NA,1,1,NA,Y,1
+1,Johnston Strait,3,2018-08-02T00:00:00Z,Spiny Dogfish,NA,1,1,NA,Y,2
+1,Johnston Strait,3,2018-08-02T00:00:00Z,Osmeridae (Whitebait smelt),NA,2,0,to ID,Y,NA
+1,Johnston Strait,3,2018-08-02T00:00:00Z,Eulachon,NA,7,0,NA,Y,6
+1,Johnston Strait,4,2018-08-02T00:00:00Z,Coho Salmon,NA,1,1,NA,Y,1
+1,Johnston Strait,4,2018-08-02T00:00:00Z,Walleye Pollock,NA,11,4,NA,Y,100
+1,Johnston Strait,4,2018-08-02T00:00:00Z,Hake (Whiting),NA,1,1,NA,Y,NA
+1,Johnston Strait,4,2018-08-02T00:00:00Z,Spiny Dogfish,NA,5,2,NA,Y,11
+1,Johnston Strait,4,2018-08-02T00:00:00Z,Eulachon,NA,36,0,NA,Y,101
+1,Johnston Strait,4,2018-08-02T00:00:00Z,Pasiphaea tarda,NA,lots,0,NA,Y,50
+1,Johnston Strait,5,2018-08-03T00:00:00Z,Yellowtail Rockfish,NA,1,0,NA,Y,1
+1,Johnston Strait,5,2018-08-03T00:00:00Z,Euphausia spp.,NA,1 Bag,1 Bag,NA,Y,NA
+1,Johnston Strait,5,2018-08-03T00:00:00Z,Pasiphaea pacifica,NA,yes,1 Bag,NA,?,NA
+1,Johnston Strait,5,2018-08-03T00:00:00Z,Water Jellies,NA,yes,4,NA,NA,NA
+1,Johnston Strait,6,2018-08-04T00:00:00Z,Hake,NA,7,4,NA,Y,NA
+1,Johnston Strait,6,2018-08-04T00:00:00Z,Walleye Pollock,NA,3,3,NA,Y,15
+1,Johnston Strait,6,2018-08-04T00:00:00Z,Pasiphaea tarda,NA,lots,lots,NA,Y,37
+1,Johnston Strait,6,2018-08-04T00:00:00Z,Spiny Dogfish,small,10,3,smaller size class,Y,NA
+1,Johnston Strait,6,2018-08-04T00:00:00Z,Lion's Mane Jellyfish,NA,1,1,NA,NA,NA
+1,Johnston Strait,6,2018-08-04T00:00:00Z,Pacific Herring,NA,3,3,NA,Y,3
+1,Johnston Strait,6,2018-08-04T00:00:00Z,Eulachon,NA,6,0,NA,Y,77
+1,Johnston Strait,6,2018-08-04T00:00:00Z,Opalescent Inshore Squid,NA,2,0,NA,Y,2
+1,Johnston Strait,6,2018-08-04T00:00:00Z,"Zoarcid ""A""",NA,29,5,NA,Y,NA
+1,Johnston Strait,7,2018-08-04T00:00:00Z,Sablefish,NA,1,1,NA,Y,1
+1,Johnston Strait,7,2018-08-04T00:00:00Z,Opalescent Inshore Squid,NA,2,2,NA,Y,2
+1,Johnston Strait,7,2018-08-04T00:00:00Z,"Squid ""B""",NA,1,1,NA,Y,NA
+1,Johnston Strait,7,2018-08-04T00:00:00Z,Neomysis rayii,NA,1,0,NA,Y,3
+1,Johnston Strait,7,2018-08-04T00:00:00Z,Pasiphaea pacifica,NA,1,1,NA,Y,29
+1,Johnston Strait,7,2018-08-04T00:00:00Z,Pasiphaea tarda,NA,1,1,NA,Y (10),30
+1,Johnston Strait,7,2018-08-04T00:00:00Z,Coho Salmon,NA,1,1,NA,Y,1
+2,Juan de Fuca Strait,8,2018-08-08T00:00:00Z,Chinook Salmon,NA,2,2,scales taken on left side behind dorsal fin (took where could find any scales),Y,2
+2,Juan de Fuca Strait,8,2018-08-08T00:00:00Z,Pacific Herring,NA,10,5,samples taken for isotopes and FA from different individuals,? (we have 2),100
+2,Juan de Fuca Strait,8,2018-08-08T00:00:00Z,Walleye Pollock,NA,10,5,samples taken for isotopes and FA from different individuals,Y,103
+2,Juan de Fuca Strait,8,2018-08-08T00:00:00Z,Eulachon,NA,10,5,samples taken for isotopes and FA from different individuals,Y,42
+2,Juan de Fuca Strait,8,2018-08-08T00:00:00Z,Clawed Armhook Squid,NA,1,1,NA,Y,NA
+2,Juan de Fuca Strait,8,2018-08-08T00:00:00Z,Walleye Pollock,juvenile,1,0,NA,Y,NA
+2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,Eulachon,NA,10,5,samples taken for isotopes and FA from different individuals,Y,100
+2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,Turbot,NA,4,4,NA,Y,4
+2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,Chinook Salmon,NA,1,1,scales taken on lateral line on right side behind dorsal fin (took where could find any scales),Y,1
+2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,Walleye Pollock,large,5,5,NA,Y,NA
+2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,Walleye Pollock,small,5,5,samples taken for isotopes and FA from different individuals,Y,NA
+2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,Hake,NA,10,5,NA,Y,NA
+2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,Pacific Herring,NA,15,5,NA,Y,100
+2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,Spiny Dogfish,large,4,4,NA,Y,NA
+2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,Spiny Dogfish,small,10,5,NA,Y,NA
+2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,English Sole,NA,1,1,NA,Y,1
+2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,Pasiphaea tarda,NA,all,0,NA,N (but 10 Squid C),1
+2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,Myctophid (Diaphus theta),NA,all,0,NA,Y,NA
+2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,Euphasiid,NA,all,0,NA,Y,NA
+2,Juan de Fuca Strait,10,2018-08-10T00:00:00Z,Eulachon,NA,2,2,NA,Y,2
+2,Juan de Fuca Strait,10,2018-08-10T00:00:00Z,Chinook Salmon,NA,14,14,"scales from individuals #27 and #28 taken from right side above lateral line; scales taken from regular spot for rest of them (on right side, 2-3 lines below lateral line, behind dorsal fin)",Y (we have 10),14
+2,Juan de Fuca Strait,10,2018-08-10T00:00:00Z,Spiny Dogfish,large,4,4,NA,Y,NA
+2,Juan de Fuca Strait,10,2018-08-10T00:00:00Z,Pacific Lamprey,NA,2,2,NA,Y,NA
+2,Juan de Fuca Strait,10,2018-08-10T00:00:00Z,Pacific Herring,large,5,5,NA,Y,NA
+2,Juan de Fuca Strait,10,2018-08-10T00:00:00Z,Pacific Herring,small,5,0,NA,Y,NA
+2,Juan de Fuca Strait,11,2018-08-10T00:00:00Z,Walleye Pollock,large,1,1,NA,Y,NA
+2,Juan de Fuca Strait,11,2018-08-10T00:00:00Z,Hake,large,1,1,NA,Y,NA
+2,Juan de Fuca Strait,11,2018-08-10T00:00:00Z,Pasiphaea pacifica,NA,lots,0,NA,Y,22
+2,Juan de Fuca Strait,11,2018-08-10T00:00:00Z,Pasiphaea tarda,NA,lots,0,NA,Y,NA
+2,Juan de Fuca Strait,11,2018-08-10T00:00:00Z,Pink Shrimp,NA,1,0,NA,Y,NA
+2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,Chinook Salmon,NA,10,10,NA,Y (we have 8),10
+2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,Spiny Dogfish,large,2,2,NA,Y,NA
+2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,Spiny Dogfish,small,5,5,NA,Y,NA
+2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,Northern Anchovy,NA,4,3,NA,Y,4
+2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,Pacific Herring,large,1,1,NA,Y,NA
+2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,Pacific Herring,juvenile,5,5,samples taken for isotopes and FA from different individuals (because too small),Y,NA
+2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,Coho Salmon,juvenile,6,5,NA,Y,NA
+2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,Chinook Salmon,juvenile,1,1,NA,Y,NA
+2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,Sockeye Salmon,NA,10,5,NA,Y,68
+2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,Chum Salmon,juvenile,10,5,NA,Y,NA
+2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,Pink Salmon,juvenile,10,5,NA,Y,NA
+2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,Walleye Pollock,juvenile,10,5,samples taken for isotopes and FA from different individuals (because too small),Y,NA
+2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,Whitebait Smelt,NA,2,1,samples taken for isotopes and FA from different individuals (because too small),Y,NA
+2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,Opalescent Inshore Squid,NA,3,1,NA,Y,3
+2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,Larval Sand Lance,NA,4,0,too small for FA samples,Y,4
+2,Juan de Fuca Strait,13,2018-08-11T00:00:00Z,Chinook Salmon,NA,8,8,scales taken from right side above lateral line,? (we have 2),8
+2,Juan de Fuca Strait,13,2018-08-11T00:00:00Z,Sea Nettle,NA,2,0,NA,NA,NA
+2,Juan de Fuca Strait,13,2018-08-11T00:00:00Z,Clawed Armhook Squid,NA,2,0,NA,Y,NA
+2,Juan de Fuca Strait,13,2018-08-11T00:00:00Z,Myctophid,NA,0,6,NA,?,NA
+2,Juan de Fuca Strait,13,2018-08-11T00:00:00Z,Euphausiids,NA,lots,lots,samples taken for isotopes and FA from different individuals,Y,NA
+2,Juan de Fuca Strait,13,2018-08-11T00:00:00Z,Larval Sand Lance,NA,lots,lots,samples taken for isotopes and FA from different individuals,Y,30
+2,Juan de Fuca Strait,14,2018-08-12T00:00:00Z,Chinook Salmon,NA,5,5,don't have unique catch number for individuals in Trawls 14-16 (have unique lenghs and weights recorded on each bag so can match individual fish to numbers later),Y,5
+2,Juan de Fuca Strait,14,2018-08-12T00:00:00Z,Siphonophore spp.,NA,1,0,NA,NA,NA
+2,Juan de Fuca Strait,14,2018-08-12T00:00:00Z,Clawed Armhook Squid,NA,1,0,"**unable to find squid when organizing samples by trawl in freezer, possibly stuck onto other bag in other trawl; also confirm species ID in lab",Y,NA
+2,Juan de Fuca Strait,14,2018-08-12T00:00:00Z,Pacific Herring,juvenile,2,0,NA,Y,NA
+2,Juan de Fuca Strait,14,2018-08-12T00:00:00Z,American Shad,NA,1,1,NA,Y,1
+2,Juan de Fuca Strait,14,2018-08-12T00:00:00Z,Pacific Herring,medium,10,5,NA,Y,NA
+2,Juan de Fuca Strait,14,2018-08-12T00:00:00Z,Pacific Herring,large,10,5,NA,Y,NA
+2,Juan de Fuca Strait,14,2018-08-12T00:00:00Z,Northern Anchovy,NA,1,1,NA,Y,1
+2,Juan de Fuca Strait,14,2018-08-12T00:00:00Z,Pyrosome,NA,1,1,NA,NA,NA
+2,Swiftsure Bank,15,2018-08-12T00:00:00Z,Chinook Salmon,NA,21,10,NA,Y,21
+2,Swiftsure Bank,15,2018-08-12T00:00:00Z,Coho Salmon,NA,1,1,NA,Y,1
+2,Swiftsure Bank,15,2018-08-12T00:00:00Z,Sablefish,NA,3,3,NA,Y,3
+2,Swiftsure Bank,15,2018-08-12T00:00:00Z,Pacific Herring,juvenile,8,5,samples taken for isotopes and FA from different individuals,Y,NA
+2,Swiftsure Bank,15,2018-08-12T00:00:00Z,Northern Anchovy,NA,1,1,NA,Y,1
+2,Swiftsure Bank,15,2018-08-12T00:00:00Z,Opalescent Inshore Squid,NA,2,2,NA,Y,2
+2,Swiftsure Bank,16,2018-08-13T00:00:00Z,Coho Salmon,NA,4,4,NA,Y,4
+2,Swiftsure Bank,16,2018-08-13T00:00:00Z,Sockeye Salmon,NA,2,2,NA,Y,2
+2,Swiftsure Bank,16,2018-08-13T00:00:00Z,Siphonophore spp.,NA,2,0,ID in lab,NA,NA
+2,Swiftsure Bank,16,2018-08-13T00:00:00Z,Chinook Salmon,NA,6,6,individual with 0.498kg and 34.8cm measurements had scales taken from right side near anal fin,Y,6
+2,Swiftsure Bank,16,2018-08-13T00:00:00Z,Larval Squid,NA,1,0,NA,Y,1
+NA,NA,11,NA,Alaskan Pink Shrimp,NA,NA,NA,NA,NA,1
+NA,NA,4,NA,Capelin,NA,NA,NA,NA,NA,1
+NA,NA,12,NA,Chinook Salmon ,juvenile,NA,NA,NA,NA,1
+NA,NA,12,NA,Chum Salmon ,juvenile,NA,NA,NA,NA,24
+NA,NA,8,NA,Clawed Armhook,NA,NA,NA,NA,NA,1
+NA,NA,9,NA,Clawed Armhook Squid,NA,NA,NA,NA,NA,23
+NA,NA,11,NA,Clawed Armhook Squid,NA,NA,NA,NA,NA,2
+NA,NA,13,NA,Clawed Armhooked Squid,NA,NA,NA,NA,NA,2
+NA,NA,14,NA,Clawed Armhooked Squid,NA,NA,NA,NA,NA,1
+NA,NA,12,NA,Coho Salmon ,juvenile,NA,NA,NA,NA,6
+NA,NA,7,NA,Corphaenidoes sp,NA,NA,NA,NA,NA,1
+NA,NA,5,NA,Eulachon,NA,NA,NA,NA,NA,2
+NA,NA,7,NA,Eulachon,NA,NA,NA,NA,NA,101
+NA,NA,12,NA,Eulachon,NA,NA,NA,NA,NA,69
+NA,NA,13,NA,Eulachon,NA,NA,NA,NA,NA,6
+NA,NA,13,NA,Euphausid spp,NA,NA,NA,NA,NA,30
+NA,NA,2,NA,Euphausiid spp,NA,NA,NA,NA,NA,31
+NA,NA,5,NA,Euphausiid spp,NA,NA,NA,NA,NA,30
+NA,NA,7,NA,Euphausiid spp,NA,NA,NA,NA,NA,30
+NA,NA,9,NA,Euphausiid spp,NA,NA,NA,NA,NA,1
+NA,NA,11,NA,Glass Shrimp,NA,NA,NA,NA,NA,8
+NA,NA,9,NA,Hermit Crab,NA,NA,NA,NA,NA,1
+NA,NA,7,NA,Jellyfish,NA,NA,NA,NA,NA,1
+NA,NA,13,NA,Juvenile Pollock,NA,NA,NA,NA,NA,6
+NA,NA,10,NA,Lamprey,NA,NA,NA,NA,NA,2
+NA,NA,1,NA,Lion's Mane Jelly,NA,NA,NA,NA,NA,1
+NA,NA,3,NA,Lion's Mane Jelly,NA,NA,NA,NA,NA,1
+NA,NA,4,NA,Lion's Mane Jelly,NA,NA,NA,NA,NA,3
+NA,NA,2,NA,Myctophiid spp,NA,NA,NA,NA,NA,1
+NA,NA,9,NA,Myctophiid spp,NA,NA,NA,NA,NA,7
+NA,NA,11,NA,Myctophiid spp,NA,NA,NA,NA,NA,10
+NA,NA,13,NA,Myctophiid spp,NA,NA,NA,NA,NA,6
+NA,NA,3,NA,Night Smelt,NA,NA,NA,NA,NA,1
+NA,NA,4,NA,Pacific Hake,NA,NA,NA,NA,NA,1
+NA,NA,6,NA,Pacific Hake,NA,NA,NA,NA,NA,7
+NA,NA,9,NA,Pacific Hake,NA,NA,NA,NA,NA,26
+NA,NA,10,NA,Pacific Hake,NA,NA,NA,NA,NA,98
+NA,NA,11,NA,Pacific Hake,NA,NA,NA,NA,NA,19
+NA,NA,13,NA,Pacific Hake,NA,NA,NA,NA,NA,23
+NA,NA,4,NA,Pacific Herring,NA,NA,NA,NA,NA,9
+NA,NA,5,NA,Pacific Herring,NA,NA,NA,NA,NA,3
+NA,NA,10,NA,Pacific Herring,NA,NA,NA,NA,NA,19
+NA,NA,12,NA,Pacific Herring,NA,NA,NA,NA,NA,99
+NA,NA,13,NA,Pacific Herring,NA,NA,NA,NA,NA,100
+NA,NA,14,NA,Pacific Herring,NA,NA,NA,NA,NA,101
+NA,NA,15,NA,Pacific Herring,NA,NA,NA,NA,NA,100
+NA,NA,15,NA,Pacific Herring ,juvenile,NA,NA,NA,NA,5
+NA,NA,12,NA,Pink Salmon ,juvenile,NA,NA,NA,NA,100
+NA,NA,14,NA,Pyrosome spp,NA,NA,NA,NA,NA,1
+NA,NA,9,NA,Sea Nettle,NA,NA,NA,NA,NA,1
+NA,NA,10,NA,Sea Nettle,NA,NA,NA,NA,NA,2
+NA,NA,11,NA,Sea Nettle,NA,NA,NA,NA,NA,1
+NA,NA,14,NA,Siphonophore spp,NA,NA,NA,NA,NA,1
+NA,NA,16,NA,Siphonophore spp,NA,NA,NA,NA,NA,2
+NA,NA,8,NA,Sockeye Salmon,NA,NA,NA,NA,NA,1
+NA,NA,6,NA,Spiny Dogfish,NA,NA,NA,NA,NA,62
+NA,NA,7,NA,Spiny Dogfish,NA,NA,NA,NA,NA,5
+NA,NA,9,NA,Spiny Dogfish,NA,NA,NA,NA,NA,22
+NA,NA,10,NA,Spiny Dogfish,NA,NA,NA,NA,NA,8
+NA,NA,11,NA,Spiny Dogfish,NA,NA,NA,NA,NA,12
+NA,NA,12,NA,Spiny Dogfish,NA,NA,NA,NA,NA,100
+NA,NA,13,NA,Spiny Dogfish,NA,NA,NA,NA,NA,100
+NA,NA,7,NA,Squid B,NA,NA,NA,NA,NA,1
+NA,NA,8,NA,Unidentified Rockfish,NA,NA,NA,NA,NA,1
+NA,NA,7,NA,Walleye Pollock,NA,NA,NA,NA,NA,7
+NA,NA,9,NA,Walleye Pollock,NA,NA,NA,NA,NA,99
+NA,NA,10,NA,Walleye Pollock,NA,NA,NA,NA,NA,101
+NA,NA,11,NA,Walleye Pollock,NA,NA,NA,NA,NA,1
+NA,NA,12,NA,Walleye Pollock,NA,NA,NA,NA,NA,53
+NA,NA,13,NA,Walleye Pollock,NA,NA,NA,NA,NA,101
+NA,NA,12,NA,Walleye Pollock ,juvenile,NA,NA,NA,NA,100
+NA,NA,1,NA,Water Jelly,NA,NA,NA,NA,NA,15
+NA,NA,3,NA,Water Jelly,NA,NA,NA,NA,NA,1
+NA,NA,12,NA,White Bait Smelt,NA,NA,NA,NA,NA,3
+NA,NA,6,NA,Zoarcidae A,NA,NA,NA,NA,NA,29

@@ -1,0 +1,60 @@
+sample_name,original_sample_name,project_name,lat,lon,date,time_of_sample,time_of_filter,type,depth,area,set_number,volume_l,notes1,notes2,site,north_south
+tdna001,E001,Trawl_2018,50 32.200,126 43.868,2018.08.01,11:20:00 AM,1:20:00 PM,trawl,50,JS,1,1,All trawl sample lat and longs provided by Mei.,Cube container and funnel used on deck.,50_JS_1,N
+tdna002,E002,Trawl_2018,50 32.200,126 43.868,2018.08.01,11:20:00 AM,1:20:00 PM,trawl,50,JS,1,0.95,,Cube container and funnel used on deck.,50_JS_1,N
+tdna003,E003,Trawl_2018,50 29.674,126 30.100,2018.08.01,5:09:00 PM,5:58:00 PM,trawl,120,JS,2,1,,,120_JS_2,N
+tdna004,E004,Trawl_2018,50 29.674,126 30.100,2018.08.01,5:09:00 PM,5:58:00 PM,trawl,120,JS,2,1,,,120_JS_2,N
+tdna005,E005,Trawl_2018,50 41.951,126 53.850,2018.08.02,7:47:00 AM,9:10:00 AM,trawl,100,MI,3,0.95,,Nalgene not rinsed with sample water first.,100_MI_3,N
+tdna006,E006,Trawl_2018,50 41.951,126 53.850,2018.08.02,7:47:00 AM,9:10:00 AM,trawl,100,MI,3,0.95,,Nalgene not rinsed with sample water first.,100_MI_3,N
+tdna007,E007,Trawl_2018,50 41.252,126 56.985,2018.08.02,10:14:00 AM,12:50:00 PM,trawl,115,MI,4,1,,,115_MI_4,N
+tdna008,E008,Trawl_2018,50 41.252,126 56.985,2018.08.02,10:14:00 AM,12:50:00 PM,trawl,115,MI,4,1,,,115_MI_4,N
+tdna009,E009,Trawl_2018,NA,NA,2018.08.02,NA,12:50:00 PM,control,NA,MI,4,1,,Nalgene filled just before filtering samples.,NA_MI_4,N
+tdna010,E010,Trawl_2018,50 31.784,126 38.981,2018.08.03,8:30:00 AM,9:03:00 AM,trawl,100,JS,5,1.01,,,100_JS_5,N
+tdna011,E011,Trawl_2018,50 31.784,126 38.981,2018.08.03,8:30:00 AM,9:03:00 AM,trawl,100,JS,5,1.01,,,100_JS_5,N
+tdna012,E012,Trawl_2018,50 30.360,126 20.633,2018.08.04,10:04:00 AM,10:30:00 AM,trawl,125,JS,6,1.01,,,125_JS_6,N
+tdna013,E013,Trawl_2018,50 30.360,126 20.633,2018.08.04,10:04:00 AM,10:30:00 AM,trawl,125,JS,6,1.01,,,125_JS_6,N
+tdna014,E014,Trawl_2018,50 28.976,126 16.783,2018.08.04,1:27:00 PM,2:09:00 PM,trawl,140,JS,7,0.99,,After 10% bleach rinsed ends of tubing with ddH20 before ddH2O tube rinsing.,140_JS_7,N
+tdna015,E015,Trawl_2018,50 28.976,126 16.783,2018.08.04,1:27:00 PM,2:09:00 PM,trawl,140,JS,7,1.01,,After 10% bleach rinsed ends of tubing with ddH20 before ddH2O tube rinsing.,140_JS_7,N
+tdna016,E016,Trawl_2018,NA,NA,2018.08.04,NA,2:09:00 PM,control,NA,JS,7,1.01,,After 10% bleach rinsed ends of tubing with ddH20 before ddH2O tube rinsing.,NA_JS_7,N
+tdna017,E017,Trawl_2018,48 16.472,123 42.230,2018.08.08,8:31:00 AM,9:30:00 AM,trawl,80,JF,8,1,,New whirl-pak protocol started - All samples going forward - ran pump until 200 ml sample water ran through tubing,80_JF_8,S
+tdna018,E018,Trawl_2018,48 16.472,123 42.230,2018.08.08,8:31:00 AM,9:30:00 AM,trawl,80,JF,8,0.84,,,80_JF_8,S
+tdna019,E019,Trawl_2018,48 19.795,123 46.991,2018.08.08,2:14:00 PM,3:02:00 PM,trawl,120,JF,9,1.1,,After 10% bleach rinsed ends of tubing with ddH20 before ddH2O tube rinsing for all following samples.,120_JF_9,S
+tdna020,E020,Trawl_2018,48 19.795,123 46.991,2018.08.08,2:14:00 PM,3:02:00 PM,trawl,120,JF,9,1.1,,,120_JF_9,S
+tdna021,E021,Trawl_2018,NA,NA,2018.08.08,~13:55,3:02:00 PM,control,NA,JF,9,1.12,,,NA_JF_9,S
+tdna022,E022,Trawl_2018,48 21.573,123 55.632,2018.08.09,9:33:00 AM,10:31:00 AM,trawl,80,JF,TS1,1,,,80_JF_TS1,S
+tdna023,E023,Trawl_2018,48 21.573,123 55.632,2018.08.09,9:33:00 AM,10:31:00 AM,trawl,80,JF,TS1,1.14,,,80_JF_TS1,S
+tdna024,E024,Trawl_2018,48 21.573,123 55.632,2018.08.09,9:33:00 AM,10:31:00 AM,trawl,80,JF,TS1,1,,,80_JF_TS1,S
+tdna025,E025,Trawl_2018,48 21.528,123 55.636,2018.08.09,~09:40,10:31:00 AM,5m,5,JF,TS1,0.7,Filter 1 of 2. 5m sample lat and long taken from bongo coordinates,,5_JF_TS1,S
+tdna026,E026,Trawl_2018,48 21.528,123 55.636,2018.08.09,~09:40,10:50:00 AM,5m,5,JF,TS1,0.3,Filter 2 of 2. 5m sample lat and long taken from bongo coordinates,,5_JF_TS1,S
+tdna027,E027,Trawl_2018,48 23.766,124,2018.08.09,3:57:00 PM,4:49:00 PM,trawl,85,JF,TS2,1,Boat moved before Mei could write down end longitude. Start = 48 23.931 N 124 07.021 W,,85_JF_TS2,S
+tdna028,E028,Trawl_2018,48 23.766,124,2018.08.09,3:57:00 PM,4:49:00 PM,trawl,85,JF,TS2,1.03,,,85_JF_TS2,S
+tdna029,E029,Trawl_2018,48 23.766,124,2018.08.09,3:57:00 PM,4:49:00 PM,trawl,85,JF,TS2,0.96,,,85_JF_TS2,S
+tdna030,E030,Trawl_2018,NA,NA,2018.08.09,12:00:00 AM,6:25:00 PM,control,NA,JF,TS2,1.11,,,NA_JF_TS2,S
+tdna031,E031,Trawl_2018,48 23.946,124 07.078,2018.08.09,~16:05,4:49:00 PM,5m,5,JF,TS2,0.95,5m sample lat and long taken from bongo coordinates,,5_JF_TS2,S
+tdna032,E032,Trawl_2018,48 31.413,124 36.404,2018.08.10,9:00:00 AM,9:40:00 AM,trawl,80,JF,10,1.09,,,80_JF_10,S
+tdna033,E033,Trawl_2018,48 31.413,124 36.404,2018.08.10,9:00:00 AM,9:40:00 AM,trawl,80,JF,10,1.1,,,80_JF_10,S
+tdna034,E034,Trawl_2018,NA,NA,2018.08.10,9:00:00 AM,9:40:00 AM,control,NA,JF,10,1.08,,,NA_JF_10,S
+tdna035,E035,Trawl_2018,48 29.036,124 32.269,2018.08.10,12:45:00 PM,1:37:00 PM,trawl,200,JF,11,0.9,,,200_JF_11,S
+tdna036,E036,Trawl_2018,48 29.036,124 32.269,2018.08.10,12:45:00 PM,1:37:00 PM,trawl,200,JF,11,0.8,,,200_JF_11,S
+tdna037,E037,Trawl_2018,NA,NA,2018.08.10,12:00:00 AM,1:37:00 PM,control,NA,JF,11,1.02,,,NA_JF_11,S
+tdna038,E038,Trawl_2018,48 28.798,124 31.691,2018.08.10,~12:55,1:37:00 PM,5m,5,JF,11,0.98,5m sample lat and long taken from bongo coordinates,,5_JF_11,S
+tdna039,E039,Trawl_2018,48 26.838,124 18.143,2018.08.11,11:37:00 AM,12:16:00 PM,trawl,25,JF,12,1,,,25_JF_12,S
+tdna040,E040,Trawl_2018,48 26.838,124 18.143,2018.08.11,11:37:00 AM,12:16:00 PM,trawl,25,JF,12,1.02,,,25_JF_12,S
+tdna041,E041,Trawl_2018,NA,NA,2018.08.11,12:00:00 AM,12:16:00 PM,control,NA,JF,12,1.15,,,NA_JF_12,S
+tdna042,E042,Trawl_2018,48 26.784,124 18.464,2018.08.11,~11:44,12:16:00 PM,5m,5,JF,12,1,5m sample lat and long taken from bongo coordinates,,5_JF_12,S
+tdna043,E043,Trawl_2018,48 23.735,124 14.793,2018.08.11,3:19:00 PM,4:15:00 PM,trawl,160,JF,13,0.94,,,160_JF_13,S
+tdna044,E044,Trawl_2018,48 23.735,124 14.793,2018.08.11,3:19:00 PM,4:15:00 PM,trawl,160,JF,13,1.04,,,160_JF_13,S
+tdna045,E045,Trawl_2018,NA,NA,2018.08.11,12:00:00 AM,4:15:00 PM,control,NA,JF,13,0.91,,,NA_JF_13,S
+tdna046,E046,Trawl_2018,48 23.395,124 13.612,2018.08.11,3:26:00 PM,4:15:00 PM,5m,5,JF,13,0.96,5m sample lat and long taken from bongo coordinates,,5_JF_13,S
+tdna047,E047,Trawl_2018,48 31.912,125 05.443,2018.08.12,8:53:00 AM,9:27:00 AM,trawl,80,SB,14,1.12,,,80_SB_14,S
+tdna048,E048,Trawl_2018,NA,NA,2018.08.12,8:30:00 AM,9:27:00 AM,control,NA,SB,14,1.1,,,NA_SB_14,S
+tdna049,E049,Trawl_2018,48 31.912,125 05.443,2018.08.12,8:53:00 AM,9:27:00 AM,trawl,80,SB,14,1,,,80_SB_14,S
+tdna050,E050,Trawl_2018,48 33.937,124 49.363,2018.08.12,2:15:00 PM,2:52:00 PM,surface,0,SB,15,1,sample taken with bucket over port side of vessel.,,0_SB_15,S
+tdna051,E051,Trawl_2018,48 33.937,124 49.363,2018.08.12,2:15:00 PM,2:52:00 PM,surface,0,SB,15,1,sample taken with bucket over port side of vessel.,,0_SB_15,S
+tdna052,E052,Trawl_2018,48 33.937,124 49.363,2018.08.12,2:15:00 PM,2:52:00 PM,surface,0,SB,15,1.05,sample taken with bucket over port side of vessel.,,0_SB_15,S
+tdna053,E053,Trawl_2018,NA,NA,2018.08.12,11:15:00 AM,2:52:00 PM,control,NA,SB,15,1.05,,,NA_SB_15,S
+tdna054,E054,Trawl_2018,48 36.828,124 57.345,2018.08.13,8:15:00 AM,8:42:00 AM,surface,0,SB,16,1.03,sample taken with bucket over port side of vessel.,,0_SB_16,S
+tdna055,E055,Trawl_2018,NA,NA,2018.08.13,6:45:00 AM,8:42:00 AM,control,NA,SB,16,1.04,,,NA_SB_16,S
+tdna056,E056,Trawl_2018,48 36.828,124 57.345,2018.08.13,8:15:00 AM,8:42:00 AM,surface,0,SB,16,1.05,sample taken with bucket over port side of vessel.,,0_SB_16,S
+tdna057,E057,Trawl_2018,48 36.828,124 57.345,2018.08.13,8:15:00 AM,8:42:00 AM,surface,0,SB,16,1,sample taken with bucket over port side of vessel.,,0_SB_16,S
+Neg,Neg,Trawl_2018,,,,,,,NA,,,NA,,,NA__,S
+Pos,Pos,Trawl_2018,,,,,,,NA,,,NA,,,NA__,S

@@ -1,0 +1,837 @@
+#Query	#lca rank	#lca taxon	#kingdom	#phylum	#class	#order	#family	#genus	#species	#method
+ASV1	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV2	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV3	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV4	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV5	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV6	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV7	family	Anoplopomatidae	Eukaryota	Chordata	Actinopteri	Perciformes	Anoplopomatidae	no identification	no identification	lca
+ASV8	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV9	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV10	genus	Gadus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	no identification	lca
+ASV11	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV12	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV13	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV14	family	Osmeridae	Eukaryota	Chordata	Actinopteri	Osmeriformes	Osmeridae	no identification	no identification	lca
+ASV15	family	Pleuronectidae	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	no identification	no identification	lca
+ASV16	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV17	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV18	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV19	genus	Clupea	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	no identification	lca
+ASV20	phylum	Bacillariophyta	Eukaryota	Bacillariophyta	no identification	no identification	no identification	no identification	no identification	lca
+ASV21	family	Embiotocidae	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	no identification	no identification	lca
+ASV22	genus	Pholis	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	no identification	lca
+ASV23	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV24	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	lca
+ASV25	family	Pleuronectidae	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	no identification	no identification	lca
+ASV26	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV27	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV28	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV29	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV30	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV31	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV32	species	Citharichthys stigmaeus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	Citharichthys stigmaeus	lca
+ASV34	family	Gadidae	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	no identification	no identification	lca
+ASV35	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV36	genus	Hexagrammos	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	no identification	lca
+ASV37	family	Stichaeidae	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	no identification	no identification	lca
+ASV38	species	Homo sapiens	Eukaryota	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	lca
+ASV39	genus	Citharichthys	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	no identification	lca
+ASV40	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV41	order	Perciformes	Eukaryota	Chordata	Actinopteri	Perciformes	no identification	no identification	no identification	lca
+ASV42	genus	Liparis	Eukaryota	Chordata	Actinopteri	Perciformes	Liparidae	Liparis	no identification	lca
+ASV43	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV44	genus	Gadus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	no identification	lca
+ASV45	genus	Ammodytes	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	no identification	lca
+ASV46	genus	Hydrolagus	Eukaryota	Chordata	Chondrichthyes	Chimaeriformes	Chimaeridae	Hydrolagus	no identification	lca
+ASV47	genus	Pholis	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	no identification	lca
+ASV48	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV49	family	Pleuronectidae	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	no identification	no identification	lca
+ASV50	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV51	family	Pleuronectidae	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	no identification	no identification	lca
+ASV52	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV53	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV54	species	Artedius lateralis	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius lateralis	lca
+ASV55	genus	Ammodytes	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	no identification	lca
+ASV56	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV57	species	Rhizosolenia setigera	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Rhizosoleniales	Rhizosoleniaceae	Rhizosolenia	Rhizosolenia setigera	lca
+ASV58	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	lca
+ASV59	genus	Clupea	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	no identification	lca
+ASV61	family	Cottidae	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	no identification	no identification	lca
+ASV62	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV63	genus	Clupea	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	no identification	lca
+ASV64	family	Pleuronectidae	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	no identification	no identification	lca
+ASV65	genus	Atheresthes	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Atheresthes	no identification	lca
+ASV66	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV67	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV68	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV69	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV71	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV72	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV73	species	uncultured diatom	Eukaryota	Bacillariophyta	unknown class	unknown order	unknown family	unknown genus	uncultured diatom	lca
+ASV74	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV75	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV76	family	Pleuronectidae	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	no identification	no identification	lca
+ASV77	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV78	species	Homo sapiens	Eukaryota	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	lca
+ASV79	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV80	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV81	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV82	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV83	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV84	genus	unknown genus	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	no identification	lca
+ASV85	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV86	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV87	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV88	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV89	genus	Clupea	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	no identification	lca
+ASV90	genus	Clupea	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	no identification	lca
+ASV91	genus	Oligocottus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Oligocottus	no identification	lca
+ASV92	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV93	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV94	family	Agonidae	Eukaryota	Chordata	Actinopteri	Perciformes	Agonidae	no identification	no identification	lca
+ASV95	genus	Gadus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	no identification	lca
+ASV96	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV97	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV98	species	Thalassiosira rotula	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira rotula	lca
+ASV99	genus	unknown genus	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	no identification	lca
+ASV100	family	Pleuronectidae	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	no identification	no identification	lca
+ASV101	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV102	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV103	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV104	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV105	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV106	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV107	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV108	genus	Hemilepidotus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Hemilepidotus	no identification	lca
+ASV109	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV110	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV111	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV113	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV114	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV115	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV116	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV117	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV119	species	Bathylagus pacificus	Eukaryota	Chordata	Actinopteri	Argentiniformes	Bathylagidae	Bathylagus	Bathylagus pacificus	lca
+ASV120	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV121	genus	Gadus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	no identification	lca
+ASV122	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV123	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV124	family	Zoarcidae	Eukaryota	Chordata	Actinopteri	Perciformes	Zoarcidae	no identification	no identification	lca
+ASV125	phylum	Bacillariophyta	Eukaryota	Bacillariophyta	no identification	no identification	no identification	no identification	no identification	lca
+ASV126	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV127	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV128	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV129	genus	Clupea	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	no identification	lca
+ASV130	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV131	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV132	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV133	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV134	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV136	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV137	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV138	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV139	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV140	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV141	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV142	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV143	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV144	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV145	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV147	genus	unknown genus	Eukaryota	unknown phylum	unknown class	unknown order	unknown family	unknown genus	no identification	lca
+ASV148	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV149	genus	Liparis	Eukaryota	Chordata	Actinopteri	Perciformes	Liparidae	Liparis	no identification	lca
+ASV150	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV151	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV152	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV153	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV154	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV155	species	Liparis fucensis	Eukaryota	Chordata	Actinopteri	Perciformes	Liparidae	Liparis	Liparis fucensis	lca
+ASV156	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV157	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV158	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV159	genus	Clupea	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	no identification	lca
+ASV160	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV161	family	Osmeridae	Eukaryota	Chordata	Actinopteri	Osmeriformes	Osmeridae	no identification	no identification	lca
+ASV163	species	Gobiesox maeandricus	Eukaryota	Chordata	Actinopteri	Blenniiformes	Gobiesocidae	Gobiesox	Gobiesox maeandricus	lca
+ASV164	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV165	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV166	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV167	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV168	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV169	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV170	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV171	genus	Clupea	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	no identification	lca
+ASV172	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV173	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV174	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV175	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV176	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV177	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV178	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV179	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV180	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV181	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV182	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV183	genus	Gadus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	no identification	lca
+ASV184	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV185	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV186	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV187	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV188	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV189	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV190	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV191	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV192	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV193	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV194	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV195	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV196	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV197	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV198	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV199	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV200	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV201	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV202	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV203	family	Stichaeidae	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	no identification	no identification	lca
+ASV204	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV205	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV206	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV207	genus	Alosa	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Alosa	no identification	lca
+ASV208	order	Osmeriformes	Eukaryota	Chordata	Actinopteri	Osmeriformes	no identification	no identification	no identification	lca
+ASV209	genus	unknown genus	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	no identification	lca
+ASV210	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV212	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV213	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV214	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV215	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV216	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV217	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV218	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV219	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV220	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV221	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV222	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV223	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV224	genus	Clupea	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	no identification	lca
+ASV225	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV226	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV227	genus	Ammodytes	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	no identification	lca
+ASV228	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV229	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV230	species	Citharichthys stigmaeus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	Citharichthys stigmaeus	lca
+ASV231	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV232	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV233	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV234	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV235	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV236	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV237	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV238	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV239	genus	Pholis	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	no identification	lca
+ASV240	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV241	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV242	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV243	phylum	Bacillariophyta	Eukaryota	Bacillariophyta	no identification	no identification	no identification	no identification	no identification	lca
+ASV244	species	Engraulis mordax	Eukaryota	Chordata	Actinopteri	Clupeiformes	Engraulidae	Engraulis	Engraulis mordax	lca
+ASV245	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV246	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV247	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV248	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV249	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV250	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV251	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV252	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV253	family	Embiotocidae	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	no identification	no identification	lca
+ASV254	family	Anoplopomatidae	Eukaryota	Chordata	Actinopteri	Perciformes	Anoplopomatidae	no identification	no identification	lca
+ASV256	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV257	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV258	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV259	family	Anoplopomatidae	Eukaryota	Chordata	Actinopteri	Perciformes	Anoplopomatidae	no identification	no identification	lca
+ASV260	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV261	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV262	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV263	family	Embiotocidae	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	no identification	no identification	lca
+ASV264	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV265	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV266	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV267	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV268	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV270	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV271	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV272	genus	Gadus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	no identification	lca
+ASV273	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV274	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV275	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV276	genus	Gadus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	no identification	lca
+ASV277	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV278	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV279	genus	Squalus	Eukaryota	Chordata	Chondrichthyes	Squaliformes	Squalidae	Squalus	no identification	lca
+ASV280	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV281	genus	Gadus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	no identification	lca
+ASV282	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV283	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV284	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV285	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV286	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV287	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV288	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV289	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV290	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV291	kingdom	Eukaryota	Eukaryota	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV292	genus	Gadus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	no identification	lca
+ASV293	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV294	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV295	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV296	family	Pleuronectidae	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	no identification	no identification	lca
+ASV297	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV298	family	Pleuronectidae	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	no identification	no identification	lca
+ASV299	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV300	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV301	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV302	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV303	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV304	family	Anoplopomatidae	Eukaryota	Chordata	Actinopteri	Perciformes	Anoplopomatidae	no identification	no identification	lca
+ASV305	family	Pleuronectidae	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	no identification	no identification	lca
+ASV306	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV307	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV308	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV309	family	Osmeridae	Eukaryota	Chordata	Actinopteri	Osmeriformes	Osmeridae	no identification	no identification	lca
+ASV310	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV311	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV312	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV313	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV314	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV315	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV316	species	uncultured actinobacterium	Bacteria	Actinobacteria	Actinomycetia	unknown order	unknown family	unknown genus	uncultured actinobacterium	lca
+ASV317	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV318	species	Artedius lateralis	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius lateralis	lca
+ASV319	genus	Gadus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	no identification	lca
+ASV320	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV321	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV322	species	Sus scrofa	Eukaryota	Chordata	Mammalia	Artiodactyla	Suidae	Sus	Sus scrofa	lca
+ASV323	genus	Clupea	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	no identification	lca
+ASV324	family	Anoplopomatidae	Eukaryota	Chordata	Actinopteri	Perciformes	Anoplopomatidae	no identification	no identification	lca
+ASV325	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV326	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV327	genus	Clupea	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	no identification	lca
+ASV328	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV329	family	Embiotocidae	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	no identification	no identification	lca
+ASV330	phylum	Bacillariophyta	Eukaryota	Bacillariophyta	no identification	no identification	no identification	no identification	no identification	lca
+ASV331	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV332	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV333	family	Pleuronectidae	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	no identification	no identification	lca
+ASV334	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV335	family	Osmeridae	Eukaryota	Chordata	Actinopteri	Osmeriformes	Osmeridae	no identification	no identification	lca
+ASV336	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV337	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV338	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV339	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV340	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV341	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV343	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV344	family	Osmeridae	Eukaryota	Chordata	Actinopteri	Osmeriformes	Osmeridae	no identification	no identification	lca
+ASV345	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV346	genus	Clupea	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	no identification	lca
+ASV347	species	Homo sapiens	Eukaryota	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	lca
+ASV348	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV349	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV350	phylum	Bacillariophyta	Eukaryota	Bacillariophyta	no identification	no identification	no identification	no identification	no identification	lca
+ASV351	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV352	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV353	family	Myctophidae	Eukaryota	Chordata	Actinopteri	Myctophiformes	Myctophidae	no identification	no identification	lca
+ASV354	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV355	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV356	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV357	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV358	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV359	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV360	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV361	species	Diaphus theta	Eukaryota	Chordata	Actinopteri	Myctophiformes	Myctophidae	Diaphus	Diaphus theta	lca
+ASV362	family	Osmeridae	Eukaryota	Chordata	Actinopteri	Osmeriformes	Osmeridae	no identification	no identification	lca
+ASV363	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV364	family	Gadidae	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	no identification	no identification	lca
+ASV365	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV366	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV367	family	Pleuronectidae	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	no identification	no identification	lca
+ASV368	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV369	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV370	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	lca
+ASV372	genus	Oligocottus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Oligocottus	no identification	lca
+ASV373	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV374	phylum	Bacillariophyta	Eukaryota	Bacillariophyta	no identification	no identification	no identification	no identification	no identification	lca
+ASV375	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV376	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV377	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV378	family	Pleuronectidae	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	no identification	no identification	lca
+ASV379	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV380	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV381	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV382	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV383	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV384	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV385	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV386	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV387	family	Pleuronectidae	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	no identification	no identification	lca
+ASV388	species	Citharichthys stigmaeus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	Citharichthys stigmaeus	lca
+ASV389	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV390	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV391	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV392	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV393	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV394	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV395	family	Anoplopomatidae	Eukaryota	Chordata	Actinopteri	Perciformes	Anoplopomatidae	no identification	no identification	lca
+ASV396	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV397	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV398	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV399	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV400	family	Pleuronectidae	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	no identification	no identification	lca
+ASV401	genus	Hexagrammos	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	no identification	lca
+ASV402	family	Anoplopomatidae	Eukaryota	Chordata	Actinopteri	Perciformes	Anoplopomatidae	no identification	no identification	lca
+ASV403	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV404	genus	Gadus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	no identification	lca
+ASV405	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV406	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV407	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV408	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV409	genus	Anoplarchus	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	Anoplarchus	no identification	lca
+ASV410	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV411	family	Pleuronectidae	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	no identification	no identification	lca
+ASV412	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	lca
+ASV413	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV414	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV415	family	Stichaeidae	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	no identification	no identification	lca
+ASV416	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV417	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV418	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV419	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV420	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV421	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	lca
+ASV422	family	Stichaeidae	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	no identification	no identification	lca
+ASV423	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	lca
+ASV424	genus	Clupea	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	no identification	lca
+ASV425	genus	Atheresthes	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Atheresthes	no identification	lca
+ASV426	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV427	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV428	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV429	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV430	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV431	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV432	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV433	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV434	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV435	genus	Gadus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	no identification	lca
+ASV436	family	Anoplopomatidae	Eukaryota	Chordata	Actinopteri	Perciformes	Anoplopomatidae	no identification	no identification	lca
+ASV437	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV438	phylum	Bacillariophyta	Eukaryota	Bacillariophyta	no identification	no identification	no identification	no identification	no identification	lca
+ASV439	family	Anoplopomatidae	Eukaryota	Chordata	Actinopteri	Perciformes	Anoplopomatidae	no identification	no identification	lca
+ASV440	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	lca
+ASV441	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV442	phylum	Bacillariophyta	Eukaryota	Bacillariophyta	no identification	no identification	no identification	no identification	no identification	lca
+ASV443	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV444	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV445	family	Pleuronectidae	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	no identification	no identification	lca
+ASV446	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV447	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV448	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV449	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV450	species	Hydrolagus colliei	Eukaryota	Chordata	Chondrichthyes	Chimaeriformes	Chimaeridae	Hydrolagus	Hydrolagus colliei	lca
+ASV451	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV453	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV454	species	uncultured actinobacterium	Bacteria	Actinobacteria	Actinomycetia	unknown order	unknown family	unknown genus	uncultured actinobacterium	lca
+ASV455	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV456	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV457	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV458	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV459	family	Stichaeidae	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	no identification	no identification	lca
+ASV460	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV461	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV462	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV463	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV464	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV465	family	Pleuronectidae	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	no identification	no identification	lca
+ASV466	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV467	family	Embiotocidae	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	no identification	no identification	lca
+ASV468	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV469	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV470	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV471	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV472	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV473	genus	Liparis	Eukaryota	Chordata	Actinopteri	Perciformes	Liparidae	Liparis	no identification	lca
+ASV474	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV476	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV477	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV478	family	Pleuronectidae	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	no identification	no identification	lca
+ASV479	family	Osmeridae	Eukaryota	Chordata	Actinopteri	Osmeriformes	Osmeridae	no identification	no identification	lca
+ASV480	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV481	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV482	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV483	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV484	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV486	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV487	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV488	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV489	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV490	family	Pleuronectidae	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	no identification	no identification	lca
+ASV491	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV492	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV493	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV494	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV495	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV496	family	Pleuronectidae	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	no identification	no identification	lca
+ASV497	genus	Ammodytes	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	no identification	lca
+ASV498	genus	Gadus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	no identification	lca
+ASV499	genus	Gadus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	no identification	lca
+ASV500	family	Anoplopomatidae	Eukaryota	Chordata	Actinopteri	Perciformes	Anoplopomatidae	no identification	no identification	lca
+ASV501	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV502	family	Osmeridae	Eukaryota	Chordata	Actinopteri	Osmeriformes	Osmeridae	no identification	no identification	lca
+ASV503	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV504	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV505	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV506	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV507	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV508	genus	Gadus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	no identification	lca
+ASV509	species	Gobiesox maeandricus	Eukaryota	Chordata	Actinopteri	Blenniiformes	Gobiesocidae	Gobiesox	Gobiesox maeandricus	lca
+ASV510	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV511	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV512	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV513	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV514	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV515	family	Gadidae	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	no identification	no identification	lca
+ASV516	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV517	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV518	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV519	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV520	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV521	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV522	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV523	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV524	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV525	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV526	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV527	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV528	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV529	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV530	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV531	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV532	family	Osmeridae	Eukaryota	Chordata	Actinopteri	Osmeriformes	Osmeridae	no identification	no identification	lca
+ASV533	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV534	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV535	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV536	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV537	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV538	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV539	family	Embiotocidae	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	no identification	no identification	lca
+ASV540	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV541	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV542	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV543	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV544	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV546	genus	unknown genus	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	no identification	lca
+ASV547	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV548	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV549	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV550	genus	Pholis	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	no identification	lca
+ASV551	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV552	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV553	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV554	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV555	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV556	family	Osmeridae	Eukaryota	Chordata	Actinopteri	Osmeriformes	Osmeridae	no identification	no identification	lca
+ASV557	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV558	genus	Hexagrammos	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	no identification	lca
+ASV559	genus	Citharichthys	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	no identification	lca
+ASV560	genus	Gadus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	no identification	lca
+ASV561	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV563	family	Anoplopomatidae	Eukaryota	Chordata	Actinopteri	Perciformes	Anoplopomatidae	no identification	no identification	lca
+ASV564	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV565	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV566	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV567	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV568	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV569	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV570	family	Anoplopomatidae	Eukaryota	Chordata	Actinopteri	Perciformes	Anoplopomatidae	no identification	no identification	lca
+ASV571	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV572	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV573	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV574	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV575	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV576	family	Anoplopomatidae	Eukaryota	Chordata	Actinopteri	Perciformes	Anoplopomatidae	no identification	no identification	lca
+ASV577	family	Sebastidae	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	no identification	no identification	lca
+ASV578	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV579	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV580	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV581	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV582	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV584	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV585	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV586	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV587	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV588	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV589	family	Anoplopomatidae	Eukaryota	Chordata	Actinopteri	Perciformes	Anoplopomatidae	no identification	no identification	lca
+ASV590	species	Eucampia zodiacus	Eukaryota	Bacillariophyta	Mediophyceae	Hemiaulales	Hemiaulaceae	Eucampia	Eucampia zodiacus	lca
+ASV591	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV592	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV593	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV594	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV595	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV596	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV597	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV598	family	Osmeridae	Eukaryota	Chordata	Actinopteri	Osmeriformes	Osmeridae	no identification	no identification	lca
+ASV599	family	Anoplopomatidae	Eukaryota	Chordata	Actinopteri	Perciformes	Anoplopomatidae	no identification	no identification	lca
+ASV600	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV601	family	Stichaeidae	Eukaryota	Chordata	Actinopteri	Perciformes	Stichaeidae	no identification	no identification	lca
+ASV602	genus	Sphingomonas	Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	no identification	lca
+ASV603	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV604	genus	Citharichthys	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	no identification	lca
+ASV605	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV607	family	Gadidae	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	no identification	no identification	lca
+ASV608	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV609	species	Salmo salar	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo salar	lca
+ASV610	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV611	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV612	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV613	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV614	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV615	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV616	genus	Citharichthys	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	no identification	lca
+ASV617	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV620	family	Pleuronectidae	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	no identification	no identification	lca
+ASV621	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV622	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV623	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV624	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV627	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV628	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV629	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV630	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV631	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV632	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV633	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV634	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	lca
+ASV635	family	Pleuronectidae	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	no identification	no identification	lca
+ASV637	genus	Clupea	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	no identification	lca
+ASV638	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV639	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV640	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV641	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV642	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV643	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV644	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV645	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV646	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV647	family	Squalidae	Eukaryota	Chordata	Chondrichthyes	Squaliformes	Squalidae	no identification	no identification	lca
+ASV648	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV649	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV650	genus	unknown genus	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	no identification	lca
+ASV651	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV652	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV654	genus	Liparis	Eukaryota	Chordata	Actinopteri	Perciformes	Liparidae	Liparis	no identification	lca
+ASV655	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV656	family	Pleuronectidae	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	no identification	no identification	lca
+ASV657	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV658	family	Pleuronectidae	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	no identification	no identification	lca
+ASV659	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV660	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV661	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV662	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	lca
+ASV663	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV664	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV665	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV666	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV667	family	Pleuronectidae	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	no identification	no identification	lca
+ASV668	species	Citharichthys stigmaeus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	Citharichthys stigmaeus	lca
+ASV669	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV670	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV671	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV672	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV673	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV674	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV675	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV676	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV677	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV678	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV679	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	lca
+ASV680	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV681	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV682	family	Pleuronectidae	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	no identification	no identification	lca
+ASV683	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV684	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV685	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV686	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV687	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV688	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV689	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV690	genus	Clupea	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	no identification	lca
+ASV691	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV692	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	lca
+ASV693	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV694	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV695	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV696	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV697	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV698	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV699	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV700	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV701	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV702	genus	Ammodytes	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	no identification	lca
+ASV703	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV704	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	lca
+ASV705	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	lca
+ASV706	family	Cottidae	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	no identification	no identification	lca
+ASV707	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV708	genus	Alosa	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Alosa	no identification	lca
+ASV709	genus	Ammodytes	Eukaryota	Chordata	Actinopteri	Uranoscopiformes	Ammodytidae	Ammodytes	no identification	lca
+ASV710	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV711	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV712	genus	Pholis	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	no identification	lca
+ASV713	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	lca
+ASV714	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV715	genus	unknown genus	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	no identification	lca
+ASV716	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV717	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV718	genus	Pholis	Eukaryota	Chordata	Actinopteri	Perciformes	Pholidae	Pholis	no identification	lca
+ASV719	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV720	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV721	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV722	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV723	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV724	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV725	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV727	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV728	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV729	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV730	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV731	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV733	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV735	species	Phocoena phocoena	Eukaryota	Chordata	Mammalia	Artiodactyla	Phocoenidae	Phocoena	Phocoena phocoena	lca
+ASV736	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV737	genus	Clupea	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	no identification	lca
+ASV738	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV739	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV740	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV741	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	lca
+ASV742	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV743	species	Hydrolagus colliei	Eukaryota	Chordata	Chondrichthyes	Chimaeriformes	Chimaeridae	Hydrolagus	Hydrolagus colliei	lca
+ASV744	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV745	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV746	family	Gadidae	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	no identification	no identification	lca
+ASV747	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	lca
+ASV748	phylum	Bacillariophyta	Eukaryota	Bacillariophyta	no identification	no identification	no identification	no identification	no identification	lca
+ASV749	genus	Citharichthys	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	no identification	lca
+ASV750	species	Gobiesox maeandricus	Eukaryota	Chordata	Actinopteri	Blenniiformes	Gobiesocidae	Gobiesox	Gobiesox maeandricus	lca
+ASV751	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV752	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV753	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV754	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV755	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV756	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV757	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV758	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV759	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV760	family	Osmeridae	Eukaryota	Chordata	Actinopteri	Osmeriformes	Osmeridae	no identification	no identification	lca
+ASV761	genus	Liparis	Eukaryota	Chordata	Actinopteri	Perciformes	Liparidae	Liparis	no identification	lca
+ASV762	species	Sus scrofa	Eukaryota	Chordata	Mammalia	Artiodactyla	Suidae	Sus	Sus scrofa	lca
+ASV763	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV764	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV765	family	Gadidae	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	no identification	no identification	lca
+ASV766	family	Anoplopomatidae	Eukaryota	Chordata	Actinopteri	Perciformes	Anoplopomatidae	no identification	no identification	lca
+ASV767	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV768	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV769	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV770	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV771	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV773	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV774	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV775	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV776	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV778	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV779	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV780	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV781	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV782	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV783	species	Engraulis mordax	Eukaryota	Chordata	Actinopteri	Clupeiformes	Engraulidae	Engraulis	Engraulis mordax	lca
+ASV784	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV785	family	Anoplopomatidae	Eukaryota	Chordata	Actinopteri	Perciformes	Anoplopomatidae	no identification	no identification	lca
+ASV786	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV788	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV789	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV790	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV791	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV792	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV793	genus	Gadus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	no identification	lca
+ASV794	genus	Clupea	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	no identification	lca
+ASV795	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV796	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV797	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV798	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV799	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV800	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV801	species	Homo sapiens	Eukaryota	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	lca
+ASV802	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV803	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV804	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV805	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV806	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV807	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV808	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV809	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV810	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV811	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV812	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV813	family	Osmeridae	Eukaryota	Chordata	Actinopteri	Osmeriformes	Osmeridae	no identification	no identification	lca
+ASV814	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV815	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV816	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV817	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV818	species	Artedius harringtoni	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius harringtoni	lca
+ASV819	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV820	genus	Oncorhynchus	Eukaryota	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	no identification	lca
+ASV821	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV822	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV823	genus	Sebastes	Eukaryota	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	no identification	lca
+ASV824	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV825	species	Rhizosolenia setigera	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Rhizosoleniales	Rhizosoleniaceae	Rhizosolenia	Rhizosolenia setigera	lca
+ASV826	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV827	species	Gobiesox maeandricus	Eukaryota	Chordata	Actinopteri	Blenniiformes	Gobiesocidae	Gobiesox	Gobiesox maeandricus	lca
+ASV828	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV829	species	Gadus chalcogrammus	Eukaryota	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus chalcogrammus	lca
+ASV830	species	Bathylagus pacificus	Eukaryota	Chordata	Actinopteri	Argentiniformes	Bathylagidae	Bathylagus	Bathylagus pacificus	lca
+ASV831	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	lca
+ASV832	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV833	genus	Clupea	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	no identification	lca
+ASV835	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV836	order	Perciformes	Eukaryota	Chordata	Actinopteri	Perciformes	no identification	no identification	no identification	lca
+ASV837	family	Clupeidae	Eukaryota	Chordata	Actinopteri	Clupeiformes	Clupeidae	no identification	no identification	lca
+ASV838	species	Bos taurus	Eukaryota	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	lca
+ASV839	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no identification	no lca
+ASV840	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	lca
+ASV841	family	Balaenopteridae	Eukaryota	Chordata	Mammalia	Artiodactyla	Balaenopteridae	no identification	no identification	lca
+ASV842	species	uncultured diatom	Eukaryota	Bacillariophyta	unknown class	unknown order	unknown family	unknown genus	uncultured diatom	lca
+ASV843	species	Aulorhynchus flavidus	Eukaryota	Chordata	Actinopteri	Perciformes	Aulorhynchidae	Aulorhynchus	Aulorhynchus flavidus	lca
+ASV844	species	Citharichthys stigmaeus	Eukaryota	Chordata	Actinopteri	Pleuronectiformes	Cyclopsettidae	Citharichthys	Citharichthys stigmaeus	lca
+ASV845	species	Canis lupus familiaris	Eukaryota	Chordata	Mammalia	Carnivora	Canidae	Canis	Canis lupus familiaris	lca
+ASV846	species	uncultured Gammaproteobacteria bacterium	Bacteria	Proteobacteria	Gammaproteobacteria	unknown order	unknown family	unknown genus	uncultured Gammaproteobacteria bacterium	lca
+ASV847	genus	Myoxocephalus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Myoxocephalus	no identification	lca
+ASV848	species	Ascelichthys rhodorus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Ascelichthys	Ascelichthys rhodorus	lca
+ASV850	family	Hexagrammidae	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	no identification	no identification	lca
+ASV851	genus	unknown genus	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	no identification	lca
+ASV852	genus	Merluccius	Eukaryota	Chordata	Actinopteri	Gadiformes	Merlucciidae	Merluccius	no identification	lca
+ASV853	genus	Hexagrammos	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	no identification	lca
+ASV854	family	Embiotocidae	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	no identification	no identification	lca
+ASV855	family	Cottidae	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	no identification	no identification	lca
+ASV856	family	Embiotocidae	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	no identification	no identification	lca
+ASV857	family	Cottidae	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	no identification	no identification	lca
+ASV860	genus	Mirounga	Eukaryota	Chordata	Mammalia	Carnivora	Phocidae	Mirounga	no identification	lca
+ASV861	genus	Oligocottus	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Oligocottus	no identification	lca
+ASV862	species	uncultured bacterium	Bacteria	unknown phylum	unknown class	unknown order	unknown family	unknown genus	uncultured bacterium	lca
+ASV863	genus	Gasterosteus	Eukaryota	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	no identification	lca
+ASV864	family	Osmeridae	Eukaryota	Chordata	Actinopteri	Osmeriformes	Osmeridae	no identification	no identification	lca
+ASV865	species	Cymatogaster aggregata	Eukaryota	Chordata	Actinopteri	unknown order	Embiotocidae	Cymatogaster	Cymatogaster aggregata	lca
+ASV866	species	Clinocottus globiceps	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Clinocottus	Clinocottus globiceps	lca
+ASV867	kingdom	Archaea	Archaea	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV868	genus	Hexagrammos	Eukaryota	Chordata	Actinopteri	Perciformes	Hexagrammidae	Hexagrammos	no identification	lca
+ASV869	species	Thalassiosira sp.	Eukaryota	Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira sp.	lca
+ASV870	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca
+ASV871	species	Artedius fenestralis	Eukaryota	Chordata	Actinopteri	Perciformes	Cottidae	Artedius	Artedius fenestralis	lca
+ASV872	kingdom	Bacteria	Bacteria	no identification	no identification	no identification	no identification	no identification	no identification	lca

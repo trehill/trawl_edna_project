@@ -1,0 +1,28 @@
+species,kingdom,phylum,class,order,family,genus
+Allosmerus elongatus,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Allosmerus
+Alosa sapidissima,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Alosa
+Anoplopoma fimbria,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Anoplopomatidae,Anoplopoma
+Balistes capriscus,Animalia,Chordata,Actinopterygii,Tetraodontiformes,Balistidae,Balistes
+Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea
+Engraulis mordax,Animalia,Chordata,Actinopterygii,Clupeiformes,Engraulidae,Engraulis
+Entosphenus tridentatus,Animalia,Chordata,Cephalaspidomorphi,Petromyzontiformes,Petromyzontidae,Entosphenus
+Mallotus villosus,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Mallotus
+Merluccius productus,Animalia,Chordata,Actinopterygii,Gadiformes,Merlucciidae,Merluccius
+Oncorhynchus gorbuscha,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus
+Oncorhynchus keta,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus
+Oncorhynchus kisutch,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus
+Oncorhynchus nerka,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus
+Oncorhynchus tshawytscha,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus
+Parophrys vetulus,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Parophrys
+Reinhardtius hippoglossoides,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Reinhardtius
+Scophthalmus maximus,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Scophthalmidae,Scophthalmus
+Sebastes entomelas,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes
+Sebastes flavidus,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes
+Spirinchus starksi,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Spirinchus
+Squalus acanthias,Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus
+Thaleichthys pacificus,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Thaleichthys
+Gadus chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus
+NA,Animalia ,Chordata,Teleostei,Perciformes,Zoarcidae,NA
+Diaphus theta,Animalia ,Chordata,Teleostei,Myctophiformes ,Myctophidae ,Diaphys
+NA,Animalia ,Chordata,Teleostei,Gadiformes,Macrouridae,Coryphaenoides
+NA,Animalia ,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Sebastes
