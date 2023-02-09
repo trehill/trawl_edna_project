@@ -4,59 +4,66 @@ README - data_analysis
 FOLDER: Diversity 
 This folder contains scripts for comparing community assemblages
 
-Qualitative Analysis: 
 
-all_diversity.R
+gamma_diversity.R
   goal: look at species detected by trawl/eDNA across all sites, creates quantitative + 
   qualitative Euler plot 
   
   inputs: 
-  "fulldatasettrawlmin.csv"
-  "eDNAfulldatasetmin.csv"
+  "detections.csv"
+  "eDNAfulldataset.csv"
+  "fulldatasettrawl.csv"
   
   output: 
-  "method_key.csv" - method key only works at the gamma level 
-  quantitative euler plot (number)
-  qualitative euler plot (species name)
+  gamma_diversity.png
   
-beta_diversity.R 
-  goal: look at species detected by trawl/eDNA across EACH site, creates quantitative + 
+set_diversity.R 
+  goal: look at species detected by trawl/eDNA across EACH set,  creates quantitative + 
   qualitative Euler plots (2 per site)
   
   inputs: 
-  "fulldatasettrawlmin.csv"
-  "eDNAfulldatasetmin.csv"
+	"detections.csv"
+	"eDNAfulldataset.csv"
+	"fulldatasettrawl.csv"
   
   outputs:
+  produces euler plot of all sets together
   1 qualitative eulerr plot per site 
   1 quantitative euler plot per site 
   
-gamma_diversity.R
+beta_diversity.R
   goal: look at species detected by trawl/eDNA across North and South sites, creates 
   quantitative Euler plots (2 for N, 2 for S)
   
   inputs: 
-  "fulldatasettrawlmin.csv"
-  "eDNAfulldatasetmin.csv"
+  "detections.csv"
+  "trawl_metadata.csv"
+  "eDNAfulldataset.csv"
+"fulldatasettrawl.csv"
   
   outputs: 
-  1 qualitative eulerr plot per region 
-  1 quantitative euler plot per region
+  south_north_euler.png N/S euler plots together   
+  #also produces euler and venn diagrams from an earlier code as separate N/S
   
-Quantitative Analysis 
 
-beta_div.R
-  goal: makes datasets for quantitative analysis 
+Jaccards_analyses.R
+  goal: calculate Jaccard indices + produce graph
   
-  inputs: "eDNAfulldataset.csv"
-  outputs: "beta_div.csv"
+  inputs: "detections.csv"
+  outputs: 
+  "diversity_indices.csv"
+  "jaccards_set.png"
+  "jaccards_region.png"
   
-betadiver_analysis.R
-  goal: calculate Jaccard indices 
+species_count.R
+goal: counts occurence of species in whole dataset (eventually will be phylopic code)_
   
-  inputs: "beta_div.csv"
-  outputs: betadiff.png
-  
+  inputs: 
+   "detections.csv"
+   
+   outputs: 
+   "species_count.csv"
+   
 FOLDER: Traits 
 
 trait_collection.R

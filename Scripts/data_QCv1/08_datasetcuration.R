@@ -143,7 +143,7 @@ eDNA_df <- eDNA_df %>% select(-project_name, -marker, -PCR_rep)
 x <- eDNA_df
 eDNA_new <- x %>%
   group_by(set_number, LCT) %>%
-  dplyr::summarise(set_read_index = mean(species_read_index)) #this sums read index by species per set... 
+  dplyr::summarise(set_read_index = sum(species_read_index)) 
 
 
 #we want all the other information too! let's merge the previous dataset to our new aggregation 
@@ -208,6 +208,8 @@ names(trawl_df)[names(trawl_df) == "leg.y"] <- "north_south" #rename region colu
 
 trawl_df #this is our species data set 
 
+#remove Sebastes species 
+trawl_df <- subset(trawl_df, LCT != 'Sebastes sp')
 
 #trawl_df_min <- select(trawl_df, c('set_number','common_name', 'LCT','area','region', 'depth_mean', 'individs_caught' ))
 

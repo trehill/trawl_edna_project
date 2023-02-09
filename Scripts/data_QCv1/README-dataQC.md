@@ -136,7 +136,7 @@
   "trawl_sum_clean.csv"
   "trawl_all_clean"
 
-datasetcuration.R 
+08_datasetcuration.R 
   goal: makes datasets for analysis 
         removes invalid sets (more than 50m) 
         merges all eDNA data (12su/12se)
@@ -158,7 +158,7 @@ datasetcuration.R
   "fulldatasettrawlmin.csv" minimal variables 
 
 
-
+09_detect_
 
 
 
