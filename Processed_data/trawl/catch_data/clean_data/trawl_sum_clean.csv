@@ -1,114 +1,129 @@
 common_name,leg,location,set_number,date,size_class,number_retained_for_isotopes_and_other_analyses,fa_sample,comments,processed,individs_caught,species,kingdom,phylum,class,order,family,genus,level,LCT
-American Shad,2,Juan de Fuca Strait,14,2018-08-12T00:00:00Z,NA,1,1,NA,Y,1,Alosa sapidissima,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Alosa,species,Alosa sapidissima
-Capelin,NA,NA,4,NA,NA,NA,NA,NA,NA,1,Mallotus villosus,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Mallotus,species,Mallotus villosus
-Chinook Salmon,2,Swiftsure Bank,16,2018-08-13T00:00:00Z,NA,6,6,individual with 0.498kg and 34.8cm measurements had scales taken from right side near anal fin,Y,6,Oncorhynchus tshawytscha,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus tshawytscha
-Chinook Salmon,2,Juan de Fuca Strait,8,2018-08-08T00:00:00Z,NA,2,2,scales taken on left side behind dorsal fin (took where could find any scales),Y,2,Oncorhynchus tshawytscha,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus tshawytscha
-Chinook Salmon,2,Juan de Fuca Strait,10,2018-08-10T00:00:00Z,NA,14,14,"scales from individuals #27 and #28 taken from right side above lateral line; scales taken from regular spot for rest of them (on right side, 2-3 lines below lateral line, behind dorsal fin)",Y (we have 10),14,Oncorhynchus tshawytscha,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus tshawytscha
-Chinook Salmon,2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,NA,1,1,scales taken on lateral line on right side behind dorsal fin (took where could find any scales),Y,1,Oncorhynchus tshawytscha,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus tshawytscha
-Chinook Salmon,2,Juan de Fuca Strait,13,2018-08-11T00:00:00Z,NA,8,8,scales taken from right side above lateral line,? (we have 2),8,Oncorhynchus tshawytscha,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus tshawytscha
-Chinook Salmon,2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,NA,10,10,NA,Y (we have 8),10,Oncorhynchus tshawytscha,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus tshawytscha
-Chinook Salmon,2,Juan de Fuca Strait,14,2018-08-12T00:00:00Z,NA,5,5,don't have unique catch number for individuals in Trawls 14-16 (have unique lenghs and weights recorded on each bag so can match individual fish to numbers later),Y,5,Oncorhynchus tshawytscha,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus tshawytscha
-Chinook Salmon,2,Swiftsure Bank,15,2018-08-12T00:00:00Z,NA,21,10,NA,Y,21,Oncorhynchus tshawytscha,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus tshawytscha
-Chinook Salmon,2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,juvenile,1,1,NA,Y,NA,Oncorhynchus tshawytscha,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus tshawytscha
-Chum Salmon ,NA,NA,12,NA,juvenile,NA,NA,NA,NA,24,Oncorhynchus keta,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus keta
-Coho Salmon,1,Johnston Strait,4,2018-08-02T00:00:00Z,NA,1,1,NA,Y,1,Oncorhynchus kisutch,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus kisutch
-Coho Salmon,2,Swiftsure Bank,15,2018-08-12T00:00:00Z,NA,1,1,NA,Y,1,Oncorhynchus kisutch,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus kisutch
-Coho Salmon,2,Swiftsure Bank,16,2018-08-13T00:00:00Z,NA,4,4,NA,Y,4,Oncorhynchus kisutch,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus kisutch
-Coho Salmon,2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,juvenile,6,5,NA,Y,NA,Oncorhynchus kisutch,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus kisutch
-Coho Salmon,1,Johnston Strait,7,2018-08-04T00:00:00Z,NA,1,1,NA,Y,1,Oncorhynchus kisutch,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus kisutch
-Corphaenidoes sp,NA,NA,7,NA,NA,NA,NA,NA,NA,1,NA,Animalia ,Chordata,Teleostei,Gadiformes,Macrouridae,Coryphaenoides,genus,Corphaenidoes sp
-English Sole,2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,NA,1,1,NA,Y,1,Parophrys vetulus,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Parophrys,species,Parophrys vetulus
-Eulachon,NA,NA,5,NA,NA,NA,NA,NA,NA,2,Thaleichthys pacificus,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Thaleichthys,species,Thaleichthys pacificus
-Eulachon,1,Johnston Strait,2,2018-08-01T00:00:00Z,NA,5,5,confirm eulachon IDs,Y,10,Thaleichthys pacificus,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Thaleichthys,species,Thaleichthys pacificus
-Eulachon,1,Johnston Strait,4,2018-08-02T00:00:00Z,NA,36,0,NA,Y,101,Thaleichthys pacificus,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Thaleichthys,species,Thaleichthys pacificus
-Eulachon,NA,NA,12,NA,NA,NA,NA,NA,NA,69,Thaleichthys pacificus,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Thaleichthys,species,Thaleichthys pacificus
-Eulachon,2,Juan de Fuca Strait,10,2018-08-10T00:00:00Z,NA,2,2,NA,Y,2,Thaleichthys pacificus,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Thaleichthys,species,Thaleichthys pacificus
-Eulachon,1,Johnston Strait,3,2018-08-02T00:00:00Z,NA,7,0,NA,Y,6,Thaleichthys pacificus,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Thaleichthys,species,Thaleichthys pacificus
-Eulachon,NA,NA,7,NA,NA,NA,NA,NA,NA,101,Thaleichthys pacificus,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Thaleichthys,species,Thaleichthys pacificus
-Eulachon,1,Johnston Strait,6,2018-08-04T00:00:00Z,NA,6,0,NA,Y,77,Thaleichthys pacificus,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Thaleichthys,species,Thaleichthys pacificus
-Eulachon,NA,NA,13,NA,NA,NA,NA,NA,NA,6,Thaleichthys pacificus,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Thaleichthys,species,Thaleichthys pacificus
-Eulachon,2,Juan de Fuca Strait,8,2018-08-08T00:00:00Z,NA,10,5,samples taken for isotopes and FA from different individuals,Y,42,Thaleichthys pacificus,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Thaleichthys,species,Thaleichthys pacificus
-Eulachon,2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,NA,10,5,samples taken for isotopes and FA from different individuals,Y,100,Thaleichthys pacificus,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Thaleichthys,species,Thaleichthys pacificus
-Pacific Hake,1,Johnston Strait,6,2018-08-04T00:00:00Z,NA,7,4,NA,Y,NA,Merluccius productus,Animalia,Chordata,Actinopterygii,Gadiformes,Merlucciidae,Merluccius,species,Merluccius productus
-Pacific Hake,2,Juan de Fuca Strait,11,2018-08-10T00:00:00Z,large,1,1,NA,Y,NA,Merluccius productus,Animalia,Chordata,Actinopterygii,Gadiformes,Merlucciidae,Merluccius,species,Merluccius productus
-Pacific Hake,2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,NA,10,5,NA,Y,NA,Merluccius productus,Animalia,Chordata,Actinopterygii,Gadiformes,Merlucciidae,Merluccius,species,Merluccius productus
-Walleye Pollock,NA,NA,13,NA,NA,NA,NA,NA,NA,6,Gadus chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Gadus chalcogrammus
-Lamprey,NA,NA,10,NA,NA,NA,NA,NA,NA,2,Entosphenus tridentatus,Animalia,Chordata,Cephalaspidomorphi,Petromyzontiformes,Petromyzontidae,Entosphenus,species,Entosphenus tridentatus
-Myctophid,2,Juan de Fuca Strait,13,2018-08-11T00:00:00Z,NA,0,6,NA,?,NA,Diaphus theta,Animalia ,Chordata,Teleostei,Myctophiformes ,Myctophidae ,Diaphys,species,Diaphus theta
-Myctophiid sp,NA,NA,13,NA,NA,NA,NA,NA,NA,6,Diaphus theta,Animalia ,Chordata,Teleostei,Myctophiformes ,Myctophidae ,Diaphys,species,Diaphus theta
-Myctophiid sp,NA,NA,2,NA,NA,NA,NA,NA,NA,1,Diaphus theta,Animalia ,Chordata,Teleostei,Myctophiformes ,Myctophidae ,Diaphys,species,Diaphus theta
-Myctophiid sp,NA,NA,11,NA,NA,NA,NA,NA,NA,10,Diaphus theta,Animalia ,Chordata,Teleostei,Myctophiformes ,Myctophidae ,Diaphys,species,Diaphus theta
-Myctophiid sp,NA,NA,9,NA,NA,NA,NA,NA,NA,7,Diaphus theta,Animalia ,Chordata,Teleostei,Myctophiformes ,Myctophidae ,Diaphys,species,Diaphus theta
-Night Smelt,NA,NA,3,NA,NA,NA,NA,NA,NA,1,Spirinchus starksi,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Spirinchus,species,Spirinchus starksi
-Northern Anchovy,2,Juan de Fuca Strait,14,2018-08-12T00:00:00Z,NA,1,1,NA,Y,1,Engraulis mordax,Animalia,Chordata,Actinopterygii,Clupeiformes,Engraulidae,Engraulis,species,Engraulis mordax
-Northern Anchovy,2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,NA,4,3,NA,Y,4,Engraulis mordax,Animalia,Chordata,Actinopterygii,Clupeiformes,Engraulidae,Engraulis,species,Engraulis mordax
-Northern Anchovy,2,Swiftsure Bank,15,2018-08-12T00:00:00Z,NA,1,1,NA,Y,1,Engraulis mordax,Animalia,Chordata,Actinopterygii,Clupeiformes,Engraulidae,Engraulis,species,Engraulis mordax
-Pacific Pacific Hake,NA,NA,13,NA,NA,NA,NA,NA,NA,23,Merluccius productus,Animalia,Chordata,Actinopterygii,Gadiformes,Merlucciidae,Merluccius,species,Merluccius productus
-Pacific Pacific Hake,NA,NA,11,NA,NA,NA,NA,NA,NA,19,Merluccius productus,Animalia,Chordata,Actinopterygii,Gadiformes,Merlucciidae,Merluccius,species,Merluccius productus
-Pacific Pacific Hake,NA,NA,6,NA,NA,NA,NA,NA,NA,7,Merluccius productus,Animalia,Chordata,Actinopterygii,Gadiformes,Merlucciidae,Merluccius,species,Merluccius productus
-Pacific Pacific Hake,NA,NA,4,NA,NA,NA,NA,NA,NA,1,Merluccius productus,Animalia,Chordata,Actinopterygii,Gadiformes,Merlucciidae,Merluccius,species,Merluccius productus
-Pacific Pacific Hake,NA,NA,9,NA,NA,NA,NA,NA,NA,26,Merluccius productus,Animalia,Chordata,Actinopterygii,Gadiformes,Merlucciidae,Merluccius,species,Merluccius productus
-Pacific Pacific Hake,NA,NA,10,NA,NA,NA,NA,NA,NA,98,Merluccius productus,Animalia,Chordata,Actinopterygii,Gadiformes,Merlucciidae,Merluccius,species,Merluccius productus
-Pacific Herring,NA,NA,12,NA,NA,NA,NA,NA,NA,99,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
-Pacific Herring,NA,NA,10,NA,NA,NA,NA,NA,NA,19,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
-Pacific Herring,2,Juan de Fuca Strait,10,2018-08-10T00:00:00Z,large,5,5,NA,Y,NA,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
-Pacific Herring,2,Juan de Fuca Strait,10,2018-08-10T00:00:00Z,small,5,0,NA,Y,NA,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
-Pacific Herring,2,Juan de Fuca Strait,8,2018-08-08T00:00:00Z,NA,10,5,samples taken for isotopes and FA from different individuals,? (we have 2),100,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
-Pacific Herring,NA,NA,14,NA,NA,NA,NA,NA,NA,101,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
-Pacific Herring,1,Johnston Strait,2,2018-08-01T00:00:00Z,NA,3,1,NA,Y,3,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
-Pacific Herring,2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,NA,15,5,NA,Y,100,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
-Pacific Herring,NA,NA,5,NA,NA,NA,NA,NA,NA,3,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
-Pacific Herring,2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,juvenile,5,5,samples taken for isotopes and FA from different individuals (because too small),Y,NA,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
 Pacific Herring,1,Johnston Strait,1,2018-08-01T00:00:00Z,NA,1,0,NA,Y,1,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
+Pink Salmon,1,Johnston Strait,1,2018-08-01T00:00:00Z,NA,3,1,"For Leg 1, ""FA samples"" are also included in ""Number retained""; for Leg 2, ""Number retained"" represents the samples collected and put in the freezer -- if ""FA Sample"" is not included in the number, it is indicated in the comments",Y,3,Oncorhynchus gorbuscha,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus gorbuscha
+Pacific Herring,1,Johnston Strait,2,2018-08-01T00:00:00Z,NA,3,1,NA,Y,3,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
+Myctophid (Diaphus theta),1,Johnston Strait,2,2018-08-01T00:00:00Z,NA,1,NA,to ID,Y,NA,Diaphus theta,Animalia ,Chordata,Teleostei,Myctophiformes<ca>,Myctophidae<ca>,Diaphys,species,Diaphus theta
+Myctophiid sp,NA,NA,2,NA,NA,NA,NA,NA,NA,1,Diaphus theta,Animalia ,Chordata,Teleostei,Myctophiformes ,Myctophidae ,Diaphys,species,Diaphus theta
+Widow Rockfish,1,Johnston Strait,2,2018-08-01T00:00:00Z,NA,1,1,tag in mouth,Y,1,Sebastes entomelas,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,species,Sebastes entomelas
+Yellowtail Rockfish,1,Johnston Strait,2,2018-08-01T00:00:00Z,NA,9,5,tags in mouths of FA fish,Y,9,Sebastes flavidus,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,species,Sebastes flavidus
+Spiny Dogfish,1,Johnston Strait,2,2018-08-01T00:00:00Z,NA,1,1,tag in mouth,Y,1,Squalus suckleyi,Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,species,Squalus suckleyi
+Eulachon,1,Johnston Strait,2,2018-08-01T00:00:00Z,NA,5,5,confirm eulachon IDs,Y,10,Thaleichthys pacificus,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Thaleichthys,species,Thaleichthys pacificus
+Osmeridae (Whitebait smelt),1,Johnston Strait,3,2018-08-02T00:00:00Z,NA,2,0,to ID,Y,NA,Allosmerus elongatus,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Allosmerus,species,Allosmerus elongatus
 Pacific Herring,1,Johnston Strait,3,2018-08-02T00:00:00Z,NA,100,2,NA,?,102,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
-Pacific Herring,NA,NA,15,NA,NA,NA,NA,NA,NA,100,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
-Pacific Herring,2,Juan de Fuca Strait,14,2018-08-12T00:00:00Z,large,10,5,NA,Y,NA,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
-Pacific Herring,1,Johnston Strait,6,2018-08-04T00:00:00Z,NA,3,3,NA,Y,3,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
-Pacific Herring,2,Juan de Fuca Strait,14,2018-08-12T00:00:00Z,juvenile,2,0,NA,Y,NA,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
-Pacific Herring,NA,NA,13,NA,NA,NA,NA,NA,NA,100,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
-Pacific Herring,2,Juan de Fuca Strait,14,2018-08-12T00:00:00Z,medium,10,5,NA,Y,NA,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
-Pacific Herring,2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,large,1,1,NA,Y,NA,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
+Walleye Pollock,1,Johnston Strait,3,2018-08-02T00:00:00Z,NA,1,1,NA,Y,1,Gadus/chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Gadus/chalcogrammus
+Night Smelt,NA,NA,3,NA,NA,NA,NA,NA,NA,1,Spirinchus starksi,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Spirinchus,species,Spirinchus starksi
+Spiny Dogfish,1,Johnston Strait,3,2018-08-02T00:00:00Z,NA,1,1,NA,Y,2,Squalus suckleyi,Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,species,Squalus suckleyi
+Eulachon,1,Johnston Strait,3,2018-08-02T00:00:00Z,NA,7,0,NA,Y,6,Thaleichthys pacificus,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Thaleichthys,species,Thaleichthys pacificus
 Pacific Herring,NA,NA,4,NA,NA,NA,NA,NA,NA,9,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
-Pacific Herring,2,Swiftsure Bank,15,2018-08-12T00:00:00Z,juvenile,8,5,samples taken for isotopes and FA from different individuals,Y,NA,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
-Pacific Lamprey,2,Juan de Fuca Strait,10,2018-08-10T00:00:00Z,NA,2,2,NA,Y,NA,Entosphenus tridentatus,Animalia,Chordata,Cephalaspidomorphi,Petromyzontiformes,Petromyzontidae,Entosphenus,species,Entosphenus tridentatus
-Pink Salmon ,NA,NA,12,NA,juvenile,NA,NA,NA,NA,100,Oncorhynchus gorbuscha,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus gorbuscha
-Sablefish,1,Johnston Strait,7,2018-08-04T00:00:00Z,NA,1,1,NA,Y,1,Anoplopoma fimbria,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Anoplopomatidae,Anoplopoma,species,Anoplopoma fimbria
-Sablefish,2,Swiftsure Bank,15,2018-08-12T00:00:00Z,NA,3,3,NA,Y,3,Anoplopoma fimbria,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Anoplopomatidae,Anoplopoma,species,Anoplopoma fimbria
+Walleye Pollock,1,Johnston Strait,4,2018-08-02T00:00:00Z,NA,11,4,NA,Y,100,Gadus/chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Gadus/chalcogrammus
+Capelin,NA,NA,4,NA,NA,NA,NA,NA,NA,1,Mallotus villosus,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Mallotus,species,Mallotus villosus
+Pacific Hake (Whiting),1,Johnston Strait,4,2018-08-02T00:00:00Z,NA,1,1,NA,Y,NA,Merluccius productus,Animalia,Chordata,Actinopterygii,Gadiformes,Merlucciidae,Merluccius,species,Merluccius productus
+Pacific Pacific Hake,NA,NA,4,NA,NA,NA,NA,NA,NA,1,Merluccius productus,Animalia,Chordata,Actinopterygii,Gadiformes,Merlucciidae,Merluccius,species,Merluccius productus
+Coho Salmon,1,Johnston Strait,4,2018-08-02T00:00:00Z,NA,1,1,NA,Y,1,Oncorhynchus kisutch,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus kisutch
+Spiny Dogfish,1,Johnston Strait,4,2018-08-02T00:00:00Z,NA,5,2,NA,Y,11,Squalus suckleyi,Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,species,Squalus suckleyi
+Eulachon,1,Johnston Strait,4,2018-08-02T00:00:00Z,NA,36,0,NA,Y,101,Thaleichthys pacificus,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Thaleichthys,species,Thaleichthys pacificus
+Pacific Herring,NA,NA,5,NA,NA,NA,NA,NA,NA,3,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
+Yellowtail Rockfish,1,Johnston Strait,5,2018-08-03T00:00:00Z,NA,1,0,NA,Y,1,Sebastes flavidus,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,species,Sebastes flavidus
+Eulachon,NA,NA,5,NA,NA,NA,NA,NA,NA,2,Thaleichthys pacificus,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Thaleichthys,species,Thaleichthys pacificus
+Pacific Herring,1,Johnston Strait,6,2018-08-04T00:00:00Z,NA,3,3,NA,Y,3,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
+Walleye Pollock,1,Johnston Strait,6,2018-08-04T00:00:00Z,NA,3,3,NA,Y,15,Gadus/chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Gadus/chalcogrammus
+Pacific Hake,1,Johnston Strait,6,2018-08-04T00:00:00Z,NA,7,4,NA,Y,NA,Merluccius productus,Animalia,Chordata,Actinopterygii,Gadiformes,Merlucciidae,Merluccius,species,Merluccius productus
+Pacific Pacific Hake,NA,NA,6,NA,NA,NA,NA,NA,NA,7,Merluccius productus,Animalia,Chordata,Actinopterygii,Gadiformes,Merlucciidae,Merluccius,species,Merluccius productus
 Spiny Dogfish,NA,NA,6,NA,NA,NA,NA,NA,NA,62,Squalus suckleyi,Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,species,Squalus suckleyi
 Spiny Dogfish,1,Johnston Strait,6,2018-08-04T00:00:00Z,small,10,3,smaller size class,Y,NA,Squalus suckleyi,Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,species,Squalus suckleyi
-Spiny Dogfish,2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,small,5,5,NA,Y,NA,Squalus suckleyi,Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,species,Squalus suckleyi
-Spiny Dogfish,2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,small,10,5,NA,Y,NA,Squalus suckleyi,Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,species,Squalus suckleyi
-Spiny Dogfish,1,Johnston Strait,4,2018-08-02T00:00:00Z,NA,5,2,NA,Y,11,Squalus suckleyi,Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,species,Squalus suckleyi
-Spiny Dogfish,1,Johnston Strait,3,2018-08-02T00:00:00Z,NA,1,1,NA,Y,2,Squalus suckleyi,Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,species,Squalus suckleyi
-Spiny Dogfish,2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,large,2,2,NA,Y,NA,Squalus suckleyi,Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,species,Squalus suckleyi
-Spiny Dogfish,1,Johnston Strait,2,2018-08-01T00:00:00Z,NA,1,1,tag in mouth,Y,1,Squalus suckleyi,Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,species,Squalus suckleyi
-Spiny Dogfish,2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,large,4,4,NA,Y,NA,Squalus suckleyi,Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,species,Squalus suckleyi
-Spiny Dogfish,NA,NA,13,NA,NA,NA,NA,NA,NA,100,Squalus suckleyi,Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,species,Squalus suckleyi
-Spiny Dogfish,NA,NA,11,NA,NA,NA,NA,NA,NA,12,Squalus suckleyi,Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,species,Squalus suckleyi
-Spiny Dogfish,NA,NA,12,NA,NA,NA,NA,NA,NA,100,Squalus suckleyi,Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,species,Squalus suckleyi
-Spiny Dogfish,NA,NA,9,NA,NA,NA,NA,NA,NA,22,Squalus suckleyi,Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,species,Squalus suckleyi
-Spiny Dogfish,NA,NA,10,NA,NA,NA,NA,NA,NA,8,Squalus suckleyi,Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,species,Squalus suckleyi
-Spiny Dogfish,NA,NA,7,NA,NA,NA,NA,NA,NA,5,Squalus suckleyi,Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,species,Squalus suckleyi
-Spiny Dogfish,2,Juan de Fuca Strait,10,2018-08-10T00:00:00Z,large,4,4,NA,Y,NA,Squalus suckleyi,Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,species,Squalus suckleyi
-Greenland Halibut,2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,NA,4,4,NA,Y,4,Reinhardtius hippoglossoides,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Scophthalmidae,Scophthalmus,species,Reinhardtius hippoglossoides
-Sebastes sp,NA,NA,8,NA,NA,NA,NA,NA,NA,1,NA,Animalia ,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Sebastes,genus,Sebastes sp
-Walleye Pollock,2,Juan de Fuca Strait,11,2018-08-10T00:00:00Z,large,1,1,NA,Y,NA,Gadus chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Gadus chalcogrammus
-Walleye Pollock,1,Johnston Strait,6,2018-08-04T00:00:00Z,NA,3,3,NA,Y,15,Gadus chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Gadus chalcogrammus
-Walleye Pollock,NA,NA,13,NA,NA,NA,NA,NA,NA,101,Gadus chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Gadus chalcogrammus
-Walleye Pollock,2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,small,5,5,samples taken for isotopes and FA from different individuals,Y,NA,Gadus chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Gadus chalcogrammus
-Walleye Pollock,1,Johnston Strait,4,2018-08-02T00:00:00Z,NA,11,4,NA,Y,100,Gadus chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Gadus chalcogrammus
-Walleye Pollock,2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,large,5,5,NA,Y,NA,Gadus chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Gadus chalcogrammus
-Walleye Pollock,1,Johnston Strait,3,2018-08-02T00:00:00Z,NA,1,1,NA,Y,1,Gadus chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Gadus chalcogrammus
-Walleye Pollock,2,Juan de Fuca Strait,8,2018-08-08T00:00:00Z,juvenile,1,0,NA,Y,NA,Gadus chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Gadus chalcogrammus
-Walleye Pollock,NA,NA,7,NA,NA,NA,NA,NA,NA,7,Gadus chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Gadus chalcogrammus
-Walleye Pollock,NA,NA,12,NA,NA,NA,NA,NA,NA,53,Gadus chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Gadus chalcogrammus
-Walleye Pollock,NA,NA,9,NA,NA,NA,NA,NA,NA,99,Gadus chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Gadus chalcogrammus
-Walleye Pollock,2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,juvenile,10,5,samples taken for isotopes and FA from different individuals (because too small),Y,NA,Gadus chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Gadus chalcogrammus
-Walleye Pollock,2,Juan de Fuca Strait,8,2018-08-08T00:00:00Z,NA,10,5,samples taken for isotopes and FA from different individuals,Y,103,Gadus chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Gadus chalcogrammus
-Walleye Pollock,NA,NA,11,NA,NA,NA,NA,NA,NA,1,Gadus chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Gadus chalcogrammus
-Walleye Pollock,NA,NA,10,NA,NA,NA,NA,NA,NA,101,Gadus chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Gadus chalcogrammus
-White Bait Smelt,NA,NA,12,NA,NA,NA,NA,NA,NA,3,Allosmerus elongatus,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Allosmerus,species,Allosmerus elongatus
-Widow Rockfish,1,Johnston Strait,2,2018-08-01T00:00:00Z,NA,1,1,tag in mouth,Y,1,Sebastes entomelas,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,species,Sebastes entomelas
-Yellowtail Rockfish,1,Johnston Strait,5,2018-08-03T00:00:00Z,NA,1,0,NA,Y,1,Sebastes flavidus,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,species,Sebastes flavidus
-Yellowtail Rockfish,1,Johnston Strait,2,2018-08-01T00:00:00Z,NA,9,5,tags in mouths of FA fish,Y,9,Sebastes flavidus,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,species,Sebastes flavidus
+Eulachon,1,Johnston Strait,6,2018-08-04T00:00:00Z,NA,6,0,NA,Y,77,Thaleichthys pacificus,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Thaleichthys,species,Thaleichthys pacificus
 Zoarcidae sp,NA,NA,6,NA,NA,NA,NA,NA,NA,29,NA,Animalia ,Chordata,Teleostei,Perciformes,Zoarcidae,NA,family,Zoarcidae sp
+Sablefish,1,Johnston Strait,7,2018-08-04T00:00:00Z,NA,1,1,NA,Y,1,Anoplopoma fimbria,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Anoplopomatidae,Anoplopoma,species,Anoplopoma fimbria
+Corphaenidoes sp,NA,NA,7,NA,NA,NA,NA,NA,NA,1,NA,Animalia ,Chordata,Teleostei,Gadiformes,Macrouridae,Coryphaenoides,genus,Corphaenidoes sp
+Walleye Pollock,NA,NA,7,NA,NA,NA,NA,NA,NA,7,Gadus/chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Gadus/chalcogrammus
+Coho Salmon,1,Johnston Strait,7,2018-08-04T00:00:00Z,NA,1,1,NA,Y,1,Oncorhynchus kisutch,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus kisutch
+Spiny Dogfish,NA,NA,7,NA,NA,NA,NA,NA,NA,5,Squalus suckleyi,Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,species,Squalus suckleyi
+Eulachon,NA,NA,7,NA,NA,NA,NA,NA,NA,101,Thaleichthys pacificus,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Thaleichthys,species,Thaleichthys pacificus
+Pacific Herring,2,Juan de Fuca Strait,8,2018-08-08T00:00:00Z,NA,10,5,samples taken for isotopes and FA from different individuals,? (we have 2),100,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
+Walleye Pollock,2,Juan de Fuca Strait,8,2018-08-08T00:00:00Z,NA,10,5,samples taken for isotopes and FA from different individuals,Y,103,Gadus/chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Gadus/chalcogrammus
+Walleye Pollock,2,Juan de Fuca Strait,8,2018-08-08T00:00:00Z,juvenile,1,0,NA,Y,NA,Gadus/chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Gadus/chalcogrammus
+Sockeye Salmon,NA,NA,8,NA,NA,NA,NA,NA,NA,1,Oncorhynchus nerka,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus nerka
+Chinook Salmon,2,Juan de Fuca Strait,8,2018-08-08T00:00:00Z,NA,2,2,scales taken on left side behind dorsal fin (took where could find any scales),Y,2,Oncorhynchus tshawytscha,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus tshawytscha
+Sebastes sp,NA,NA,8,NA,NA,NA,NA,NA,NA,1,NA,Animalia ,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Sebastes,genus,Sebastes sp
+Eulachon,2,Juan de Fuca Strait,8,2018-08-08T00:00:00Z,NA,10,5,samples taken for isotopes and FA from different individuals,Y,42,Thaleichthys pacificus,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Thaleichthys,species,Thaleichthys pacificus
+Pacific Herring,2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,NA,15,5,NA,Y,100,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
+Myctophid (Diaphus theta),2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,NA,all,0,NA,Y,NA,Diaphus theta,Animalia ,Chordata,Teleostei,Myctophiformes<ca>,Myctophidae<ca>,Diaphys,species,Diaphus theta
+Myctophiid sp,NA,NA,9,NA,NA,NA,NA,NA,NA,7,Diaphus theta,Animalia ,Chordata,Teleostei,Myctophiformes ,Myctophidae ,Diaphys,species,Diaphus theta
+Walleye Pollock,2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,small,5,5,samples taken for isotopes and FA from different individuals,Y,NA,Gadus/chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Gadus/chalcogrammus
+Walleye Pollock,NA,NA,9,NA,NA,NA,NA,NA,NA,99,Gadus/chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Gadus/chalcogrammus
+Walleye Pollock,2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,large,5,5,NA,Y,NA,Gadus/chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Gadus/chalcogrammus
+Pacific Hake,2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,NA,10,5,NA,Y,NA,Merluccius productus,Animalia,Chordata,Actinopterygii,Gadiformes,Merlucciidae,Merluccius,species,Merluccius productus
+Pacific Pacific Hake,NA,NA,9,NA,NA,NA,NA,NA,NA,26,Merluccius productus,Animalia,Chordata,Actinopterygii,Gadiformes,Merlucciidae,Merluccius,species,Merluccius productus
+Chinook Salmon,2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,NA,1,1,scales taken on lateral line on right side behind dorsal fin (took where could find any scales),Y,1,Oncorhynchus tshawytscha,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus tshawytscha
+English Sole,2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,NA,1,1,NA,Y,1,Parophrys vetulus,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Parophrys,species,Parophrys vetulus
+Greenland Halibut,2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,NA,4,4,NA,Y,4,Reinhardtius hippoglossoides,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Scophthalmidae,Scophthalmus,species,Reinhardtius hippoglossoides
+Spiny Dogfish,2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,small,10,5,NA,Y,NA,Squalus suckleyi,Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,species,Squalus suckleyi
+Spiny Dogfish,2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,large,4,4,NA,Y,NA,Squalus suckleyi,Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,species,Squalus suckleyi
+Spiny Dogfish,NA,NA,9,NA,NA,NA,NA,NA,NA,22,Squalus suckleyi,Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,species,Squalus suckleyi
+Eulachon,2,Juan de Fuca Strait,9,2018-08-08T00:00:00Z,NA,10,5,samples taken for isotopes and FA from different individuals,Y,100,Thaleichthys pacificus,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Thaleichthys,species,Thaleichthys pacificus
+Pacific Herring,2,Juan de Fuca Strait,10,2018-08-10T00:00:00Z,small,5,0,NA,Y,NA,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
+Pacific Herring,2,Juan de Fuca Strait,10,2018-08-10T00:00:00Z,large,5,5,NA,Y,NA,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
+Pacific Herring,NA,NA,10,NA,NA,NA,NA,NA,NA,19,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
+Lamprey,NA,NA,10,NA,NA,NA,NA,NA,NA,2,Entosphenus tridentatus,Animalia,Chordata,Cephalaspidomorphi,Petromyzontiformes,Petromyzontidae,Entosphenus,species,Entosphenus tridentatus
+Pacific Lamprey,2,Juan de Fuca Strait,10,2018-08-10T00:00:00Z,NA,2,2,NA,Y,NA,Entosphenus tridentatus,Animalia,Chordata,Cephalaspidomorphi,Petromyzontiformes,Petromyzontidae,Entosphenus,species,Entosphenus tridentatus
+Walleye Pollock,NA,NA,10,NA,NA,NA,NA,NA,NA,101,Gadus/chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Gadus/chalcogrammus
+Pacific Pacific Hake,NA,NA,10,NA,NA,NA,NA,NA,NA,98,Merluccius productus,Animalia,Chordata,Actinopterygii,Gadiformes,Merlucciidae,Merluccius,species,Merluccius productus
+Chinook Salmon,2,Juan de Fuca Strait,10,2018-08-10T00:00:00Z,NA,14,14,"scales from individuals #27 and #28 taken from right side above lateral line; scales taken from regular spot for rest of them (on right side, 2-3 lines below lateral line, behind dorsal fin)",Y (we have 10),14,Oncorhynchus tshawytscha,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus tshawytscha
+Spiny Dogfish,2,Juan de Fuca Strait,10,2018-08-10T00:00:00Z,large,4,4,NA,Y,NA,Squalus suckleyi,Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,species,Squalus suckleyi
+Spiny Dogfish,NA,NA,10,NA,NA,NA,NA,NA,NA,8,Squalus suckleyi,Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,species,Squalus suckleyi
+Eulachon,2,Juan de Fuca Strait,10,2018-08-10T00:00:00Z,NA,2,2,NA,Y,2,Thaleichthys pacificus,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Thaleichthys,species,Thaleichthys pacificus
+Myctophiid sp,NA,NA,11,NA,NA,NA,NA,NA,NA,10,Diaphus theta,Animalia ,Chordata,Teleostei,Myctophiformes ,Myctophidae ,Diaphys,species,Diaphus theta
+Walleye Pollock,2,Juan de Fuca Strait,11,2018-08-10T00:00:00Z,large,1,1,NA,Y,NA,Gadus/chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Gadus/chalcogrammus
+Walleye Pollock,NA,NA,11,NA,NA,NA,NA,NA,NA,1,Gadus/chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Gadus/chalcogrammus
+Pacific Hake,2,Juan de Fuca Strait,11,2018-08-10T00:00:00Z,large,1,1,NA,Y,NA,Merluccius productus,Animalia,Chordata,Actinopterygii,Gadiformes,Merlucciidae,Merluccius,species,Merluccius productus
+Pacific Pacific Hake,NA,NA,11,NA,NA,NA,NA,NA,NA,19,Merluccius productus,Animalia,Chordata,Actinopterygii,Gadiformes,Merlucciidae,Merluccius,species,Merluccius productus
+Spiny Dogfish,NA,NA,11,NA,NA,NA,NA,NA,NA,12,Squalus suckleyi,Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,species,Squalus suckleyi
+White Bait Smelt,NA,NA,12,NA,NA,NA,NA,NA,NA,3,Allosmerus elongatus,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Allosmerus,species,Allosmerus elongatus
+Whitebait Smelt,2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,NA,2,1,samples taken for isotopes and FA from different individuals (because too small),Y,NA,Allosmerus elongatus,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Allosmerus,species,Allosmerus elongatus
+Pacific Herring,2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,large,1,1,NA,Y,NA,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
+Pacific Herring,NA,NA,12,NA,NA,NA,NA,NA,NA,99,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
+Pacific Herring,2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,juvenile,5,5,samples taken for isotopes and FA from different individuals (because too small),Y,NA,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
+Northern Anchovy,2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,NA,4,3,NA,Y,4,Engraulis mordax,Animalia,Chordata,Actinopterygii,Clupeiformes,Engraulidae,Engraulis,species,Engraulis mordax
+Walleye Pollock,2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,juvenile,10,5,samples taken for isotopes and FA from different individuals (because too small),Y,NA,Gadus/chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Gadus/chalcogrammus
+Walleye Pollock,NA,NA,12,NA,NA,NA,NA,NA,NA,53,Gadus/chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Gadus/chalcogrammus
+Walleye Pollock,NA,NA,12,NA,juvenile,NA,NA,NA,NA,100,Gadus/chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Gadus/chalcogrammus
+Pink Salmon,2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,juvenile,10,5,NA,Y,NA,Oncorhynchus gorbuscha,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus gorbuscha
+Pink Salmon,NA,NA,12,NA,juvenile,NA,NA,NA,NA,100,Oncorhynchus gorbuscha,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus gorbuscha
+Chum Salmon,NA,NA,12,NA,juvenile,NA,NA,NA,NA,24,Oncorhynchus keta,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus keta
+Chum Salmon,2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,juvenile,10,5,NA,Y,NA,Oncorhynchus keta,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus keta
+Coho Salmon,2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,juvenile,6,5,NA,Y,NA,Oncorhynchus kisutch,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus kisutch
+Coho Salmon,NA,NA,12,NA,juvenile,NA,NA,NA,NA,6,Oncorhynchus kisutch,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus kisutch
+Sockeye Salmon,2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,NA,10,5,NA,Y,68,Oncorhynchus nerka,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus nerka
+Chinook Salmon,2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,juvenile,1,1,NA,Y,NA,Oncorhynchus tshawytscha,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus tshawytscha
+Chinook Salmon,2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,NA,10,10,NA,Y (we have 8),10,Oncorhynchus tshawytscha,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus tshawytscha
+Chinook Salmon,NA,NA,12,NA,juvenile,NA,NA,NA,NA,1,Oncorhynchus tshawytscha,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus tshawytscha
+Spiny Dogfish,2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,large,2,2,NA,Y,NA,Squalus suckleyi,Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,species,Squalus suckleyi
+Spiny Dogfish,2,Juan de Fuca Strait,12,2018-08-11T00:00:00Z,small,5,5,NA,Y,NA,Squalus suckleyi,Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,species,Squalus suckleyi
+Spiny Dogfish,NA,NA,12,NA,NA,NA,NA,NA,NA,100,Squalus suckleyi,Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,species,Squalus suckleyi
+Eulachon,NA,NA,12,NA,NA,NA,NA,NA,NA,69,Thaleichthys pacificus,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Thaleichthys,species,Thaleichthys pacificus
+Pacific Herring,NA,NA,13,NA,NA,NA,NA,NA,NA,100,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
+Myctophid,2,Juan de Fuca Strait,13,2018-08-11T00:00:00Z,NA,0,6,NA,?,NA,Diaphus theta,Animalia ,Chordata,Teleostei,Myctophiformes ,Myctophidae ,Diaphys,species,Diaphus theta
+Myctophiid sp,NA,NA,13,NA,NA,NA,NA,NA,NA,6,Diaphus theta,Animalia ,Chordata,Teleostei,Myctophiformes ,Myctophidae ,Diaphys,species,Diaphus theta
+Walleye Pollock,NA,NA,13,NA,NA,NA,NA,NA,NA,6,Gadus/chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Gadus/chalcogrammus
+Walleye Pollock,NA,NA,13,NA,NA,NA,NA,NA,NA,101,Gadus/chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Gadus/chalcogrammus
+Pacific Pacific Hake,NA,NA,13,NA,NA,NA,NA,NA,NA,23,Merluccius productus,Animalia,Chordata,Actinopterygii,Gadiformes,Merlucciidae,Merluccius,species,Merluccius productus
+Chinook Salmon,2,Juan de Fuca Strait,13,2018-08-11T00:00:00Z,NA,8,8,scales taken from right side above lateral line,? (we have 2),8,Oncorhynchus tshawytscha,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus tshawytscha
+Spiny Dogfish,NA,NA,13,NA,NA,NA,NA,NA,NA,100,Squalus suckleyi,Animalia,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,species,Squalus suckleyi
+Eulachon,NA,NA,13,NA,NA,NA,NA,NA,NA,6,Thaleichthys pacificus,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Thaleichthys,species,Thaleichthys pacificus
+American Shad,2,Juan de Fuca Strait,14,2018-08-12T00:00:00Z,NA,1,1,NA,Y,1,Alosa sapidissima,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Alosa,species,Alosa sapidissima
+Pacific Herring,2,Juan de Fuca Strait,14,2018-08-12T00:00:00Z,medium,10,5,NA,Y,NA,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
+Pacific Herring,NA,NA,14,NA,NA,NA,NA,NA,NA,101,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
+Pacific Herring,2,Juan de Fuca Strait,14,2018-08-12T00:00:00Z,juvenile,2,0,NA,Y,NA,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
+Pacific Herring,2,Juan de Fuca Strait,14,2018-08-12T00:00:00Z,large,10,5,NA,Y,NA,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
+Northern Anchovy,2,Juan de Fuca Strait,14,2018-08-12T00:00:00Z,NA,1,1,NA,Y,1,Engraulis mordax,Animalia,Chordata,Actinopterygii,Clupeiformes,Engraulidae,Engraulis,species,Engraulis mordax
+Chinook Salmon,2,Juan de Fuca Strait,14,2018-08-12T00:00:00Z,NA,5,5,don't have unique catch number for individuals in Trawls 14-16 (have unique lenghs and weights recorded on each bag so can match individual fish to numbers later),Y,5,Oncorhynchus tshawytscha,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus tshawytscha
+Sablefish,2,Swiftsure Bank,15,2018-08-12T00:00:00Z,NA,3,3,NA,Y,3,Anoplopoma fimbria,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Anoplopomatidae,Anoplopoma,species,Anoplopoma fimbria
+Pacific Herring,NA,NA,15,NA,NA,NA,NA,NA,NA,100,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
+Pacific Herring,NA,NA,15,NA,juvenile,NA,NA,NA,NA,5,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
+Pacific Herring,2,Swiftsure Bank,15,2018-08-12T00:00:00Z,juvenile,8,5,samples taken for isotopes and FA from different individuals,Y,NA,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,species,Clupea pallasii
+Northern Anchovy,2,Swiftsure Bank,15,2018-08-12T00:00:00Z,NA,1,1,NA,Y,1,Engraulis mordax,Animalia,Chordata,Actinopterygii,Clupeiformes,Engraulidae,Engraulis,species,Engraulis mordax
+Coho Salmon,2,Swiftsure Bank,15,2018-08-12T00:00:00Z,NA,1,1,NA,Y,1,Oncorhynchus kisutch,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus kisutch
+Chinook Salmon,2,Swiftsure Bank,15,2018-08-12T00:00:00Z,NA,21,10,NA,Y,21,Oncorhynchus tshawytscha,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus tshawytscha
+Coho Salmon,2,Swiftsure Bank,16,2018-08-13T00:00:00Z,NA,4,4,NA,Y,4,Oncorhynchus kisutch,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus kisutch
+Sockeye Salmon,2,Swiftsure Bank,16,2018-08-13T00:00:00Z,NA,2,2,NA,Y,2,Oncorhynchus nerka,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus nerka
+Chinook Salmon,2,Swiftsure Bank,16,2018-08-13T00:00:00Z,NA,6,6,individual with 0.498kg and 34.8cm measurements had scales taken from right side near anal fin,Y,6,Oncorhynchus tshawytscha,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,species,Oncorhynchus tshawytscha
