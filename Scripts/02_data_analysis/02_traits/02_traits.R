@@ -23,10 +23,8 @@ trait_data <- read.csv(here::here("Processed_data",
 
 
 trawl_catch  <- read.csv(here::here("Processed_data", 
-                                    "trawl",
-                                    "catch_data",
-                                    "clean_data",
-                                    "trawl_catch_clean.csv"),
+                                    "traits",
+                                    "length_conversions.csv"),
                          head=TRUE)
 
 trawl_meta <- read.csv(here::here("Processed_data", 
@@ -99,14 +97,14 @@ data <- data.frame(lapply(data, function(x) {
 #length ####
 
 #check out ind. length info 
-trawl_catch <- trawl_catch[!is.na(trawl_catch$length_cm),] #remove NA
+trawl_catch <- trawl_catch[!is.na(trawl_catch$total_length_cm),] #remove NA
 
 #subset out 'fork length' we only want total length
 #i don't know why we also have 'fork' length
 #trawl_catch <- trawl_catch[trawl_catch$length_type == 'Total',]
 
-plot <- ggplot(trawl_catch, aes(x=length_cm))+
-  geom_histogram(color="lightblue", fill="lightblue", binwidth = 2,)+
+plot <- ggplot(trawl_catch, aes(x=total_length_cm))+
+  geom_histogram(color="#00AFBB", fill="#00AFBB", binwidth = 2,)+
   theme_classic()
 plot
 
@@ -155,6 +153,7 @@ ggsave("./Outputs/traits/spp_length_dens2.png",
        plot = plot,
        width = 10, height = 6, units = "in")
 
+#FINAL LENGTH PLOT 
 #goal: make a density plot like above with four rows 
 #trawl only max species length 
 #eDNA only max species length 
@@ -167,7 +166,7 @@ data2 <- merge(beta_div, trait_data, by="LCT", all.x= TRUE)
 data2 <- select(data2, c('LCT','gamma_detection_method', 'max_length_cm'))
 colnames(data2) <- c('LCT', 'detection', 'length_cm')
 
-catch <- select(trawl_catch, c('species', 'length_cm')) 
+catch <- select(trawl_catch, c('species', 'total_length_cm')) 
 #change column names
 colnames(catch) <- c('LCT','length_cm')
 #add column detection = trawl individuals
@@ -190,7 +189,9 @@ plot <- ggplot(length,
   geom_density_ridges(bandwidth=5) + 
   theme_ridges() +
   labs("") +
+  xlab("length (cm)") + ylab("") +
   theme(legend.position = "none") +
+  scale_fill_manual(values=c("#132B43","#0D838B","#00AFBB", "#9DE3E8")) +
   theme_classic()
 plot 
 
@@ -222,4 +223,10 @@ ggsave("./Outputs/traits/habitat_hist.png",
        plot = plot,
        width = 12, height = 7, units = "in")
 
+#isolate species with fork length data 
+fork <- subset(trawl_catch, length_type == 'Fork')
+fork <- select(fork, c('common_name', 'species', 'length_cm'))
+fork_spp <- distinct(fork)
+
+#
 

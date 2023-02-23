@@ -12,6 +12,7 @@ library(geosphere)
 library(hrbrthemes)
 library(viridis)
 library(gmt)
+library(scales)
 
 #function
 angle2dec <- function(angle) {
@@ -89,33 +90,69 @@ data$biomass_index <- data$weight_total_kg/data$distance
 
 #compare BOTH to ONLY trawl 
 
-
-data %>%
-  ggplot( aes(x=gamma_detection_method, y=weight_total_kg, fill=gamma_detection_method)) +
-  geom_boxplot() +
-  scale_fill_viridis(discrete = TRUE, alpha=0.6) +
-  geom_jitter(color="black", size=0.4, alpha=0.9) +
-  theme(
-    legend.position="none",
-    plot.title = element_text(size=11)
-  ) +
-  xlab("")
-
 plot <- ggplot(data, aes(x=as.factor(gamma_detection_method), y=weight_total_kg)) + 
-  geom_boxplot(fill="slateblue", alpha=0.2) + 
-  xlab("detection") + ylab("biomass index (kg/km)") +
-  theme_classic()
+  geom_boxplot(fill="#00AFBB", alpha=0.2) + 
+  scale_y_continuous(trans='log10', breaks=c(0, 0.01, 10, 100), labels=c('0', '0.01', '10','100')) +
+  xlab("") + ylab("biomass index log(kg/km)") +
+  theme_classic()  
 plot
+
+#graph goes from 0.01 100
 
 ggsave("./Outputs/biomass/biomass_box.png", 
        plot = plot,
-       width = 10, height = 6, units = "in")
+       width = 5, height = 5, units = "in")
 
-#exclude the larger extremes
-data <- subset(data, weight_total_kg < 20 )
+#STAT ANALYSIS ####
+#perform t-test 
+#http://www.sthda.com/english/wiki/unpaired-two-samples-t-test-in-r
 
-plot <- ggplot(data, aes(x=as.factor(gamma_detection_method), y=weight_total_kg)) + 
-  geom_boxplot(fill="slateblue", alpha=0.2) + 
-  xlab("detection") + ylab("biomass index (kg/km)") +
-  theme_classic()
-plot
+#CHECK  T-TEST ASSUMPTIONS
+#check normality (p > 0.05)
+# Shapiro-Wilk normality test for both biomass index
+with(data, shapiro.test(biomass_index[gamma_detection_method == "both eDNA/trawl"])) #p = 2.112e-14
+
+# Shapiro-Wilk normality test for only trawl biomass index 
+with(data, shapiro.test(biomass_index[gamma_detection_method == "only trawl"])) #p=5.609e-07
+
+#results: p values < 0.05 
+#the data is NOT normally distributed - must do wilcox t-test 
+
+#check variance homogeneity 
+res.ftest <- var.test(biomass_index ~ gamma_detection_method, data = data) #p< 2.2e-16
+res.ftest
+#p < 0.05, there is difference in variance of two sets of data 
+
+#T-test 
+#is there a difference in means (two-sided t test )
+t.test(biomass_index ~ gamma_detection_method, data=data)
+#t=3.004, df=64.153, p-value=0.003836
+#mean in group both = 1.21249, mean = 0.05423
+#means are statistically difference 
+
+#is both(ma) > only trawl(mb), Ha:mA>mB (greater), (one-tailed two-sample t test )
+t.test(biomass_index ~ gamma_detection_method, data = data,
+       var.equal = TRUE, alternative = "greater")
+
+#because the assumptions for the ttest are NOT met, we will perform a Wilcoxon test 
+
+#Unpaired Two-Samples Wilcoxon Test
+#http://www.sthda.com/english/wiki/unpaired-two-samples-wilcoxon-test-in-r
+
+#need to make data long 
+dt <- select(data, c('gamma_detection_method', 'biomass_index'))
+both_index <- subset(dt, gamma_detection_method == 'both eDNA/trawl')
+colnames(both_index) <- c('method','both_index')
+trawl_index <- subset(dt, gamma_detection_method == 'only trawl')
+colnames(trawl_index) <- c('method','trawl_index')
+data_wc<- cbind(both_index, trawl_index)
+
+wilcox.test(data_wc$both_index, data_wc$trawl_index, alternative = "two.sided")
+#We can conclude that both method median biomass index  is significantly different 
+#from only trawl method median biomass index with a p-value = 1.642e-12.
+
+#Now we can test whether both_eDNA/trawl biomass mean is statistically GREATER than the trawl biomass mean
+wilcox.test(biomass_index ~ gamma_detection_method, data = data, 
+            exact = FALSE, alternative = "greater")
+#We can conclude that both method median biomass indexis significantly greater 
+#from only trawl method median biomass index with a p-value = 4.285e-06

@@ -50,11 +50,14 @@ set_diversity.R
 Jaccards_analyses.R
   goal: calculate Jaccard indices + produce graph
   
-  inputs: "detections.csv"
+  inputs: 
+  "detections.csv"
+  
   outputs: 
   "diversity_indices.csv"
   "jaccards_set.png"
   "jaccards_region.png"
+  nestednessturnovercomponents.png"
   
 species_count.R
 goal: counts occurence of species in whole dataset (eventually will be phylopic code)
@@ -81,7 +84,7 @@ traits.R
   "detections.csv"
   "traitdatabase.csv" curated trait database by hand by searching FishBase (eventually could write                       script "trait_collection" to do this with code )
    "method_key.csv"
-   "trawl_catch.csv"
+   "length_conversions.csv"
    
    outputs: 
    - histogram of individual species length 
@@ -119,6 +122,22 @@ length_stat_analysis.R
 	indvsmax.png
 	onlyeDNAtrawl.png
 	alltrawledna.png
+	
+lengthconversions.R
+	goal: convert fork length to total length for species caught in trawl 
+	
+	inputs:
+	"trawl_catch_clean.csv"
+	
+	outputs: 
+	"length_conversions.csv" 
+	
+habitat.R
+	goal: data visualization of habitat types for species detected by trawl, eDNA and both
+	
+	inputs: 
+	
+	
 
 FOLDER: Index 
 
@@ -143,6 +162,17 @@ biomass.R
 	
 	outputs: 
 	biomass_box.png"
+	
+mean_biomass.R
+	goal: calculates the mean biomass per and creates euler plot for data visualization
+	
+	inputs 
+	"biomass.csv"
+	
+	outputs
+	"species_biomass.csv"
+	eulerbiomass.png"
+	
 
 FOLDER: meta
 

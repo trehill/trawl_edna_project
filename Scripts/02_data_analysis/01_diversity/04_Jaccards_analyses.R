@@ -11,6 +11,7 @@
 #install.packages("performance")
 #install.packages("geepack")
 #install.packages("gee")
+#install.packages("rempsyc")
 
 #Set-Up ####
 library(tidyverse)
@@ -23,12 +24,14 @@ library(AICcmodavg)
 library(MASS)
 library(MuMIn)
 library(performance)
+library(RColorBrewer)
 library(geepack)
 library(gee)
+library(dplyr)
+library(rempsyc)
 
-
+#SET UP ####
 #long data to calculate richness
-
 long <- read.csv(here::here("Processed_data",
                             "datasets",
                             "detections.csv"),
@@ -145,6 +148,8 @@ write_csv(data,
                "diversity",
                "diversity_indices.csv")) 
 
+
+data2 <- data
 #plot nestedness and turnover
 b1 <- data %>%
   dplyr::select(c("set_number", "Jac_nest", "Jac_turn")) %>%
@@ -308,6 +313,8 @@ write_csv(data,
                "diversity",
                "diversity_indices_all.csv")) 
 
+data3 <- data
+
 #plot nestedness and turnover
 b1 <- data %>%
   dplyr::select(c("set_number", "Jac_nest", "Jac_turn")) %>%
@@ -369,3 +376,60 @@ ggsave("./Outputs/diversity/nestednessvsturnover.png",
 
 #can add diagrams for each point manually
 
+#TABLES ####
+#table w/ selected sets
+data2<- select(data2, c('set_number','Jac','Jac_turn','Jac_nest')) #select columns of interest 
+
+data2$set_number <- as.numeric(data2$set_number)
+data2 <- data2 %>% arrange(set_number)
+data2$set_number <- as.character(data2$set_number)
+
+#change column names 
+colnames(data2) <- c('site','Jaccards','Jaccards Turnover', 'Jaccards Nestedness')
+
+my_table <- nice_table(
+  data2[1:15, ], 
+  title = c("Table 1", "Diversity Dissimilarities"), 
+  note = c("These values are calculated based on adapted methods from Baselga & Leprieur (2015)"))
+
+
+my_table
+
+flextable::save_as_docx(my_table, path = "nice_tablehere.docx")
+
+#table w/ all sets 
+colnames(data3) <- c('site','Jaccards','Jaccards Turnover', 'Jaccards Nestedness')
+
+data3$set_number <- as.numeric(data3$set_number)
+data3 <- data3 %>% arrange(set_number)
+data3$set_number <- as.character(data3$set_number)
+
+colnames(data3) <- c('site','Jaccards','Jaccards Turnover', 'Jaccards Nestedness')
+
+my_table <- nice_table(
+  data3[1:16, ], 
+  title = c("Table 1", "Diversity Indices Dissimilarities (all sets)"), 
+  note = c("The data was calculated from adapted methods from Baselga & Leprieur (2015)"))
+
+my_table
+
+#Make bar plot showing proportion nestedness + proportion turnover 
+#make data2 in long format
+data <- select(data2, c('site', 'Jaccards Turnover', 'Jaccards Nestedness'))
+colnames(data) <- c('site','Turnover', 'Nestedness')
+data_long <- gather(data, dissimilarity, measurement, c('Turnover'):c('Nestedness'), factor_key=TRUE)
+
+#order in decreasing nestedness, increasing turnover
+data_long$site <- factor(data_long$site,levels = c("1", "4", "5", "11",'16','10','12','3','9','13','14','8','2','7'))
+
+plot <- ggplot(data_long, aes(fill=dissimilarity, y=measurement, x=site)) + 
+  geom_bar(position = 'fill', stat="identity") +
+  scale_fill_manual(values=c("#00AFBB", "#132B43")) +
+  xlab("site") + ylab("Proportion of Jaccards Dissimilarity") +
+  theme_classic()
+plot
+
+
+ggsave("./Outputs/diversity/nestednessturnovercomponents.png", 
+       plot = plot,
+       width = 10, height = 5, units = "in")

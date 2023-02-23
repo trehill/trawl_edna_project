@@ -1,11 +1,10 @@
 #visualizing metadata (ie location of eDNA + differences in sampling depth)
 
 #set-up
-
+library(tidyr)
 library(ggplot2)
 library(here)
 library(dplyr)
-
 
 #files = eDNA metadata + trawl metadata
 
@@ -51,10 +50,48 @@ plot <- meta_all %>%
   geom_point(aes(y=depth_mean, col="trawl"), size=1.5) + 
   scale_color_manual(values = c("#00AFBB", "#132B43")) +
   scale_y_reverse() + theme_bw() +
-  labs(y="depth", x="collection location number")
+  labs(y="depth (m)", x="site")  + 
+  theme(legend.title= element_blank())
+
+plot
+
+
+plot <- meta_all %>%
+  ggplot(aes(x=as.factor(set_number), y=eDNA_mean_depth, col="eDNA")) + 
+  geom_jitter()+
+  geom_point(aes(y=depth_mean, col="trawl"), size=1.5) + 
+  scale_color_manual(values = c('steelblue3', "#132B43")) +
+  scale_y_reverse() + theme_bw() +
+  labs(y="depth (m)", x="site")  + 
+  theme(legend.title= element_blank())
+
 plot
 
 ggsave("./Outputs/metadata/samplingdepths.png", 
        plot = plot,
-       width = 5, height = 5, units = "in")
+       width = 10, height = 5, units = "in")
+
+
+#rename columns 
+colnames(meta_all) <- c('set','trawl','eDNA')
+#make data long
+
+data_long <- gather(meta_all, type, depth, trawl:eDNA, factor_key=TRUE)
+
+
+plot <- data_long %>%
+  ggplot(aes(x=as.factor(set), y=depth, col=type)) + 
+  geom_jitter()+
+  geom_point(aes(y=depth, col=type), size=1.5) + 
+  scale_color_manual(values = c("#00AFBB", "#132B43")) +
+  scale_y_reverse() + theme_bw() +
+  labs(y="depth", x="site")  + 
+  theme(legend.title= element_blank())
+
+plot
+
+
+ggsave("./Outputs/metadata/samplingdepths2.png", 
+       plot = plot,
+       width = 10, height = 5, units = "in")
 

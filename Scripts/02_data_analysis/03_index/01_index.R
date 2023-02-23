@@ -80,12 +80,12 @@ data <- merge(trawl_distances, beta_div, by=c('set_number'))
 #create new column/variable that is biomass index (biomass(weight)/distance)
 data$biomass_index <- data$weight_total_kg/data$distance
 
-#plot 
+#plot without log
 plot <- ggplot(data,aes(set_read_index, biomass_index)) +
   geom_point() +
-  geom_smooth(method='lm', se=FALSE, color='turquoise4') +
+  geom_smooth(method='lm', se=FALSE, color="#00AFBB") +
   theme_minimal() +
-  labs(x='log(eDNA read index)', y='log(biomass index)',title='Biomass / Read Index') +
+  labs(x='eDNA read index', y='biomass index',title='Biomass / Read Index') +
   theme(plot.title = element_text(hjust=0.5, size=20, face='bold')) +
   theme_classic()
 
@@ -97,17 +97,14 @@ ggsave("./Outputs/biomass/biomass_index.png",
 
 
 #plot with log data
-data$distance <- log(data$distance)
-data$set_read_index <- log(data$set_read_index)
-
-#create new column/variable that is biomass index (biomass(weight)/distance)
-data$biomass_index <- data$weight_total_kg/data$distance
 
 plot <- ggplot(data,aes(set_read_index, biomass_index)) +
   geom_point() +
-  geom_smooth(method='lm', se=FALSE, color='turquoise4') +
+  geom_smooth(method='lm', se=FALSE, color="#00AFBB") +
   theme_minimal() +
-  labs(x='log(eDNA read index)', y='log(biomass index)',title='Biomass / Read Index') +
+  scale_y_continuous(trans='log10')+
+  scale_x_continuous(trans='log10') +
+  labs(x='DNA read index (log)', y='biomass index log(kg/km)') +
   theme(plot.title = element_text(hjust=0.5, size=20, face='bold')) +
   theme_classic()
 
@@ -116,3 +113,15 @@ plot
 ggsave("./Outputs/biomass/biomass_index_log.png", 
        plot = plot,
        width = 10, height = 6, units = "in")
+
+#plot only biomass as logged
+plot <- ggplot(data,aes(set_read_index, biomass_index)) +
+  geom_point() +
+  geom_smooth(method='lm', se=FALSE, color="#00AFBB") +
+  theme_minimal() +
+  scale_y_continuous(trans='log10')+
+  labs(x='eDNA read index', y='biomass index log(kg/km)',title='Biomass / Read Index') +
+  theme(plot.title = element_text(hjust=0.5, size=20, face='bold')) +
+  theme_classic()
+
+plot 
