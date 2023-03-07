@@ -64,6 +64,12 @@ trawl$lat2 <- angle2dec(trawl$lat2)
 trawl$lon1 <- angle2dec(trawl$lon1)
 trawl$lon2 <- angle2dec(trawl$lon2)
 
+write_csv(trawl,
+          here("Processed_data",
+               "trawl",
+               "metadata",
+               'clean_data',
+               "lat_lon.csv")) 
 
 #Standardize 'biomass' by length 
 #Do this by creating a biomass 'indices' 
@@ -77,9 +83,9 @@ trawl_distances <- trawl %>% rowwise() %>%
   mutate(distance = geodist(lat1, lon1, lat2, lon2, units=c("km")))
 
 #calculate the mean, min + max distance of trawl 
-mean(trawl_distances$distance) 
-min(trawl_distances$distance) 
-max(trawl_distances$distance) 
+mean(trawl_distances$distance) #16km 
+min(trawl_distances$distance) #2.3 km
+max(trawl_distances$distance) #27.2 km 
 
 #merge to beta div 
 
@@ -88,6 +94,10 @@ data <- merge(trawl_distances, beta_div, by=c('set_number'))
 #create new column/variable that is biomass index (biomass(weight)/distance)
 data$biomass_index <- data$weight_total_kg/data$distance
 
+write_csv(data,
+          here("Processed_data",
+               "traits",
+               "biomass.csv")) 
 #compare BOTH to ONLY trawl 
 
 plot <- ggplot(data, aes(x=as.factor(gamma_detection_method), y=weight_total_kg)) + 
@@ -96,6 +106,14 @@ plot <- ggplot(data, aes(x=as.factor(gamma_detection_method), y=weight_total_kg)
   xlab("") + ylab("biomass index log(kg/km)") +
   theme_classic()  
 plot
+
+#find mean of groups 
+both <- subset(data, gamma_detection_method == c('both eDNA/trawl'))
+trawl_o <- subset(data, gamma_detection_method == c('only trawl'))
+mean(both$biomass_index) #1.212
+mean(trawl_o$biomass_index) #0.542
+
+
 
 #graph goes from 0.01 100
 
@@ -154,5 +172,11 @@ wilcox.test(data_wc$both_index, data_wc$trawl_index, alternative = "two.sided")
 #Now we can test whether both_eDNA/trawl biomass mean is statistically GREATER than the trawl biomass mean
 wilcox.test(biomass_index ~ gamma_detection_method, data = data, 
             exact = FALSE, alternative = "greater")
+
 #We can conclude that both method median biomass indexis significantly greater 
 #from only trawl method median biomass index with a p-value = 4.285e-06
+
+#mean both eDNA/trawl 
+
+
+#mean only trawl 
