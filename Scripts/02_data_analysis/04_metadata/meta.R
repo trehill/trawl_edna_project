@@ -2,11 +2,13 @@
 
 #set-up
 library(tidyr)
+library(tidyverse)
 library(ggplot2)
 library(here)
 library(maps)
 library(dplyr)
 library(ggmap)
+
 
 #files = eDNA metadata + trawl metadata
 
@@ -63,24 +65,14 @@ meta_all <- merge(meta, meta_new, by=c('set_number'))
 meta_all <- select(meta_all, c('set_number','depth_mean','eDNA_mean_depth'))
 meta_all <- distinct(meta_all)
 
+
 #explore depths of trawl and eDNA samples
-plot <- meta_all %>%
-  ggplot(aes(x=as.factor(set_number), y=eDNA_mean_depth, col="eDNA")) + 
-  geom_jitter()+
-  geom_point(aes(y=depth_mean, col="trawl"), size=1.5) + 
-  scale_color_manual(values = c("#00AFBB", "#132B43")) +
-  scale_y_reverse() + theme_bw() +
-  labs(y="depth (m)", x="site")  + 
-  theme(legend.title= element_blank())
-
-plot
-
 
 plot <- meta_all %>%
-  ggplot(aes(x=as.factor(set_number), y=eDNA_mean_depth, col="eDNA")) + 
-  geom_jitter()+
-  geom_point(aes(y=depth_mean, col="trawl"), size=1.5) + 
-  scale_color_manual(values = c('steelblue3', "#132B43")) +
+  ggplot(aes(x=factor(set_number), y=eDNA_mean_depth, col="eDNA")) + 
+  geom_jitter(width=.15) +
+  geom_point(aes(y=depth_mean, col="trawl"), size=1.5) +
+  scale_color_manual(values = c("#FCC442","#00AFBB")) +
   scale_y_reverse() + theme_bw() +
   labs(y="depth (m)", x="site")  + 
   theme(legend.title= element_blank())
@@ -91,29 +83,6 @@ ggsave("./Outputs/metadata/samplingdepths.png",
        plot = plot,
        width = 10, height = 5, units = "in")
 
-
-#rename columns 
-colnames(meta_all) <- c('set','trawl','eDNA')
-#make data long
-
-data_long <- gather(meta_all, type, depth, trawl:eDNA, factor_key=TRUE)
-
-
-plot <- data_long %>%
-  ggplot(aes(x=as.factor(set), y=depth, col=type)) + 
-  geom_jitter()+
-  geom_point(aes(y=depth, col=type), size=1.5) + 
-  scale_color_manual(values = c("#00AFBB", "#132B43")) +
-  scale_y_reverse() + theme_bw() +
-  labs(y="depth", x="site")  + 
-  theme(legend.title= element_blank())
-
-plot
-
-
-ggsave("./Outputs/metadata/samplingdepths2.png", 
-       plot = plot,
-       width = 10, height = 5, units = "in")
 
 #Map of study site 
 #https://jtr13.github.io/cc19/using-stamen-maps-for-plotting-spatial-data.html
@@ -178,5 +147,8 @@ edna_sample_map<-ggmap(map.for.samples) +
 
 edna_sample_map
 
+ggsave("./Outputs/metadata/mapbw.png", 
+       plot = edna_sample_map,
+       width = 5, height = 5, units = "in")
 
 

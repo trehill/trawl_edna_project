@@ -892,21 +892,6 @@ write_csv(final,
                "datasets",
                "detections.csv"))
 
-#add environmental data 
-trawl_meta <- read.csv(here::here("Processed_data", 
-                                  "trawl",
-                                  "metadata",
-                                  "clean_data",
-                                  "trawl_metadata.csv"),
-                       head=TRUE)
-
-#merge final dataset with environmental 
-final_env <- merge(final, trawl_meta, by=c('set_number'))
-
-write_csv(final_env,
-          here("Processed_data",
-               "datasets",
-               "detection_env.csv"))
 
 #FOR ALL SETS (1-16) ####
 #read in files 
@@ -1864,7 +1849,6 @@ q <- distinct(q)
 
 long <- merge(p, q, by = c("LCT", "set_number", "gamma_detection_method", "alpha_detection_method", "beta_detection_method"), all.x = T, all.y = T) %>% replace(is.na(.), 0)
 
-#env <- merge()
 
 long2 <- long %>%
   group_by(LCT, set_number) %>%
@@ -1885,18 +1869,6 @@ write_csv(final,
                "datasets",
                "detections_all.csv"))
 
-#add environmental data 
-trawl_meta <- read.csv(here::here("Processed_data", 
-                                  "trawl",
-                                  "metadata",
-                                  "clean_data",
-                                  "trawl_metadata.csv"),
-                       head=TRUE)
 
-#merge final dataset with environmental 
-final_env <- merge(final, trawl_meta, by=c('set_number'))
 
-write_csv(final_env,
-          here("Processed_data",
-               "datasets",
-               "detection_all_env.csv"))
+

@@ -11,24 +11,24 @@ gamma_diversity.R
   
   inputs: 
   "detections.csv"
-  "eDNAfulldataset.csv"
-  "fulldatasettrawl.csv"
+  "detections_all.csv"
   
   output: 
   gamma_diversity.png
+  gamma_diversity_allsets.png
   
 beta_diversity.R
   goal: look at species detected by trawl/eDNA across North and South sites, creates 
   quantitative Euler plots (2 for N, 2 for S)
   
   inputs: 
-  "detections.csv"
+  "detections.csv
+  "detections_all_.csv"
   "trawl_metadata.csv"
-  "eDNAfulldataset.csv"
-  "fulldatasettrawl.csv"
-  
+
   outputs: 
-  south_north_euler.png N/S euler plots together   
+  south_north_euler.png N/S euler plots together  
+  south_north_euler_allsets.png" 
   #also produces euler and venn diagrams from an earlier code as separate N/S
   
 
@@ -38,13 +38,12 @@ set_diversity.R
   
   inputs: 
 	"detections.csv"
-	"eDNAfulldataset.csv"
-	"fulldatasettrawl.csv"
+	"detections_all_.csv"
+
   
   outputs:
-  produces euler plot of all sets together
-  1 qualitative eulerr plot per site 
-  1 quantitative euler plot per site 
+  alpha_eulerr_all.png"
+  alpha_eulerr.png"
   
 
 Jaccards_analyses.R
@@ -52,13 +51,28 @@ Jaccards_analyses.R
   
   inputs: 
   "detections.csv"
+  "detections_all.csv"
   
   outputs: 
   "diversity_indices.csv"
+  "diversity_indices_all.csv"
   "jaccards_set.png"
+  jaccards_set_all.png"
   "jaccards_region.png"
-  nestednessturnovercomponents.png"
+  jaccards_region_all.png"
+
   
+Jaccard_table.R
+
+	input: 
+	"diversity_indices.csv"
+	"diversity_indices_all.csv"
+	
+	output: 
+	nestednessturnovercomponents.png"
+	nestednessturnovercomponents_all.png
+	tables of dissimilarities 
+	
 species_count.R
 goal: counts occurence of species in whole dataset (eventually will be phylopic code)
   
@@ -90,8 +104,24 @@ traits.R
    - histogram of individual species length 
    - bar graph for preffered environment within water column 
    - density plot across species lengths (both + individual methods)
+   length_bymethod.png"
 
    
+habitat.R
+	goal: visualize the habitats patterns of detections using alluvia plots 
+
+	
+	inputs: 
+	"detections_all.csv"
+	"traitdatabase.csv"
+	
+	outputs: 
+	habitat_alluvia.png"
+	
+	note: old code in this script uses chord diagrams to show habitat relationships
+	
+the following scripts are no longer used in the analysis: 
+
 depth.R
 	goal: investigate relationships between difference in depth + diversity indices 
 
@@ -171,7 +201,10 @@ mean_biomass.R
 	
 	outputs
 	"species_biomass.csv"
+	"species_biomass_sum.csv"
+	"species_biomass_all.csv"
 	eulerbiomass.png"
+	eulerbiomass_all.png"
 	
 
 FOLDER: meta

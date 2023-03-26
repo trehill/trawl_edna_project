@@ -1451,10 +1451,11 @@ Oncorhynchus keta,18.6111,trawl individuals
 Oncorhynchus keta,17.3907,trawl individuals
 Oncorhynchus keta,14.848199999999999,trawl individuals
 Allosmerus elongatus,22.9,only trawl
-Allosmerus elongatus,22.9,only trawl
 Alosa sapidissima,76,both eDNA/trawl
 Alosa sapidissima,76,both eDNA/trawl
 Alosa sapidissima,76,both eDNA/trawl
+Alosa sapidissima,76,both eDNA/trawl
+Anoplopoma fimbria,120,both eDNA/trawl
 Anoplopoma fimbria,120,both eDNA/trawl
 Anoplopoma fimbria,120,both eDNA/trawl
 Anoplopoma fimbria,120,both eDNA/trawl
@@ -1477,12 +1478,15 @@ Clupea pallasii,46,both eDNA/trawl
 Clupea pallasii,46,both eDNA/trawl
 Clupea pallasii,46,both eDNA/trawl
 Clupea pallasii,46,both eDNA/trawl
+Clupea pallasii,46,both eDNA/trawl
+Clupea pallasii,46,both eDNA/trawl
 Corphaenidoes sp,NA,only trawl
 Cryptacanthodes giganteus,117,only eDNA
 Diaphus theta,11.4,only trawl
 Diaphus theta,11.4,only trawl
 Diaphus theta,11.4,only trawl
 Diaphus theta,11.4,only trawl
+Engraulis mordax,24.8,only trawl
 Engraulis mordax,24.8,only trawl
 Engraulis mordax,24.8,only trawl
 Entosphenus tridentatus,76,only trawl
@@ -1499,13 +1503,20 @@ Gadus/chalcogrammus,91,both eDNA/trawl
 Gadus/chalcogrammus,91,both eDNA/trawl
 Gadus/chalcogrammus,91,both eDNA/trawl
 Gadus/chalcogrammus,91,both eDNA/trawl
+Gadus/chalcogrammus,91,both eDNA/trawl
+Gadus/chalcogrammus,91,both eDNA/trawl
 Glyptocephalus zachirus,60,only eDNA
 Glyptocephalus zachirus,60,only eDNA
 Glyptocephalus zachirus,60,only eDNA
 Glyptocephalus zachirus,60,only eDNA
+Glyptocephalus zachirus,60,only eDNA
+Hexagrammos decagrammus,61,only eDNA
+Hexagrammos decagrammus,61,only eDNA
 Hippoglossoides elassodon,52,only eDNA
 Leptoclinus maculatus,20,only eDNA
 Mallotus villosus,20,only trawl
+Merluccius productus,91,both eDNA/trawl
+Merluccius productus,91,both eDNA/trawl
 Merluccius productus,91,both eDNA/trawl
 Merluccius productus,91,both eDNA/trawl
 Merluccius productus,91,both eDNA/trawl
@@ -1522,14 +1533,17 @@ Oncorhynchus gorbuscha,76,both eDNA/trawl
 Oncorhynchus gorbuscha,76,both eDNA/trawl
 Oncorhynchus gorbuscha,76,both eDNA/trawl
 Oncorhynchus gorbuscha,76,both eDNA/trawl
+Oncorhynchus gorbuscha,76,both eDNA/trawl
 Oncorhynchus keta,100,both eDNA/trawl
 Oncorhynchus keta,100,both eDNA/trawl
 Oncorhynchus keta,100,both eDNA/trawl
+Oncorhynchus keta,100,both eDNA/trawl
 Oncorhynchus kisutch,108,both eDNA/trawl
 Oncorhynchus kisutch,108,both eDNA/trawl
 Oncorhynchus kisutch,108,both eDNA/trawl
 Oncorhynchus kisutch,108,both eDNA/trawl
 Oncorhynchus kisutch,108,both eDNA/trawl
+Oncorhynchus kisutch,108,both eDNA/trawl
 Oncorhynchus nerka,84,both eDNA/trawl
 Oncorhynchus nerka,84,both eDNA/trawl
 Oncorhynchus nerka,84,both eDNA/trawl
@@ -1539,6 +1553,8 @@ Oncorhynchus nerka,84,both eDNA/trawl
 Oncorhynchus nerka,84,both eDNA/trawl
 Oncorhynchus nerka,84,both eDNA/trawl
 Oncorhynchus nerka,84,both eDNA/trawl
+Oncorhynchus nerka,84,both eDNA/trawl
+Oncorhynchus tshawytscha,150,both eDNA/trawl
 Oncorhynchus tshawytscha,150,both eDNA/trawl
 Oncorhynchus tshawytscha,150,both eDNA/trawl
 Oncorhynchus tshawytscha,150,both eDNA/trawl
@@ -1550,7 +1566,10 @@ Parophrys vetulus,49,only trawl
 Pholis laeta,25,only eDNA
 Phytichthys chirus,20,only eDNA
 Phytichthys chirus,20,only eDNA
+Phytichthys chirus,20,only eDNA
+Reinhardtius evermanni,100,only eDNA
 Reinhardtius hippoglossoides,110,only trawl
+Sebastes alutus,53,only eDNA
 Sebastes alutus,53,only eDNA
 Sebastes alutus,53,only eDNA
 Sebastes alutus,53,only eDNA
@@ -1567,6 +1586,7 @@ Sebastes entomelas,60,both eDNA/trawl
 Sebastes flavidus,66,only trawl
 Sebastes flavidus,66,only trawl
 Sebastes mystinus,61,only eDNA
+Sebastes mystinus,61,only eDNA
 Spirinchus starksi,23,only trawl
 Squalus suckleyi,140,both eDNA/trawl
 Squalus suckleyi,140,both eDNA/trawl
@@ -1580,6 +1600,10 @@ Squalus suckleyi,140,both eDNA/trawl
 Squalus suckleyi,140,both eDNA/trawl
 Squalus suckleyi,140,both eDNA/trawl
 Squalus suckleyi,140,both eDNA/trawl
+Squalus suckleyi,140,both eDNA/trawl
+Squalus suckleyi,140,both eDNA/trawl
+Thaleichthys pacificus,34,both eDNA/trawl
+Thaleichthys pacificus,34,both eDNA/trawl
 Thaleichthys pacificus,34,both eDNA/trawl
 Thaleichthys pacificus,34,both eDNA/trawl
 Thaleichthys pacificus,34,both eDNA/trawl
@@ -1594,3 +1618,5 @@ Thaleichthys pacificus,34,both eDNA/trawl
 Thaleichthys pacificus,34,both eDNA/trawl
 Thaleichthys pacificus,34,both eDNA/trawl
 Xiphister atropurpureus/mucosus,44.25,only eDNA
+Xiphister atropurpureus/mucosus,44.25,only eDNA
+Zoarcidae sp,NA,only trawl

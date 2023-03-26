@@ -8,12 +8,13 @@ library(here)
 library(dplyr)
 library(ggplot2)
 library(ggridges)
+library(forcats)
 
 #set-up, read in files ####
 
 beta_div <- read.csv(here::here("Processed_data", #should be ASV by sample
                                 "datasets",
-                                "detections.csv"),
+                                "detections_all.csv"),
                      head=TRUE)
 
 trait_data <- read.csv(here::here("Processed_data", 
@@ -108,7 +109,6 @@ plot <- ggplot(trawl_catch, aes(x=total_length_cm))+
   theme_classic()
 plot
 
-
 ggsave("./Outputs/traits/ind_length_his.png", 
        plot = plot,
        width = 10, height = 6, units = "in")
@@ -118,6 +118,8 @@ ggsave("./Outputs/traits/ind_length_his.png",
 speciestraits= subset(data, select = c(LCT, max_length_cm, gamma_detection_method) )
 speciestraits <- distinct(speciestraits)
 speciestraits <- speciestraits %>% drop_na(max_length_cm)
+
+
 
 #species length distributions 
 speciestraits$max_length_cm <- as.numeric(speciestraits$max_length_cm) 
@@ -137,23 +139,9 @@ write_csv(speciestraits,
                "traits",
                "length_2.csv")) 
 
-#another plot 
-plot <- ggplot(speciestraits, 
-       aes(x = max_length_cm, 
-           y = gamma_detection_method, 
-           fill = gamma_detection_method)) +
-  geom_density_ridges() + 
-  theme_ridges() +
-  labs("") +
-  theme(legend.position = "none") +
-  theme_classic()
-plot 
 
-ggsave("./Outputs/traits/spp_length_dens2.png", 
-       plot = plot,
-       width = 10, height = 6, units = "in")
 
-#FINAL LENGTH PLOT 
+#FINAL LENGTH PLOTS #### 
 #goal: make a density plot like above with four rows 
 #trawl only max species length 
 #eDNA only max species length 
@@ -191,42 +179,74 @@ plot <- ggplot(length,
   labs("") +
   xlab("length (cm)") + ylab("") +
   theme(legend.position = "none") +
-  scale_fill_manual(values=c("#132B43","#0D838B","#00AFBB", "#9DE3E8")) +
+  scale_fill_manual(values=c("#5491cf","#FCC442", "#00AFBB", "#9DE3E8")) +
   theme_classic()
 plot 
+
 
 ggsave("./Outputs/traits/length.png", 
        plot = plot,
        width = 10, height = 6, units = "in")
 
-#habitat ####
 
-#check out environment 
-data1 <- subset(data, !is.na(habitat))
-data1 <- select(data1, c('gamma_detection_method', 'habitat'))
-data1 <-  data1 %>% 
+#another plot 
+plot <- ggplot(speciestraits, 
+               aes(x = max_length_cm, 
+                   y = gamma_detection_method, 
+                   fill = gamma_detection_method), show.legend = FALSE) +
+  geom_density_ridges(bandwidth=20) + 
+  theme_ridges() +
+  xlab("maximum species length (cm)") +
+  ylab("detection method") +
+  scale_fill_manual(values=c("#FCC442", "#9DE3E8")) +
+  theme(legend.position = "none") +
+  theme_classic()
+plot 
+
+ggsave("./Outputs/traits/spp_length_dens2.png", 
+       plot = plot,
+       width = 10, height = 6, units = "in")
+
+#plot density but differentiate by groups 
+
+
+
+########TESTTTTTTTTT#####
+
+#we need to combine speciestraits to beta_div 
+
+method_2 <- select(beta_div, c('LCT','gamma_detection_method'))
+
+#rename species traits columns 
+speciestraits <- speciestraits %>% 
   rename(method = gamma_detection_method)
 
-data1$observation_count <- 1 
 
-#specify order of bars (from top to bottom)
-data1$habitat <- factor(data1$habitat, levels=c('demersal', 'bathydemersal', 'bathypelagic','pelagic', 'benthopelagic','reef_associated' ))
+data <- merge(speciestraits, method_2, by="LCT", all.x= TRUE)
 
-#create stacked bar chart
-plot <- ggplot(data1, aes(x=habitat, y=observation_count, fill=method)) + 
-  geom_bar(position='stack', stat='identity')+
-  theme_classic()
+
+plot <- data %>%
+  ggplot(aes(y = method)) +
+  geom_density_ridges(
+    aes(x = max_length_cm , fill = gamma_detection_method), 
+    alpha = .8, color = "white", from = 0, to = 250,
+    bandwidth=18) +
+  labs(
+    x = "maximum species length (cm)",
+    y = '') +
+  scale_y_discrete(expand = c(0, 0)) +
+  scale_x_continuous(expand = c(0, 0)) +
+  scale_fill_cyclical(
+    values = c("#5491cf","#FCC442", "#00AFBB", "#9DE3E8"),
+    name = "detection", guide = "legend"
+  ) +
+  coord_cartesian(clip = "off") +
+  theme_ridges(grid = FALSE)
+
 plot
-  
 
-ggsave("./Outputs/traits/habitat_hist.png", 
+
+ggsave("./Outputs/traits/length_bymethod.png", 
        plot = plot,
        width = 12, height = 7, units = "in")
-
-#isolate species with fork length data 
-fork <- subset(trawl_catch, length_type == 'Fork')
-fork <- select(fork, c('common_name', 'species', 'length_cm'))
-fork_spp <- distinct(fork)
-
-#
 

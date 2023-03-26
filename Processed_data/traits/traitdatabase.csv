@@ -51,3 +51,6 @@ Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,Sebastes en
 Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Thaleichthys,Thaleichthys pacificus,pelagic_neritic,0,300,34,20,y,pelagic
 Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,Sebastes flavidus,reef_associated,0,549,66,NA,y,reef_associated
 Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,Sebastes mystinus,reef_associated,0,550,61,NA,y,reef_associated
+Animalia,Chordata,Teleostei,Pleuronectiformes,Pleuronectidae,Reinhardtius ,Reinhardtius evermanni,demersal,20,1200,100,54,y,demersal
+Animalia,Chordata,Teleostei,Scorpaeniformes,Hexagrammidae,Hexagrammos,Hexagrammos decagrammus,demersal,0,46,61,NA,y,demersal
+Animalia,Chordata,Teleostei,Perciformes,Zoarcidae ,Zoarcidae ,Zoarcidae ,demersal,NA,NA,10,NA,y,demersal

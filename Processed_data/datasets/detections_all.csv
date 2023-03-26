@@ -29,9 +29,12 @@ Clupea pallasii,6,both eDNA/trawl,both eDNA/trawl,both eDNA/trawl,64.54965646470
 Clupea pallasii,7,both eDNA/trawl,only eDNA,both eDNA/trawl,36,0,0,1
 Clupea pallasii,8,both eDNA/trawl,both eDNA/trawl,both eDNA/trawl,97.832728770578,3.273,1,1
 Clupea pallasii,9,both eDNA/trawl,both eDNA/trawl,both eDNA/trawl,96.2281231408721,3.488,1,1
+Corphaenidoes sp,7,only trawl,only trawl,only trawl,0,0.002,1,0
 Cryptacanthodes giganteus,12,only eDNA,only eDNA,only eDNA,3,0,0,1
 Diaphus theta,11,only trawl,only trawl,only trawl,0,0.028,1,0
 Diaphus theta,13,only trawl,only trawl,only trawl,0,0.036000000000000004,1,0
+Diaphus theta,2,only trawl,only trawl,only trawl,0,0,1,0
+Diaphus theta,9,only trawl,only trawl,only trawl,0,0,1,0
 Engraulis mordax,12,only trawl,only trawl,only trawl,0,0.06,1,0
 Engraulis mordax,14,only trawl,only trawl,only trawl,0,0.028,1,0
 Engraulis mordax,15,only trawl,only trawl,only trawl,0,0.034,1,0
@@ -59,6 +62,7 @@ Glyptocephalus zachirus,16,only eDNA,only eDNA,only eDNA,0.712406459741369,0,0,1
 Hexagrammos decagrammus,15,only eDNA,only eDNA,only eDNA,3,0,0,1
 Hippoglossoides elassodon,16,only eDNA,only eDNA,only eDNA,3,0,0,1
 Leptoclinus maculatus,14,only eDNA,only eDNA,only eDNA,3,0,0,1
+Mallotus villosus,4,only trawl,only trawl,only trawl,0,0,1,0
 Merluccius productus,1,both eDNA/trawl,only eDNA,both eDNA/trawl,1.11448640616811,0,0,1
 Merluccius productus,10,both eDNA/trawl,both eDNA/trawl,both eDNA/trawl,2.27776392309302,86.866,1,1
 Merluccius productus,11,both eDNA/trawl,both eDNA/trawl,both eDNA/trawl,13.8159848117377,20.376,1,1
@@ -96,6 +100,7 @@ Oncorhynchus nerka,14,both eDNA/trawl,only eDNA,both eDNA/trawl,1.8124772200583,
 Oncorhynchus nerka,15,both eDNA/trawl,only eDNA,both eDNA/trawl,3.15327774533665,0,0,1
 Oncorhynchus nerka,16,both eDNA/trawl,both eDNA/trawl,both eDNA/trawl,1.60454681494451,5.452,1,1
 Oncorhynchus nerka,7,both eDNA/trawl,only eDNA,only eDNA,1.9123643008133,0,0,1
+Oncorhynchus nerka,8,both eDNA/trawl,only trawl,both eDNA/trawl,0,0,1,0
 Oncorhynchus nerka,9,both eDNA/trawl,only eDNA,both eDNA/trawl,0.242885099245178,0,0,1
 Oncorhynchus tshawytscha,10,both eDNA/trawl,only trawl,both eDNA/trawl,0,16.116,1,0
 Oncorhynchus tshawytscha,12,both eDNA/trawl,only trawl,both eDNA/trawl,0,8.722,1,0

@@ -14,7 +14,7 @@ ASVtaxsample12se <-  read.csv(here::here("Processed_data",
                                                    "12s",
                                                   "12s_e",
                                                "eDNAindex",
-                              "data12se_taxonomy_index.csv"), #has eDNA index reads
+                              "data12se_taxonomy_index.csv"), 
                                                head=TRUE)
 
 ASVtaxsample12se <- select(ASVtaxsample12se, -c("class", "class_read_raw", "class_read_index", "class_pa"))
@@ -24,7 +24,7 @@ ASVtaxsample12su <-  read.csv(here::here("Processed_data",
                                          "12s",
                                          "12s_u",
                                          "eDNAindex",
-                                         "data12su_taxonomy_index.csv"), #has eDNA index reads
+                                         "data12su_taxonomy_index.csv"),
                               head=TRUE)
 
 trawl_meta <- read.csv(here::here("Processed_data", 
@@ -60,7 +60,9 @@ trawl_spp <-  read.csv(here::here("Processed_data",
                                   "trawl_sum_clean.csv"), 
                        head=TRUE)
 
-#Valid Set Numbers ####
+#EXCLUDED SETS (less than 50m depth difference between sampling) ####
+
+#Valid Set Numbers
 
 #figure out all set_numbers that have more than 50m differences 
 #make new column which is difference between two values 
@@ -86,7 +88,7 @@ valid_set_numbers
 
 #Extract relevant samples
 
-#eDNA dataset ####
+#eDNA dataset 
 #select only species that are present (pa) by subsetting 
 #ASVtaxsample12se <- ASVtaxsample12se[ASVtaxsample12se$species_pa != 0,] #not doing this anymore because we want pa for Jaccards
 #ASVtaxsample12su <- ASVtaxsample12su[ASVtaxsample12su$species_pa != 0,]
@@ -163,7 +165,7 @@ write_csv(eDNA_df,
                "eDNAfulldataset.csv")) #no index 
 
 
-#Trawl Dataset ####
+#Trawl Dataset 
 #we want a dataset with every species caught for each trawl w/ region attached 
 #trawl species + set number --> trawl_catch_sum 
 #need to harmonize taxonomy of this dataset (done in trawltaxonomy script )
@@ -204,8 +206,10 @@ trawl_ind <- read.csv(here::here("Processed_data",
 trawl_ind <- subset(trawl_ind, LCT != 'Sebastes sp') #we decided to remove this species because it only appears 
 #in catch once for one individual w/ no associated length/weight data 
 
-#get rid of NA values in weight column 
-trawl_ind[is.na(trawl_ind$weight_kg),] <- 0
+#get rid of NA values in weight column - replace NA with 0
+#did this manually because it was messing up my data!!!
+#trawl_ind[is.na(trawl_ind$weight_kg),] <- 0
+
 
 #sum weight per species per set 
 x <- trawl_ind
@@ -229,7 +233,7 @@ write_csv(all,
                "trawl_catch_weight.csv")) 
 
 #notes: these species/set pairs are present in catch summary but not catch individual and have no associated weight
-#i gave them a score of 0.001 so that they were still considered present but low abundance? 
+#i gave them a score of 0.001 so that they were still considered present but low abundance? this will mess up biomass later 
 #they are still found in raw data (Nordic Pearl Species Log)
 #Diaphus theta 2
 #Diaphus theta 2
@@ -240,7 +244,8 @@ write_csv(all,
 #Diaphus theta 9
 #Diaphus theta 9
 
-#need to review this stufff
+#need to review this stuff
+
 ####ALL SETS (including >50m) ####
 
 
@@ -321,7 +326,7 @@ valid_set_numbers
 
 #Extract relevant samples
 
-#eDNA dataset ####
+#eDNA dataset 
 #select only species that are present (pa) by subsetting 
 #ASVtaxsample12se <- ASVtaxsample12se[ASVtaxsample12se$species_pa != 0,] #not doing this anymore because we want pa for Jaccards
 #ASVtaxsample12su <- ASVtaxsample12su[ASVtaxsample12su$species_pa != 0,]
@@ -397,7 +402,7 @@ write_csv(eDNA_df,
 
 
 
-#Trawl Dataset ####
+#Trawl Dataset
 #we want a dataset with every species caught for each trawl w/ region attached 
 #trawl species + set number --> trawl_catch_sum 
 #need to harmonize taxonomy of this dataset (done in trawltaxonomy script )
@@ -433,6 +438,9 @@ trawl_ind <- read.csv(here::here("Processed_data",
                                  "clean_data",
                                  "trawl_catch_clean.csv"),
                       head=TRUE) 
+
+#go into data + add weight for Corphaenidoes sp (look at notes)
+#
 
 #get rid of NA values in weight column 
 

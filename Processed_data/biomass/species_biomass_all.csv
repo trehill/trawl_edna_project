@@ -1,0 +1,25 @@
+LCT,mean_biomass,gamma_detection_method
+Corphaenidoes sp,3.08E-04,only trawl
+Allosmerus elongatus,0.001151731,only trawl
+Engraulis mordax,0.00231005,only trawl
+Spirinchus starksi,0.002312603,only trawl
+Zoarcidae sp,0.003190081,only trawl
+Entosphenus tridentatus,0.003356486,only trawl
+Diaphus theta,0.008753261,only trawl
+Parophrys vetulus,0.010603053,only trawl
+Alosa sapidissima,0.018656149,both eDNA/trawl
+Sebastes entomelas,0.050045105,both eDNA/trawl
+Oncorhynchus keta,0.055036271,both eDNA/trawl
+Thaleichthys pacificus,0.055297299,both eDNA/trawl
+Oncorhynchus gorbuscha,0.069238294,both eDNA/trawl
+Oncorhynchus kisutch,0.071006213,both eDNA/trawl
+Anoplopoma fimbria,0.122191957,both eDNA/trawl
+Reinhardtius hippoglossoides,0.196156476,only trawl
+Clupea pallasii,0.23630412,both eDNA/trawl
+Sebastes flavidus,0.315521133,only trawl
+Oncorhynchus tshawytscha,0.827555721,both eDNA/trawl
+Squalus suckleyi,1.360957351,both eDNA/trawl
+Gadus/chalcogrammus,2.791995951,both eDNA/trawl
+Merluccius productus,3.387087198,both eDNA/trawl
+Oncorhynchus nerka,3.865681046,both eDNA/trawl
+Mallotus villotus,,

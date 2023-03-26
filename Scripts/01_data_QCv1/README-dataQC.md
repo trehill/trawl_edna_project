@@ -177,7 +177,6 @@
   outputs: 
   
   	"detections.csv" detection method for each species
-  	"detection_env.csv" detection dataset merged w. metadata
 	"detections_all.csv_" detectetions for all sets (including >50m)
-	"detectiona_all_env.csv"
+
 
