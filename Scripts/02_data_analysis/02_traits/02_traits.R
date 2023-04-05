@@ -134,11 +134,16 @@ ggsave("./Outputs/traits/spp_length_dens.png",
        plot = plot,
        width = 20, height = 12, units = "in")
 
+plot <- ggplot(data, aes(max_length_cm)) +
+  geom_density(aes(fill = gamma_detection_method), position = "stack") + 
+  theme_classic()
+
+plot
+
 write_csv(speciestraits,
           here("Processed_data",
                "traits",
                "length_2.csv")) 
-
 
 
 #FINAL LENGTH PLOTS #### 
@@ -203,15 +208,16 @@ plot <- ggplot(speciestraits,
   theme_classic()
 plot 
 
+
 ggsave("./Outputs/traits/spp_length_dens2.png", 
        plot = plot,
        width = 10, height = 6, units = "in")
 
+
+
 #plot density but differentiate by groups 
 
 
-
-########TESTTTTTTTTT#####
 
 #we need to combine speciestraits to beta_div 
 
@@ -246,7 +252,61 @@ plot <- data %>%
 plot
 
 
+####
+
 ggsave("./Outputs/traits/length_bymethod.png", 
        plot = plot,
        width = 12, height = 7, units = "in")
+
+
+
+#cut = trawl or eDNA 
+#price = max length 
+data2 <- data 
+colnames(data2) <- c("LCT", "max_length_cm", "method","detection")
+
+plot <- ggplot(data2, aes(max_length_cm)) +
+  geom_density(aes(fill = detection), position = "stack", bw=12) + 
+  scale_fill_manual(values=c("#5491cf","#FCC442", "#9DE3E8"))+
+  scale_y_discrete(expand = c(0, 0)) +
+  theme_classic() + 
+  labs(
+    x = "maximum species length (cm)") +
+  facet_wrap(~method) 
+
+plot
+
+ggsave("./Outputs/traits/length_bymethod_stack.png", 
+       plot = plot,
+       width = 12, height = 7, units = "in")
+
+
+#all same row 
+data$method <- c('detection')
+
+plot <- data %>%
+  ggplot(aes(y = method)) +
+  geom_density_ridges(
+    aes(x = max_length_cm , fill = gamma_detection_method), 
+    alpha = .8, color = "white", from = 0, to = 250,
+    bandwidth=18) +
+  labs(
+    x = "maximum species length (cm)",
+    y = '') +
+  scale_y_discrete(expand = c(0, 0)) +
+  scale_x_continuous(expand = c(0, 0)) +
+  scale_fill_cyclical(
+    values = c("#5491cf","#FCC442", "#00AFBB", "#9DE3E8"),
+    name = "detection", guide = "legend"
+  ) +
+  coord_cartesian(clip = "off") +
+  theme_ridges(grid = FALSE)
+
+plot
+
+
+ggsave("./Outputs/traits/max_length_distribution.png", 
+       plot = plot,
+       width = 12, height = 7, units = "in")
+
 

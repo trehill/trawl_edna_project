@@ -2,6 +2,10 @@
 #goal: visualize the habitats patterns of detections using alluvia plots 
 
 #install.packages("ggalluvial")
+
+library(tidyr)
+library(dplyr)
+library(here)
 library(ggalluvial)
 
 

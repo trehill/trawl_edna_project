@@ -48,7 +48,7 @@ data3 <- select(data3, c('site','Jaccards','Jaccards Turnover', 'Jaccards Nested
 
 my_table <- nice_table(
   data3[1:16, ], 
-  title = c("Table 1", "Diversity Indices Dissimilarities"), 
+  title = c("Table 2", "Diversity Indices Dissimilarities"), 
   note = c("The data was calculated from adapted methods from Baselga & Leprieur (2015)"))
 
 my_table

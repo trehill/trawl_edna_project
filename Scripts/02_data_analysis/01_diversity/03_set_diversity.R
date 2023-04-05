@@ -61,7 +61,7 @@ ggsave("./Outputs/diversity/alpha_eulerr.png",
        plot = plot,
        width = 12, height = 2, units = "in")
 
-#plot ALL sets ####
+#ALL SETS ####
 
 
 data <- read.csv(here::here("Processed_data", 
@@ -105,7 +105,7 @@ data_long <- data_long %>% arrange(as.numeric(set_number))
 
 data_long$set_number <- as.character(data_long$set_number)
 
-plot <- plot(euler(data_long, by = list(set_number)), legend = TRUE, fills = c("#fef3da", "#ebf9fa","#dbe8f5"))
+plot <- plot(euler(data_long, by = list(set_number)), legend = TRUE, fills = c("#ebf9fa","#fef3da","#dbe8f5"))
 plot 
 
 ggsave("./Outputs/diversity/alpha_eulerr_all.png", 

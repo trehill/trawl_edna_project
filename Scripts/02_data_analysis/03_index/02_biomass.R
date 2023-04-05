@@ -103,11 +103,13 @@ write_csv(data,
 #compare BOTH to ONLY trawl 
 
 plot <- ggplot(data, aes(x=as.factor(gamma_detection_method), y=weight_total_kg)) + 
-  geom_boxplot(fill="#00AFBB", alpha=0.2) + 
+  geom_boxplot(fill= c("#5491cf","#00AFBB"), alpha=0.2) + 
   scale_y_continuous(trans='log10', breaks=c(0, 0.01, 10, 100), labels=c('0', '0.01', '10','100')) +
   xlab("") + ylab("biomass density (kg/km)") +
   theme_classic()  
 plot
+
+#trying to color boxes different colors based on categories
 
 #find mean of groups 
 both <- subset(data, gamma_detection_method == c('both eDNA/trawl'))
@@ -250,7 +252,7 @@ write_csv(data,
 #compare BOTH to ONLY trawl 
 
 plot <- ggplot(data, aes(x=as.factor(gamma_detection_method), y=weight_total_kg)) + 
-  geom_boxplot(fill="#00AFBB", alpha=0.2) + 
+  geom_boxplot(fill= c("#5491cf","#00AFBB"), alpha=0.2) + 
   scale_y_continuous(trans='log10', breaks=c(0, 0.01, 10, 100), labels=c('0', '0.01', '10','100')) +
   xlab("") + ylab("biomass density (kg/km)") +
   theme_classic()  
