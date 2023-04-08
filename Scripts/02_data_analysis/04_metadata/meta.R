@@ -43,7 +43,7 @@ latlong <- read.csv(here::here("Processed_data",
                                "trawl",
                                "metadata", 
                                "clean_data",
-                               "lat_lon.csv"),
+                               "lat_lon_all.csv"),
                     head=TRUE)
 
 metaeDNA <- select(metaeDNA, c('set_number', 'depth', 'lat','lon'))
@@ -79,7 +79,7 @@ plot <- meta_all %>%
 
 plot
 
-ggsave("./Outputs/metadata/samplingdepths.png", 
+ggsave("./Outputs/metadata/samplingdepths_all.png", 
        plot = plot,
        width = 10, height = 5, units = "in")
 

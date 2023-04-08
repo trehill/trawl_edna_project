@@ -5,84 +5,84 @@ FOLDER: Diversity
 This folder contains scripts for comparing community assemblages
 
 
-gamma_diversity.R
+01_gamma_diversity.R
   goal: look at species detected by trawl/eDNA across all sites, creates quantitative + 
   qualitative Euler plot 
   
   inputs: 
-  "detections.csv"
   "detections_all.csv"
   
   output: 
-  gamma_diversity.png
   gamma_diversity_allsets.png
   
-beta_diversity.R
+02_beta_diversity.R
   goal: look at species detected by trawl/eDNA across North and South sites, creates 
   quantitative Euler plots (2 for N, 2 for S)
   
   inputs: 
-  "detections.csv
   "detections_all_.csv"
   "trawl_metadata.csv"
 
   outputs: 
-  south_north_euler.png N/S euler plots together  
   south_north_euler_allsets.png" 
   #also produces euler and venn diagrams from an earlier code as separate N/S
   
 
-set_diversity.R 
+03_set_diversity.R 
   goal: look at species detected by trawl/eDNA across EACH set,  creates quantitative + 
   qualitative Euler plots (2 per site)
   
   inputs: 
-	"detections.csv"
 	"detections_all_.csv"
 
   
   outputs:
   alpha_eulerr_all.png"
-  alpha_eulerr.png"
   
 
-Jaccards_analyses.R
+04_Jaccards_analyses.R
   goal: calculate Jaccard indices + produce graph
   
   inputs: 
-  "detections.csv"
   "detections_all.csv"
   
   outputs: 
-  "diversity_indices.csv"
   "diversity_indices_all.csv"
-  "jaccards_set.png"
-  jaccards_set_all.png"
-  "jaccards_region.png"
-  jaccards_region_all.png"
+  "jaccards_set_all.png"
+  "jaccards_region_all.png"
 
   
-Jaccard_table.R
+04b_Jaccard_table.R
+	goal: visualize jaccard components and format values into a table
 
 	input: 
-	"diversity_indices.csv"
 	"diversity_indices_all.csv"
 	
 	output: 
-	nestednessturnovercomponents.png"
-	nestednessturnovercomponents_all.png
+	"jacccomponents_all.png"
 	tables of dissimilarities 
 	
-species_count.R
-goal: counts occurence of species in whole dataset (eventually will be phylopic code)
+05_species_count
+	goal: counts occurence of species in whole dataset (eventually will be phylopic code)
   
   inputs: 
-   "detections.csv"
+   "detections_all_.csv"
    
    outputs: 
-   "species_count.csv" #count of observations per species, used to make 'picture' Venn
-   
+   "species_count_all_.csv" #count of observations per species, used to make 'figure' Venn
+
+06_beta_species_count
+	goal: determines how many and which species are found in each region 
+	
+	inputs: 
+	"detections_all.csv"
+	"trawl_metadata.csv"
+	
+	outputs: 
+	gives numbers and lists of species in each region (northern/southern)_
+
 FOLDER: Traits 
+
 
 trait_collection.R
   goal: use rFishBase package to extract traits for each species detected between both methods 
@@ -90,24 +90,35 @@ trait_collection.R
   **currently this script is not working
   the rfishbase package functions take FOREVER to run, ends up timing out each time 
   created a trait database by hand for each species 
+  
+01_lengthconversions.R
+	goal: convert fork length to total length for species caught in trawl 
+	
+	inputs:
+	"trawl_catch_clean.csv"
+	
+	outputs: 
+	"length_conversions.csv" 
 
-traits.R 
-  goal: exploratory analysis of traits 
+02_length_.R 
+  goal: make length distribution graphs 
   
   inputs: 
-  "detections.csv"
-  "traitdatabase.csv" curated trait database by hand by searching FishBase (eventually could write                       script "trait_collection" to do this with code )
-   "method_key.csv"
+  "detections_all_.csv"
+  "traitdatabase.csv" curated trait database by hand by searching FishBase 
+  		(eventually could write script "trait_collection" to do this with code )
    "length_conversions.csv"
    
    outputs: 
-   - histogram of individual species length 
-   - bar graph for preffered environment within water column 
-   - density plot across species lengths (both + individual methods)
-   length_bymethod.png"
-
+   "ind_length_his.png" - histogram of individual species length 
+   "length.png" - density plot of ind. + max species lengths 
+   "trawleDNA_density.png" - density plot of eDNA + trawl ridges
+   "trawl_edna_2.png" - density plot of eDNA + trawl + both ridges
+   "max_length_density.png" - density plot all on same line w/ both 
+   "length_bymethod_stack.png" - stacked density plot 
    
-habitat.R
+   
+03_habitat.R
 	goal: visualize the habitats patterns of detections using alluvia plots 
 
 	
@@ -120,58 +131,10 @@ habitat.R
 	
 	note: old code in this script uses chord diagrams to show habitat relationships
 	
-the following scripts are no longer used in the analysis: 
-
-depth.R
-	goal: investigate relationships between difference in depth + diversity indices 
-
-	inputs: 
-	"detections.csv"
-	"traitdatabase.csv"
-	"trawl_catch_clean.csv"
-	"trawl_metadata.csv"
-	"eDNA_metadata.csv"
-	"diversity_indices_all.csv"
-	
-	outputs: 
-	depth_jac.png
-	depth_nest.png
-	depth_turn.png
-	"depth.csv"
-	depth_shared.png
-	nest_turn.png
-	
-length_stat_analysis.R
-	goal: use statistics to detect differences in length distributions 
-	
-	inputs: 
-	"length_2.csv
-	"length.csv
-	
-	outputs: 
-	indvsmax.png
-	onlyeDNAtrawl.png
-	alltrawledna.png
-	
-lengthconversions.R
-	goal: convert fork length to total length for species caught in trawl 
-	
-	inputs:
-	"trawl_catch_clean.csv"
-	
-	outputs: 
-	"length_conversions.csv" 
-	
-habitat.R
-	goal: data visualization of habitat types for species detected by trawl, eDNA and both
-	
-	inputs: 
-	
-	
 
 FOLDER: Index 
 
-index.R 
+01_index.R  (we do not explore read index / biomass relationship)
 	goal: exploring eDNA read index over biomass 
 	
 	inputs: 
@@ -183,29 +146,28 @@ index.R
 	biomass_index_log.png
 
 biomass.R 
-
-	goal: compare biomass relationship between trawl + eDNA
+	goal: compare biomass relationship between trawl + eDNA, perform t-test
 	
 	inputs: 
-	"detections.csv"
+	"detections_all_.csv"
 	"trawl_metadata.csv"
 	
 	outputs: 
-	biomass_box.png"
+	lat_lon_all.csv"
+	"biomass_all.csv"
+	biomass_box_all_.png"
 	
 mean_biomass.R
 	goal: calculates the mean biomass per and creates euler plot for data visualization
 	
 	inputs 
-	"biomass.csv"
+	"biomass_all_.csv"
 	
-	outputs
-	"species_biomass.csv"
-	"species_biomass_sum.csv"
+	outputs:
+	"species_biomass_sum_all_.csv"
 	"species_biomass_all.csv"
-	eulerbiomass.png"
-	eulerbiomass_all.png"
-	
+	"eulerbiomass_all.png"
+
 
 FOLDER: meta
 
@@ -215,8 +177,9 @@ meta.R
 	inputs: 
 	"trawl_metadata.csv"
 	"eDNA_metadata.csv"
+	"lat_lon_all.csv"
 	
 	outputs: 
-	"samplingdepths.png"
+	"samplingdepths_all_.png"
 
   

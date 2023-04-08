@@ -79,7 +79,7 @@
   "data12Se_asv_taxonomy_long_nc_lor_nfc.csv"
 
 05_LTCassignment - modified version of Ben's code 
-  goal: assign lowest common taxon to groups 
+  goal: assign lowest common taxon to groups, include only in-range species  
 
   inputs: 
   "data12Se_asvmatrix_nc_lor_nfc.csv" #read count (not index) 
@@ -130,7 +130,7 @@
   inputs: 
   "trawl_catch_sum.csv"
   "trawl_catch.csv"
-  "trawl_taxonomy_clean.csv" (curated key)
+  "trawl_taxonomy_clean.csv" (curated key by hand)
   
 
   outputs: 
@@ -138,9 +138,8 @@
   "trawl_sum_clean.csv"
   "trawl_catch_clean"
 
-08_datasetcuration.R 
+08_datasets.R 
   goal: makes datasets for analysis 
-        removes invalid sets (more than 50m) 
         merges all eDNA data (12su/12se)
         aggregates to set number 
         takes sum of index per species per set number
@@ -155,28 +154,23 @@
   "trawl_sum_clean.csv" #output of assign tax. trawl 
 
   outputs: 
-  "eDNAfulldataset.csv" full eDNA dataset w/ species per set w read count and metadata
-  "fulldatasettrawl.csv" full trawl dataset
-  "trawl_catch_weight" 
-  "eDNA_allsets_" includes sets >50m
-  "trawl_allsets_" includes sets >50m
-  "trawlweight_allsets_" includes sets >50m
+	"eDNA_allsets.csv" #includes 12se + 12su 
+	"trawl_allsets.csv"
+	"trawl_weight_allsets.csv" #includes weight aggregates 
 
 
-09_detect_methods.R
+09_detection.R
   goal: make a dataset for analysis on diversity by adding detection 
  		method at gamma, beta and alpha levels 
   
   inputs: 
-  	"eDNAfulldataset.csv"
-  	"trawl_catch_weight.csv"
+  	"eDNA_allsets_"
   	trawl_metadata.csv
   	"trawl_allsets_" includes sets >50m
     "trawlweight_allsets_" includes sets >50m
   
   outputs: 
-  
-  	"detections.csv" detection method for each species
+
 	"detections_all.csv_" detectetions for all sets (including >50m)
 
 

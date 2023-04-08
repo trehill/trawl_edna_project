@@ -23,7 +23,7 @@ angle2dec <- function(angle) {
 
 beta_div <- read.csv(here::here("Processed_data", #should be ASV by sample
                                 "datasets",
-                                "detections.csv"),
+                                "detections_all.csv"),
                      head=TRUE)
 
 trawl_meta <- read.csv(here::here("Processed_data", 

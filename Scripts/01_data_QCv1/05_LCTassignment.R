@@ -30,7 +30,6 @@ ASVbysite <- read.csv(here::here("Processed_data",
                                    "data12Se_asvmatrix_nc_lor_nfc.csv"),
                         head=TRUE)
 
-#sitesurvey_data <- readRDS("Data/2022_10_31/derived_data/sitesurvey_data.rds") #no equivalent for my data 
 
 sample_data <- read.csv(here::here("Processed_data", 
                                  "eDNA",

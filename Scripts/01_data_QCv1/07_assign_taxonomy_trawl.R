@@ -35,7 +35,9 @@ trawl_key <- read.csv(here::here("Processed_data", #this was curated by hand
                                  "trawl_taxonomy_clean.csv"),
                       head=TRUE)
 
-trawl_key$common_name <- trimws(trawl_key$common_name, which = c("both", "left", "right"), whitespace = "[ \t\r\n]")
+#Clean df to merge ####
+#get rid of whitespace in trawl taxonomy key 
+trawl_key$common_name <- trimws(trawl_key$common_name, which = c("both", "left", "right"), whitespace = "[ \t\r\n]") 
 
 #rename species to common_name for consistency 
 trawl_spp <- trawl_spp %>% rename(common_name = species)
@@ -82,7 +84,7 @@ trawl_df <- read.csv(here::here("Processed_data",
 
 trawl_df <- subset(trawl_df, level!="not_fish")
 
-#fix names of species 
+#fix names of species ####
 unique(trawl_df$species) #see species list 
 
 fixnames <- data.frame(lapply(trawl_df, function(x) {
@@ -96,7 +98,7 @@ fixnames <- data.frame(lapply(fixnames, function(x) {
 
 unique(fixnames$species)
 
-#fix common names 
+#fix common names of species ####
 unique(trawl_df$common_name) #see species list 
 
 fixnames <- data.frame(lapply(fixnames, function(x) {
@@ -153,9 +155,9 @@ write_csv(final,
 #change all "Gadus chalcogrammus to Gadus/chalcogrammus
 
 
-#### catch data set 
+#assign taxonomy to catch data set ####
 
-#next, we will fix the catch dataset ####
+
 
 trawl <- merge(trawl_catch, trawl_key, by="common_name", all.x= TRUE)
 
@@ -164,12 +166,12 @@ weird <- select(trawl, c('common_name', 'level'))
 #the issue from above does not seem to be a problem?? 
 
 #cleaned file and upload NEW 
-write_csv (trawl, 
-           here("Processed_data",
-                "trawl",
-               "catch_data",
-               'taxonomy',
-               "fix_taxonomy2.csv"))
+#write_csv (trawl, 
+#           here("Processed_data",
+#               "trawl",
+#               "catch_data",
+#              'taxonomy',
+#              "fix_taxonomy2.csv"))
 
 
 trawl <- read.csv(here::here("Processed_data",
@@ -183,7 +185,7 @@ trawl <- read.csv(here::here("Processed_data",
 #take away all species that are not fish 
 trawl <- subset(trawl, level!="not_fish")
 
-#fix names of species 
+#fix names of species ####
 unique(trawl$species) #see species list 
 
 fixnames <- data.frame(lapply(trawl, function(x) {
@@ -198,7 +200,7 @@ fixnames <- data.frame(lapply(fixnames, function(x) {
 
 unique(fixnames$species)
 
-#fix common names 
+#fix common names ####
 
 fixnames <- data.frame(lapply(fixnames, function(x) {
   gsub("Turbot", "Greenland Halibut", x) #out of range, more likely Greenland halibut 

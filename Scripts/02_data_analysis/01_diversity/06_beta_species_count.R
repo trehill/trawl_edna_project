@@ -1,6 +1,8 @@
+#beta species count 
+#goal: determines how many and which species are found in each region 
 #getting some numbers
 
-library(eulerr)
+
 library(tidyr)
 library(tidyverse)
 library(ggvenn)

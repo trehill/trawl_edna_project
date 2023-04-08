@@ -28,26 +28,6 @@ trawl_catch  <- read.csv(here::here("Processed_data",
                                     "length_conversions.csv"),
                          head=TRUE)
 
-trawl_meta <- read.csv(here::here("Processed_data", 
-                            "trawl",
-                            "metadata",
-                            "clean_data",
-                            "trawl_metadata.csv"),
-                 head=TRUE)
-
-eDNA_meta <- read.csv(here::here("Processed_data", 
-                                  "eDNA",
-                                  "metadata",
-                                  "clean_data",
-                                  "eDNA_metadata.csv"),
-                       head=TRUE)
-
-div_ind <- read.csv(here::here("Processed_data", 
-                            "diversity",
-                            "diversity_indices.csv"),
-                 head=TRUE)
-
-
 
 #create df, named data  ####
 
@@ -100,9 +80,6 @@ data <- data.frame(lapply(data, function(x) {
 #check out ind. length info 
 trawl_catch <- trawl_catch[!is.na(trawl_catch$total_length_cm),] #remove NA
 
-#subset out 'fork length' we only want total length
-#i don't know why we also have 'fork' length
-#trawl_catch <- trawl_catch[trawl_catch$length_type == 'Total',]
 
 plot <- ggplot(trawl_catch, aes(x=total_length_cm))+
   geom_histogram(color="#00AFBB", fill="#00AFBB", binwidth = 2,)+
@@ -119,31 +96,8 @@ speciestraits= subset(data, select = c(LCT, max_length_cm, gamma_detection_metho
 speciestraits <- distinct(speciestraits)
 speciestraits <- speciestraits %>% drop_na(max_length_cm)
 
-
-
 #species length distributions 
 speciestraits$max_length_cm <- as.numeric(speciestraits$max_length_cm) 
-
-plot <- ggplot(speciestraits, aes(max_length_cm)) +
-  geom_density(aes(fill = gamma_detection_method), position = "stack") + 
-  theme_classic()
-
-plot
-
-ggsave("./Outputs/traits/spp_length_dens.png", 
-       plot = plot,
-       width = 20, height = 12, units = "in")
-
-plot <- ggplot(data, aes(max_length_cm)) +
-  geom_density(aes(fill = gamma_detection_method), position = "stack") + 
-  theme_classic()
-
-plot
-
-write_csv(speciestraits,
-          here("Processed_data",
-               "traits",
-               "length_2.csv")) 
 
 
 #FINAL LENGTH PLOTS #### 
@@ -209,16 +163,13 @@ plot <- ggplot(speciestraits,
 plot 
 
 
-ggsave("./Outputs/traits/spp_length_dens2.png", 
+ggsave("./Outputs/traits/trawleDNA_density.png", 
        plot = plot,
        width = 10, height = 6, units = "in")
 
 
 
 #plot density but differentiate by groups 
-
-
-
 #we need to combine speciestraits to beta_div 
 
 method_2 <- select(beta_div, c('LCT','gamma_detection_method'))
@@ -254,14 +205,12 @@ plot
 
 ####
 
-ggsave("./Outputs/traits/length_bymethod.png", 
+ggsave("./Outputs/traits/trawl_edna_2.png", 
        plot = plot,
        width = 12, height = 7, units = "in")
 
 
-
 #cut = trawl or eDNA 
-#price = max length 
 data2 <- data 
 colnames(data2) <- c("LCT", "max_length_cm", "method","detection")
 
@@ -305,7 +254,7 @@ plot <- data %>%
 plot
 
 
-ggsave("./Outputs/traits/max_length_distribution.png", 
+ggsave("./Outputs/traits/max_length_density.png", 
        plot = plot,
        width = 12, height = 7, units = "in")
 
