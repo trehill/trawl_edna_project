@@ -2,12 +2,13 @@
 #goal: makes datasets for analysis 
 
 #Set-Up ####
+#read in packages
 library(tidyr)
 library(tidyverse)
 library(here)
 library(dplyr)
 
-
+#read in files
 ASVtaxsample12se <-  read.csv(here::here("Processed_data",
                                          "eDNA",
                                          "12s",
@@ -60,6 +61,7 @@ trawl_spp <-  read.csv(here::here("Processed_data",
                        head=TRUE)
 
 #Valid Set Numbers #### (valid set number = all sets)
+#originally we did not include some sets 
 #make new column which is difference between sampling depths 
 
 trawl <- select(trawl_meta, c("set_number", "depth_mean")) #select relevant columns 
@@ -73,8 +75,7 @@ valid_sets <- subset(depths, difference <= 1000, #select only difference less th
 
 valid_set_numbers <- unique(valid_sets$set_number)
 
-valid_set_numbers
-
+valid_set_numbers #should be 1-16
 
 
 #extract sets only in these set numbers  #not relevant anymore since we are keeping all sets despite set number
@@ -164,9 +165,6 @@ trawl_df <- merge(trawl_spp, trawl_meta, by= "set_number") #has LCT
 names(trawl_df)[names(trawl_df) == "leg.y"] <- "north_south" #rename region column (southern/northern)
 
 trawl_df #this is our species data set 
-
-#remove Sebastes species 
-trawl_df <- subset(trawl_df, LCT != 'Sebastes sp')
 
 #writing files 
 

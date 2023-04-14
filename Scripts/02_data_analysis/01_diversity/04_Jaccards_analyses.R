@@ -14,6 +14,7 @@
 #install.packages("rempsyc")
 
 #Set-Up ####
+#load libraries
 library(tidyverse)
 library(lubridate)
 library(here)
@@ -30,14 +31,13 @@ library(gee)
 library(dplyr)
 library(rempsyc)
 
-#SET UP ####
 
+#read in files 
 long <- read.csv(here::here("Processed_data",
                             "datasets",
                             "detections_all.csv"),
                  head=TRUE)
 
-long <- distinct(long)
 
 meta <- read.csv(here::here("Processed_data", 
                             "trawl",
@@ -46,6 +46,7 @@ meta <- read.csv(here::here("Processed_data",
                             "trawl_metadata.csv"),
                  head=TRUE)
 
+#make data long
 a1 <- long %>%
   dplyr::select(c("set_number", "LCT", "pabs_trawl", "p_abs_eDNA")) %>%
   rename("trawl" = "pabs_trawl","eDNA" = "p_abs_eDNA")  %>%
@@ -195,18 +196,5 @@ ggsave("./Outputs/diversity/jaccards_region_all.png",
        plot = betadiff,
        width = 5, height = 5, units = "in")
 
-
-#plot as a linear line nestedness vs. turnover 
-plot <- ggplot(beta_metrics,aes(Jac_nest, Jac_turn, color = set_number)) +
-  geom_point() +
-  geom_smooth(method='lm', se=FALSE) + 
-  labs(x = "Nestedness", y = "Turnover") +
-  theme_classic()
-
-plot 
-
-ggsave("./Outputs/diversity/nestednessvsturnover.png", 
-       plot = plot,
-       width = 5, height = 5, units = "in")
 
 

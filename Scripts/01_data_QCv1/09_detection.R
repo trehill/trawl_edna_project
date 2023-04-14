@@ -1,5 +1,4 @@
-#Making a dataset for analysis on betadiversity by adding detection 
-#method at gamma, beta and alpha levels 
+#Making a dataset for analysis by adding detection at each level (gamma/beta/alpha)
 
 #we want to extract; 
 # LCT 
@@ -7,6 +6,11 @@
 # read index (for both + eDNA method)
 # set
 # method (at site + gamma level)
+
+#for example: a species detected at the gamma level encompasses all sites, so even 
+#if at the site level it was not detected by eDNA but it was by trawl, at another site
+#it could have been detected by eDNA and would be put in the gamma 'both' category
+#but 'trawl only' category at the site level 
 
 #SETUP ####
 library(plyr)
@@ -17,12 +21,12 @@ library(dplyr)
 #FOR ALL SETS (1-16) 
 
 #read in files 
-#make eDNA df 
 trawl_weight <-  read.csv(here::here("Processed_data",
                                      "trawl",
                                      "datasets",
                                      "trawlweight_allsets.csv"), 
                           head=TRUE)
+
 
 #make eDNA df 
 eDNA_df <-  read.csv(here::here("Processed_data",
@@ -30,44 +34,45 @@ eDNA_df <-  read.csv(here::here("Processed_data",
                                 "datasets",
                                 "eDNA_allsets.csv"), #has eDNA index reads
                      head=TRUE)
+  #editing eDNA dataset to have harmonized column names 
 
-eDNA_df <- eDNA_df %>% #rename depth column 
+  eDNA_df <- eDNA_df %>% #rename depth column 
   rename(
     depth_eDNA = depth)
 
-eDNA_df <- eDNA_df %>% #rename presence/absence column 
+  eDNA_df <- eDNA_df %>% #rename presence/absence column 
   rename(
     pabs_eDNA = species_pa)
 
-#remove species_pa = NA and index = NA
-eDNA_df <- eDNA_df[!is.na(eDNA_df$pabs_eDNA),]
-eDNA_df <- eDNA_df[!is.na(eDNA_df$set_read_index),]
+  #remove species_pa = NA and index = NA
+  eDNA_df <- eDNA_df[!is.na(eDNA_df$pabs_eDNA),]
+  eDNA_df <- eDNA_df[!is.na(eDNA_df$set_read_index),]
 
 #make trawl_df 
-trawl_df <-  read.csv(here::here("Processed_data",
+  trawl_df <-  read.csv(here::here("Processed_data",
                                  "trawl",
                                  "datasets",
                                  "trawl_allsets.csv"), #has weight
                       head=TRUE)
 
-trawl_df <- trawl_df %>% #rename depth column 
+  trawl_df <- trawl_df %>% #rename depth column 
   rename(
     depth_trawl = depth_mean)
 
-trawl_df <- cbind(trawl_df, pabs_trawl = 1) #add column with value 1 to indicate presence/absence in trawl df 
+  trawl_df <- cbind(trawl_df, pabs_trawl = 1) #add column with value 1 to indicate presence/absence in trawl df 
 
-trawl_df <- data.frame(lapply(trawl_df, function(x) { #change southern to S across all df
+  trawl_df <- data.frame(lapply(trawl_df, function(x) { #change southern to S across all df
   gsub("southern", "S", x)
   
-}))
+  }))
 
-trawl_df <- data.frame(lapply(trawl_df, function(x) { #change northern to N across all df
+  trawl_df <- data.frame(lapply(trawl_df, function(x) { #change northern to N across all df
   gsub("northern", "N", x)
   
-}))
+  }))
 
 
-#Selecting relevant columns ####
+#Selecting relevant columns 
 
 eDNA <- select(eDNA_df, c('LCT', 'set_number', 'north_south' ))
 eDNA <- distinct(eDNA)
@@ -76,6 +81,7 @@ trawl <- select(trawl_df, c('LCT', 'set_number', 'north_south'  ))
 trawl <- distinct(trawl)
 
 #Gamma Detection ####
+#determing the method which each species was detecting in at the gamma level 
 #let's start with gamma detection)
 #determining gamma error (across whole dataset
 #Find overlapping LCT found using both methods 
@@ -140,7 +146,7 @@ both = bothtrawl
 #we need to find LCT only found in trawl 
 bothtrawl2 <- bothtrawl$LCT
 
-onlytrawl <- trawl_N[  !(trawl_N$LCT %in% bothtrawl2), ] #
+onlytrawl <- trawl_N[  !(trawl_N$LCT %in% bothtrawl2), ] 
 
 #we need to find LCT only found in eDNA 
 
@@ -985,6 +991,7 @@ final <- final %>% #rename presence/absence column
     p_abs_eDNA = eDNA_pa)
 
 final <- select(final, -c('pabs_eDNA'))
+
 
 write_csv(final,
           here("Processed_data",

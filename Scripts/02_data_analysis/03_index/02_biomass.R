@@ -10,7 +10,6 @@ library(dplyr)
 library(ggplot2)
 library(geosphere)
 library(hrbrthemes)
-library(viridis)
 library(gmt)
 library(scales)
 
@@ -25,8 +24,7 @@ angle2dec <- function(angle) {
   return(x)
 }
 
-
-#SET-UP ####
+#read files 
 beta_div <- read.csv(here::here("Processed_data", 
                                 "datasets",
                                 "detections_all.csv"),
@@ -43,6 +41,7 @@ trawl_meta <- read.csv(here::here("Processed_data",
 beta_div <- subset(beta_div, gamma_detection_method %in% c('both eDNA/trawl', 'only trawl'))
 beta_div <- subset(beta_div, weight_total_kg > 0 )
 
+#Determien trawl distances ####
 #determine distance of trawl by look at metadata + using function above 
 trawl_meta <- trawl_meta %>% 
   rename(
@@ -73,7 +72,7 @@ write_csv(trawl,
                'clean_data',
                "lat_lon_all.csv")) 
 
-#Standardize 'biomass' by length 
+#Standardize 'biomass' by length  ####
 #Do this by creating a biomass 'indices' - we will call this biomass density 
 #We will take biomass and divide by length of trawl 
 
@@ -89,8 +88,7 @@ mean(trawl_distances$distance) #16km
 min(trawl_distances$distance) #2.3 km
 max(trawl_distances$distance) #27.2 km 
 
-#merge to beta div 
-
+#merge to detection dataset 
 data <- merge(trawl_distances, beta_div, by=c('set_number'))
 
 #create new column/variable that is biomass index (biomass(weight)/distance)
@@ -101,10 +99,9 @@ write_csv(data,
                "biomass",
                "biomass_all.csv")) 
 
-#compare BOTH to ONLY trawl 
-
+#compare BOTH to ONLY trawl
 plot <- ggplot(data, aes(x=as.factor(gamma_detection_method), y=weight_total_kg)) + 
-  geom_boxplot(fill= c("#5491cf","#00AFBB"), alpha=0.2) + 
+  geom_boxplot(fill= c("#00AFBB", "#5491cf"), alpha=1) + 
   scale_y_continuous(trans='log10', breaks=c(0, 0.01, 10, 100), labels=c('0', '0.01', '10','100')) +
   xlab("") + ylab("biomass density (kg/km)") +
   theme_classic()  
@@ -123,7 +120,7 @@ ggsave("./Outputs/biomass/biomass_box_all.png",
        plot = plot,
        width = 5, height = 5, units = "in")
 
-#STAT ANALYSIS
+#STAT ANALYSIS ####
 #perform t-test 
 #http://www.sthda.com/english/wiki/unpaired-two-samples-t-test-in-r
 

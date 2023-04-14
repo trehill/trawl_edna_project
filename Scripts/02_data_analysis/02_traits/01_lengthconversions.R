@@ -4,6 +4,8 @@
 #FISHBASE using length-length table
 #https://www.fishbase.se/manual/english/PDF/FB_Book_CBinohlan_Length-Length_RF_JG.pdf
 
+#SET-UP ####
+#Load libraries 
 
 library(tidyr)
 library(tidyverse)
@@ -13,7 +15,7 @@ library(dplyr)
 library(ggplot2)
 library(ggridges)
 
-
+#read data files
 trawl_catch  <- read.csv(here::here("Processed_data", 
                                     "trawl",
                                     "catch_data",
@@ -26,6 +28,8 @@ fork <- subset(trawl_catch, length_type == 'Fork')
 fork <- select(fork, c('species', 'length_cm', 'sample_id'))
 fork_spp <- select(fork, c('species'))
 fork_spp <- distinct(fork_spp)
+
+#Fixing species that have fork length data instead of total length data 
 
 #Species 1: Oncorhynchus tshawytscha ####
 #convert based on: https://fishbase.se/popdyn/LLRelationshipList.php?ID=244&GenusName=Oncorhynchus&SpeciesName=tshawytscha&fc=76
@@ -168,7 +172,7 @@ max(fork_as$length_cm) #19.
 
 fork_as$total_length_cm <- (fork_as$length_cm*1.127)
 
-#COMBINE ####
+#COMBINE ALL ####
 length<- rbind(fork_ae, fork_af, fork_as, fork_cp, fork_em, fork_ot, fork_mv, fork_og, fork_ok, fork_on, fork_tp, fork_ok2)
 
 #now we add total_length_cm to all species in trawl_catch 

@@ -1,4 +1,5 @@
-#this function calculates the eDNA index on a taxonomy by sample matrix from raw read numbers
+#eDNA Index 
+#goal: this function calculates the eDNA index on a taxonomy by sample matrix from raw read numbers
 #Author: Anya Mueller
 #adapted from (Jacobs-Palmer et al, 2020)
 

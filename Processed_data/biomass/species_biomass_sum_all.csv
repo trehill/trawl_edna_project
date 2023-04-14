@@ -1,24 +1,24 @@
 LCT,sum_biomass,gamma_detection_method
-Allosmerus elongatus,0.001151730641120195,only trawl
-Alosa sapidissima,0.01865614902192353,both eDNA/trawl
-Anoplopoma fimbria,0.24438391379437682,both eDNA/trawl
-Clupea pallasii,3.07195355701142,both eDNA/trawl
-Corphaenidoes sp,3.0823856305699227e-4,only trawl
-Diaphus theta,0.01750652173670758,only trawl
-Engraulis mordax,0.0069301486908998075,only trawl
-Entosphenus tridentatus,0.003356485512373646,only trawl
-Gadus/chalcogrammus,27.91995950829279,both eDNA/trawl
-Merluccius productus,20.322523185569423,both eDNA/trawl
-Oncorhynchus gorbuscha,0.13847658880147212,both eDNA/trawl
-Oncorhynchus keta,0.055036271350672183,both eDNA/trawl
-Oncorhynchus kisutch,0.3550310638191323,both eDNA/trawl
-Oncorhynchus nerka,7.731362092280904,both eDNA/trawl
-Oncorhynchus tshawytscha,6.620445766006,both eDNA/trawl
-Parophrys vetulus,0.010603052761413915,only trawl
-Reinhardtius hippoglossoides,0.1961564760861574,only trawl
-Sebastes entomelas,0.05004510465893906,both eDNA/trawl
-Sebastes flavidus,0.6310422660740591,only trawl
-Spirinchus starksi,0.0023126031855975277,only trawl
-Squalus suckleyi,13.609573511133394,both eDNA/trawl
-Thaleichthys pacificus,0.6082702867428236,both eDNA/trawl
-Zoarcidae sp,0.003190081242977578,only trawl
+Corphaenidoes sp,3.08E-04,only trawl
+Allosmerus elongatus,0.001151731,only trawl
+Spirinchus starksi,0.002312603,only trawl
+Zoarcidae sp,0.003190081,only trawl
+Entosphenus tridentatus,0.003356486,only trawl
+Engraulis mordax,0.006930149,only trawl
+Parophrys vetulus,0.010603053,only trawl
+Diaphus theta,0.017506522,only trawl
+Alosa sapidissima,0.018656149,both eDNA/trawl
+Sebastes entomelas,0.050045105,both eDNA/trawl
+Oncorhynchus keta,0.055036271,both eDNA/trawl
+Oncorhynchus gorbuscha,0.138476589,both eDNA/trawl
+Reinhardtius hippoglossoides,0.196156476,only trawl
+Anoplopoma fimbria,0.244383914,both eDNA/trawl
+Oncorhynchus kisutch,0.355031064,both eDNA/trawl
+Thaleichthys pacificus,0.608270287,both eDNA/trawl
+Sebastes flavidus,0.631042266,only trawl
+Clupea pallasii,3.071953557,both eDNA/trawl
+Oncorhynchus tshawytscha,6.620445766,both eDNA/trawl
+Oncorhynchus nerka,7.731362092,both eDNA/trawl
+Squalus suckleyi,13.60957351,both eDNA/trawl
+Merluccius productus,20.32252319,both eDNA/trawl
+Gadus/chalcogrammus,27.91995951,both eDNA/trawl

@@ -1,13 +1,14 @@
 #beta species count 
 #goal: determines how many and which species are found in each region 
-#getting some numbers
 
-
+#SET-UP ####
+#load libraries
 library(tidyr)
 library(tidyverse)
 library(ggvenn)
 library(dplyr)
 
+#read in data 
 data <- read.csv(here::here("Processed_data", 
                             "datasets",
                             "detections_all.csv"),
@@ -22,15 +23,16 @@ meta <- read.csv(here::here("Processed_data",
 
 data2 <- merge(data, meta, by=c('set_number'))
 
+#subset data by region 
 northern <-  data2[data2$leg == 'northern',]
 southern <-  data2[data2$leg == 'southern',]
 
-#what species were detected in each region 
+#what species were detected in each region? 
 unique(northern$LCT) #20 species total 
 
 unique(southern$LCT) #36 species total 
 
-#how many species in both at each region 
+#how many species in both at each region? 
 n_beta <-  northern[northern$beta_detection_method == 'both eDNA/trawl',]
 s_beta <-  southern[southern$beta_detection_method  == 'both eDNA/trawl',]
 
@@ -38,7 +40,7 @@ unique(n_beta$LCT) #8 species total
 
 unique(s_beta$LCT) #12 species total 
 
-#how many species only in eDNA in each region 
+#how many species only in eDNA in each region? 
 
 n_beta <-  northern[northern$beta_detection_method == 'only eDNA',]
 s_beta <-  southern[southern$beta_detection_method  == 'only eDNA',]
@@ -47,7 +49,7 @@ unique(n_beta$LCT) #5 species total
 
 unique(s_beta$LCT) #18 species total 
 
-#how many species only in trawl at each region 
+#how many species only in trawl at each region?
 n_beta <-  northern[northern$beta_detection_method == 'only trawl',]
 s_beta <-  southern[southern$beta_detection_method  == 'only trawl',]
 

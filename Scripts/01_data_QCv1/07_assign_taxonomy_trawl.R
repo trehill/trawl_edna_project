@@ -3,6 +3,8 @@
 
 #install.packages("taxadb")
 
+#SET-UP ####
+#packages + data 
 library(plyr)
 library(tidyverse)
 library(tidyr)
@@ -11,7 +13,8 @@ library(readr)
 library(dplyr)
 library(here)
 
-trawl_spp <- read.csv(here::here("Processed_data",
+#we are going to assign taxonomy to two datasets
+trawl_spp <- read.csv(here::here("Processed_data", #summary dataset 
                                    "trawl",
                                    "catch_data",
                                    "clean_data",
@@ -19,7 +22,7 @@ trawl_spp <- read.csv(here::here("Processed_data",
                         head=TRUE)
 
 
-trawl_catch <- read.csv(here::here("Processed_data",
+trawl_catch <- read.csv(here::here("Processed_data", #each indv. dataset
                                  "trawl",
                                  "catch_data",
                                  "clean_data",
@@ -42,7 +45,6 @@ trawl_key$common_name <- trimws(trawl_key$common_name, which = c("both", "left",
 #rename species to common_name for consistency 
 trawl_spp <- trawl_spp %>% rename(common_name = species)
 trawl_catch <- trawl_catch %>% rename(common_name = species)
-
 
 #remove trailing spaces for both these datasets 
 trawl_spp$common_name <- trimws(trawl_spp$common_name, which = c("both", "left", "right"), whitespace = "[ \t\r\n]")
@@ -143,6 +145,10 @@ fixnames$LCT = fixnames$species
 final <- fixnames %>% 
   mutate(LCT = coalesce(LCT,common_name))
 
+
+#remove Sebastes spp 
+final <- subset(fiinal, LCT != 'Sebastes sp')
+
 write_csv(final,
           here("Processed_data",
                "trawl",
@@ -156,8 +162,6 @@ write_csv(final,
 
 
 #assign taxonomy to catch data set ####
-
-
 
 trawl <- merge(trawl_catch, trawl_key, by="common_name", all.x= TRUE)
 
@@ -173,7 +177,7 @@ weird <- select(trawl, c('common_name', 'level'))
 #              'taxonomy',
 #              "fix_taxonomy2.csv"))
 
-
+#read in new file cleaned by hand 
 trawl <- read.csv(here::here("Processed_data",
                                 "trawl",
                                 "catch_data",
@@ -242,6 +246,9 @@ fixnames$LCT = fixnames$species
 final <- fixnames %>% 
   mutate(LCT = coalesce(LCT,common_name))
 
+
+#remove Sebastes spp 
+final <- subset(fiinal, LCT != 'Sebastes sp')
 
 write_csv (final, 
           here("Processed_data",
