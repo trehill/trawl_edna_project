@@ -12,7 +12,7 @@ library(forcats)
 
 #set-up, read in files ####
 
-beta_div <- read.csv(here::here("Processed_data", #should be ASV by sample
+beta_div <- read.csv(here::here("Processed_data", 
                                 "datasets",
                                 "detections_all.csv"),
                      head=TRUE)

@@ -131,7 +131,25 @@ trait_collection.R
 	
 	note: old code in this script uses chord diagrams to show habitat relationships
 	
-
+synoptic_length.R
+	goal: use synoptic botton trawl datasets from around Van. Island to produce
+	length distributions 
+	
+	inputs: 
+		Synoptic trawl length data: 
+			WCVI_biology.cs
+			SOG_biology.csv
+			QCS_biology.csv
+			WCHG_biology.csv
+			HS_biology.csv
+			
+		detections_all.csv
+		traitdatabase.csv
+	
+	outputs: 
+		traits_mean_lengths.csv #trait db with mean lengths from synoptic trawl data 
+		same plots as 02_length.R but using more representative lenght data _
+		
 FOLDER: Index 
 
 01_index.R  (we do not explore read index / biomass relationship)

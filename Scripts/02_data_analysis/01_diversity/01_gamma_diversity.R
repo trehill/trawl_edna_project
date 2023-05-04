@@ -125,6 +125,13 @@ data_new <- select(data4, c('eDNA', 'trawl')) #select only columns of interest
 plot <- plot(euler(data_new), legend = TRUE, fills = c("#FCC442", "#5491cf", "#00AFBB"), quantities=TRUE, fill_alpha = 1.0)
 plot #this is gamma diversity per species 
 
+plot <- plot(euler(data_new), legend = TRUE, fills = c("#FCC442", "#5491cf", "#00AFBB"),  fill_alpha = 1.0)
+plot #this is gamma diversity per species 
+
+ggsave("./Outputs/diversity/gamma_species.png", 
+       plot = plot,
+       width = 6, height = 6, units = "in")
+
 #Qualitative Venn diagram showing species detection per method 
 #Let's try to see this plot qualitatively using ggvenn
 
@@ -154,5 +161,5 @@ plot
 
 ggsave("./Outputs/diversity/all_venn.png", 
        plot = plot,
-       width = 6, height = 6, units = "in")
+       width = 10, height = 6, units = "in")
 
