@@ -1,4 +1,6 @@
-#Making a dataset for analysis by adding detection at each level (gamma/beta/alpha)
+#Detection
+#goal: create dataset that compares species detected between each method at each spatial level (gamma/beta/alpha)
+
 
 #we want to extract; 
 # LCT 
@@ -21,109 +23,86 @@ library(dplyr)
 #FOR ALL SETS (1-16) 
 
 #read in files 
-trawl_weight <-  read.csv(here::here("Processed_data",
-                                     "trawl",
-                                     "datasets",
-                                     "trawlweight_allsets.csv"), 
-                          head=TRUE)
+trawl_df <-  read.csv(here::here("Processed_data",
+                                 "trawl",
+                                 "datasets",
+                                 "trawlweight_allsets.csv"), 
+                      head=TRUE)
 
 
-#make eDNA df 
+#make eDNA df  #I think i should move this to 'dataset' script'
 eDNA_df <-  read.csv(here::here("Processed_data",
                                 "eDNA",
                                 "datasets",
                                 "eDNA_allsets.csv"), #has eDNA index reads
                      head=TRUE)
-  #editing eDNA dataset to have harmonized column names 
-
-  eDNA_df <- eDNA_df %>% #rename depth column 
-  rename(
-    depth_eDNA = depth)
-
-  eDNA_df <- eDNA_df %>% #rename presence/absence column 
-  rename(
-    pabs_eDNA = species_pa)
-
-  #remove species_pa = NA and index = NA
-  eDNA_df <- eDNA_df[!is.na(eDNA_df$pabs_eDNA),]
-  eDNA_df <- eDNA_df[!is.na(eDNA_df$set_read_index),]
-
-#make trawl_df 
-  trawl_df <-  read.csv(here::here("Processed_data",
-                                 "trawl",
-                                 "datasets",
-                                 "trawl_allsets.csv"), #has weight
-                      head=TRUE)
-
-  trawl_df <- trawl_df %>% #rename depth column 
-  rename(
-    depth_trawl = depth_mean)
-
-  trawl_df <- cbind(trawl_df, pabs_trawl = 1) #add column with value 1 to indicate presence/absence in trawl df 
-
-  trawl_df <- data.frame(lapply(trawl_df, function(x) { #change southern to S across all df
-  gsub("southern", "S", x)
-  
-  }))
-
-  trawl_df <- data.frame(lapply(trawl_df, function(x) { #change northern to N across all df
-  gsub("northern", "N", x)
-  
-  }))
 
 
 #Selecting relevant columns 
 
-eDNA <- select(eDNA_df, c('LCT', 'set_number', 'north_south' ))
+eDNA <- select(eDNA_df, c('LCT', 'set_number', 'north_south' )) 
 eDNA <- distinct(eDNA)
 
 trawl <- select(trawl_df, c('LCT', 'set_number', 'north_south'  ))
 trawl <- distinct(trawl)
 
 #Gamma Detection ####
-#determing the method which each species was detecting in at the gamma level 
-#let's start with gamma detection)
-#determining gamma error (across whole dataset
+#determing the method which each species was detecting in at the gamma level (includes all sites)
 #Find overlapping LCT found using both methods 
-trawl_LCT <- trawl$LCT
-eDNA_LCT <- eDNA$LCT
+
+trawl_LCT <- trawl$LCT #list of all trawl spp 
+eDNA_LCT <- eDNA$LCT #list of all eDNA spp 
 
 
-botheDNA <- eDNA[  eDNA$LCT %in% trawl_LCT, ] 
+botheDNA <- eDNA[  eDNA$LCT %in% trawl_LCT, ] #list of spp in both methods
+
 #check that it goes both ways..?
-bothtrawl <- trawl[  trawl$LCT %in% eDNA_LCT, ] 
+bothtrawl <- trawl[  trawl$LCT %in% eDNA_LCT, ] #list of spp in both methods 
 
-#check that they are the same LCT
+#note: botheDNA and bothtrawl should be the same 
+
+#check that they are the same LCTs
 unique(botheDNA$LCT) 
 unique(bothtrawl$LCT) #yay they are the same! 
 
-both = bothtrawl
+both = bothtrawl 
+
 #we need to find LCT only found in trawl 
-bothtrawl2 <- bothtrawl$LCT
+bothtrawl2 <- bothtrawl$LCT #list of both spp. in trawl
 
-onlytrawl <- trawl[  !(trawl$LCT %in% bothtrawl2), ] #should be less than original trawl df 
-onlytrawl <- na.omit(onlytrawl)
+onlytrawl <- trawl[  !(trawl$LCT %in% bothtrawl2), ] #list of spp only in trawl and NOT in both 
+onlytrawl <- na.omit(onlytrawl) #should be less than original trawl df, remove NA
+
 #we need to find LCT only found in eDNA 
+botheDNA2 <- botheDNA$LCT #list of both spp. in eDNA
 
-botheDNA2 <- botheDNA$LCT
-
-onlyeDNA <- eDNA[  !(eDNA$LCT %in% botheDNA2), ]  #should have less than original eDNA df 
+onlyeDNA <- eDNA[  !(eDNA$LCT %in% botheDNA2), ]  #list of spp only in eDNA and NOT in both 
+#should have less than original eDNA df 
 
 #Add a new column called method: 
-#What I'm going to do is take each individual dataset and add a method that is either trawl,
+#Take each individual dataset and add a method that is either trawl,
 #or eDNA and then I will merge them together
 
 onlytrawl = onlytrawl$LCT
 onlyeDNA = onlyeDNA$LCT
 both = both$LCT
 
+#create new column (called gamma_detection_method)
+
 #let's do this with eDNA data 
-eDNA$gamma_detection_method = ifelse(eDNA$LCT %in% both , eDNA$gamma_detection_method <- c("both eDNA/trawl"), eDNA$gamma_detection_method<- c("only eDNA"))
+eDNA$gamma_detection_method = ifelse(eDNA$LCT %in% both , eDNA$gamma_detection_method <- 
+                                       c("both eDNA/trawl"), eDNA$gamma_detection_method<- c("only eDNA")) 
+#if the LCT is in the both list, then it receives the category both eDNA/trawl
+#if not, the LCT is given the category "only eDNA" 
 
 #let's do this with trawl data 
 trawl$gamma_detection_method = ifelse(trawl$LCT %in% both , trawl$gamma_detection_method <- c("both eDNA/trawl"), trawl$gamma_detection_method <- c("only trawl"))
-
+#if the LCT is in the both list, then it receives the category both eDNA/trawl
+#if not, the LCT is given the category "only trawl" 
 #Beta Detection ####
+#we do the same process as gamma, now at the beta level
+#we have to do this at the N and S indepedently 
+#we subset data corresponding to either north regions or south region and do the same process as above
 
 #determining beta error (across regions N/S) 
 #northern region
@@ -143,6 +122,7 @@ unique(botheDNA$LCT)
 unique(bothtrawl$LCT) #yay they are the same! 
 
 both = bothtrawl
+
 #we need to find LCT only found in trawl 
 bothtrawl2 <- bothtrawl$LCT
 
@@ -170,7 +150,7 @@ trawl_N$beta_detection_method = ifelse(trawl_N$LCT %in% both , trawl_N$beta_dete
 trawl_N <- merge(trawl, trawl_N, by= c('set_number', 'LCT'))
 trawl_N <- distinct(trawl_N)
 
-#southern
+#southern region
 trawl_S <- trawl[trawl$north_south == 'S',]
 eDNA_S <- eDNA[eDNA$north_south == 'S',]
 
@@ -224,11 +204,10 @@ eDNA <- select(eDNA_beta, c('LCT', 'set_number', 'north_south.x', 'gamma_detecti
 trawl <- select(trawl_beta, c('LCT', 'set_number', 'north_south.x', 'gamma_detection_method.x', 'beta_detection_method') )
 
 #Alpha Detection ####
-#the hardest part of this code is going to be adding an set error + gammma error column 
-#we can find gamma error from 'method_key_all' 
-#set level error can be determined from our beta diversity code (iterative)
+#iterative process (same as gamma and beta), but now we subset for each site 
 
 #determine beta detection methods
+
 #set 1
 trawl_1 <- trawl[trawl$set_number == 1,]
 eDNA_1 <- eDNA[eDNA$set_number == 1,]
@@ -942,58 +921,59 @@ trawl_16 <- distinct(trawl_16)
 
 
 #Merging sets ####
-#merge sets 
+
+#create 'method key' where every spp at each site has an associated gamma, beta, and alpha detection method 
+#merge sets (since we subsetted for each site, we are now going to combine them back together)
 new_eDNA <- rbind(eDNA_1, eDNA_2, eDNA_3, eDNA_4, eDNA_5, eDNA_6, eDNA_7, eDNA_8, eDNA_9, eDNA_10, eDNA_11, eDNA_12, eDNA_13, eDNA_14,eDNA_15, eDNA_16)
 new_trawl <- rbind(trawl_1, trawl_2, trawl_3, trawl_4, trawl_5,trawl_6, trawl_7, trawl_8, trawl_9, trawl_10, trawl_11, trawl_12, trawl_13, trawl_14, trawl_15, trawl_16)
 
 method_key <- rbind(new_trawl, new_eDNA)
-method_key <- distinct(method_key)
+method_key <- distinct(method_key) #remove duplicates, since 'both' in eDNA and trawl will be in both eDNA detection + trawl 
 
+#format this dataset
 method_key <- select(method_key, c('set_number', 'LCT', 'gamma_detection_method.x.x', 'beta_detection_method.x', 'alpha_detection_method'))
 
 method_key <- method_key %>% 
-  rename(
-    gamma_detection_method = gamma_detection_method.x.x)
+  rename(gamma_detection_method = gamma_detection_method.x.x) #since the gamma and beta columns are replicated we will rename them 
 
 method_key <- method_key %>% 
-  rename(
-    beta_detection_method = beta_detection_method.x)
+  rename(beta_detection_method = beta_detection_method.x)
 
 
 #add weight + eDNA reads 
-#select columns 
+#select relevant columns 
+eDNA_info <- select(eDNA_df, c('LCT','set_number', 'set_read_index', 'pabs_eDNA')) #from eDNA dataset, we want to add this info 
 
-eDNA_info <- select(eDNA_df, c('LCT','set_number', 'set_read_index', 'pabs_eDNA'))
-
-p <- merge(method_key, eDNA_info, by=c('LCT','set_number'))
-p <- distinct(p)
+p <- merge(method_key, eDNA_info, by=c('LCT','set_number'), all.x=TRUE)
+p <- distinct(p) #eDNA info df, has every single replicate + ASV 
 
 
-trawl_weight$pabs_trawl <- 1
-trawl_info <- select(trawl_weight, c('LCT', 'set_number', 'weight_total_kg','pabs_trawl'))
+trawl_df$pabs_trawl <- 1
+trawl_info <- select(trawl_df, c('LCT', 'set_number', 'weight_total_kg','pabs_trawl')) #from trawl dataset, we want to add this info 
 
-q <- merge(method_key, trawl_info, by=c('LCT', 'set_number'))
+q <- merge(method_key, trawl_info, by=c('LCT', 'set_number'), all.x=TRUE)
 q <- distinct(q) 
 
+#merge it all together! 
 long <- merge(p, q, by = c("LCT", "set_number", "gamma_detection_method", "alpha_detection_method", "beta_detection_method"), all.x = T, all.y = T) %>% replace(is.na(.), 0)
+#NA turn to 0 for eDNA spp that were not caught in trawl 
 
 
-long2 <- long %>%
-  group_by(LCT, set_number) %>%
-  dplyr::summarise(eDNA_pa = sum(pabs_eDNA)) 
+#i dont really understand what this last part of code is for?? 
+#long2 <- long %>%
+#  group_by(LCT, set_number) %>%
+#  dplyr::summarise(eDNA_pa = sum(pabs_eDNA))  
 
-long2 <- distinct(long2)
+#long2 <- distinct(long2)
 
-final <- merge(long, long2, by = c("LCT", "set_number"))
+#final <- merge(long, long2, by = c("LCT", "set_number"))
 
-final <- final %>% #rename presence/absence column 
-  rename(
-    p_abs_eDNA = eDNA_pa)
+#final <- final %>% #rename presence/absence column 
+#  rename(p_abs_eDNA = eDNA_pa)
 
-final <- select(final, -c('pabs_eDNA'))
+#final <- select(final, -c('pabs_eDNA'))
 
-
-write_csv(final,
+write_csv(long,
           here("Processed_data",
                "datasets",
                "detections_all.csv"))

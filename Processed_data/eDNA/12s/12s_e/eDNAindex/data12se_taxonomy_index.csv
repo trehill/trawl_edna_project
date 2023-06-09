@@ -50,7 +50,7 @@ E001,ASV719,Actinopterygii,12050,0.8364570317923088,1,Salmoniformes,5072,0.35849
 E001,ASV72,Actinopterygii,12050,0.8364570317923088,1,Gadiformes,0,0,0,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E001,ASV75,Elasmobranchii,2356,0.293535258413081,1,Squaliformes,2356,0.293535258413081,1,Squalidae,2356,0.293535258413081,1,Squalus,2356,0.293535258413081,1,Squalus suckleyi,2356,0.293535258413081,1
 E001,ASV8,Actinopterygii,12050,0.8364570317923088,1,Clupeiformes,256,0.01777037345550465,1,Clupeidae,256,0.01777037345550465,1,Clupea,256,0.01777037345550465,1,Clupea pallasii,256,0.01777037345550465,1
-E001,ASV84,Actinopterygii,12050,0.8364570317923088,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E001,ASV84,Actinopterygii,12050,0.8364570317923088,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E001,ASV9,Elasmobranchii,2356,0.293535258413081,1,Squaliformes,2356,0.293535258413081,1,Squalidae,2356,0.293535258413081,1,Squalus,2356,0.293535258413081,1,Squalus suckleyi,2356,0.293535258413081,1
 E001,ASV91,Elasmobranchii,2356,0.293535258413081,1,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E001,ASV97,Actinopterygii,12050,0.8364570317923088,1,Scorpaeniformes,0,0,0,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -105,7 +105,7 @@ E002,ASV719,Actinopterygii,23193,0.9805106958653927,1,Salmoniformes,13301,0.5725
 E002,ASV72,Actinopterygii,23193,0.9805106958653927,1,Gadiformes,0,0,0,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E002,ASV75,Elasmobranchii,461,0.03498039682255214,1,Squaliformes,461,0.03498039682255214,1,Squalidae,461,0.03498039682255214,1,Squalus,461,0.03498039682255214,1,Squalus suckleyi,461,0.03498039682255214,1
 E002,ASV8,Actinopterygii,23193,0.9805106958653927,1,Clupeiformes,9892,0.4181956540120064,1,Clupeidae,9892,0.4181956540120064,1,Clupea,9892,0.4181956540120064,1,Clupea pallasii,9892,0.4181956540120064,1
-E002,ASV84,Actinopterygii,23193,0.9805106958653927,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E002,ASV84,Actinopterygii,23193,0.9805106958653927,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E002,ASV9,Elasmobranchii,461,0.03498039682255214,1,Squaliformes,461,0.03498039682255214,1,Squalidae,461,0.03498039682255214,1,Squalus,461,0.03498039682255214,1,Squalus suckleyi,461,0.03498039682255214,1
 E002,ASV91,Elasmobranchii,461,0.03498039682255214,1,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E002,ASV97,Actinopterygii,23193,0.9805106958653927,1,Scorpaeniformes,0,0,0,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -160,7 +160,7 @@ E003,ASV719,Actinopterygii,26060,0.9888066780497059,1,Salmoniformes,0,0,0,Salmon
 E003,ASV72,Actinopterygii,26060,0.9888066780497059,1,Gadiformes,0,0,0,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E003,ASV75,Elasmobranchii,295,0.020090344985103793,1,Squaliformes,295,0.020090344985103793,1,Squalidae,295,0.020090344985103793,1,Squalus,295,0.020090344985103793,1,Squalus suckleyi,295,0.020090344985103793,1
 E003,ASV8,Actinopterygii,26060,0.9888066780497059,1,Clupeiformes,19077,0.7238474672737621,1,Clupeidae,19077,0.7238474672737621,1,Clupea,19077,0.7238474672737621,1,Clupea pallasii,19077,0.7238474672737621,1
-E003,ASV84,Actinopterygii,26060,0.9888066780497059,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E003,ASV84,Actinopterygii,26060,0.9888066780497059,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E003,ASV9,Elasmobranchii,295,0.020090344985103793,1,Squaliformes,295,0.020090344985103793,1,Squalidae,295,0.020090344985103793,1,Squalus,295,0.020090344985103793,1,Squalus suckleyi,295,0.020090344985103793,1
 E003,ASV91,Elasmobranchii,295,0.020090344985103793,1,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E003,ASV97,Actinopterygii,26060,0.9888066780497059,1,Scorpaeniformes,6983,0.45307314505784346,1,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -215,7 +215,7 @@ E004,ASV719,Actinopterygii,30756,1,1,Salmoniformes,0,0,0,Salmonidae,0,0,0,Oncorh
 E004,ASV72,Actinopterygii,30756,1,1,Gadiformes,22808,0.7418090256744732,1,Gadidae,22808,1,1,Gadus,22808,1,1,Gadus chalcogrammus,22808,1,1
 E004,ASV75,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E004,ASV8,Actinopterygii,30756,1,1,Clupeiformes,7948,0.2584211210820653,1,Clupeidae,7948,0.2584211210820653,1,Clupea,7948,0.2584211210820653,1,Clupea pallasii,7948,0.2584211210820653,1
-E004,ASV84,Actinopterygii,30756,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E004,ASV84,Actinopterygii,30756,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E004,ASV9,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E004,ASV91,Elasmobranchii,0,0,0,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E004,ASV97,Actinopterygii,30756,1,1,Scorpaeniformes,0,0,0,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -270,7 +270,7 @@ E005,ASV719,Actinopterygii,902,1,1,Salmoniformes,0,0,0,Salmonidae,0,0,0,Oncorhyn
 E005,ASV72,Actinopterygii,902,1,1,Gadiformes,0,0,0,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E005,ASV75,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E005,ASV8,Actinopterygii,902,1,1,Clupeiformes,902,1,1,Clupeidae,902,1,1,Clupea,902,1,1,Clupea pallasii,902,1,1
-E005,ASV84,Actinopterygii,902,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E005,ASV84,Actinopterygii,902,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E005,ASV9,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E005,ASV91,Elasmobranchii,0,0,0,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E005,ASV97,Actinopterygii,902,1,1,Scorpaeniformes,0,0,0,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -325,7 +325,7 @@ E006,ASV719,Actinopterygii,13120,1,1,Salmoniformes,0,0,0,Salmonidae,0,0,0,Oncorh
 E006,ASV72,Actinopterygii,13120,1,1,Gadiformes,0,0,0,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E006,ASV75,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E006,ASV8,Actinopterygii,13120,1,1,Clupeiformes,12950,0.9870426829268293,1,Clupeidae,12950,0.9870426829268293,1,Clupea,12950,0.9870426829268293,1,Clupea pallasii,12950,0.9870426829268293,1
-E006,ASV84,Actinopterygii,13120,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E006,ASV84,Actinopterygii,13120,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E006,ASV9,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E006,ASV91,Elasmobranchii,0,0,0,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E006,ASV97,Actinopterygii,13120,1,1,Scorpaeniformes,170,0.022156664720810522,1,Anoplopomatidae,170,0.022543206044076343,1,Anoplopoma,170,0.022543206044076343,1,Anoplopoma fimbria,170,0.022543206044076343,1
@@ -380,7 +380,7 @@ E007,ASV719,Actinopterygii,8850,1,1,Salmoniformes,0,0,0,Salmonidae,0,0,0,Oncorhy
 E007,ASV72,Actinopterygii,8850,1,1,Gadiformes,0,0,0,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E007,ASV75,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E007,ASV8,Actinopterygii,8850,1,1,Clupeiformes,8850,1,1,Clupeidae,8850,1,1,Clupea,8850,1,1,Clupea pallasii,8850,1,1
-E007,ASV84,Actinopterygii,8850,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E007,ASV84,Actinopterygii,8850,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E007,ASV9,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E007,ASV91,Elasmobranchii,0,0,0,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E007,ASV97,Actinopterygii,8850,1,1,Scorpaeniformes,0,0,0,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -435,7 +435,7 @@ E008,ASV719,Actinopterygii,212,1,1,Salmoniformes,0,0,0,Salmonidae,0,0,0,Oncorhyn
 E008,ASV72,Actinopterygii,212,1,1,Gadiformes,0,0,0,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E008,ASV75,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E008,ASV8,Actinopterygii,212,1,1,Clupeiformes,212,1,1,Clupeidae,212,1,1,Clupea,212,1,1,Clupea pallasii,212,1,1
-E008,ASV84,Actinopterygii,212,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E008,ASV84,Actinopterygii,212,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E008,ASV9,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E008,ASV91,Elasmobranchii,0,0,0,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E008,ASV97,Actinopterygii,212,1,1,Scorpaeniformes,0,0,0,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -490,7 +490,7 @@ E010,ASV719,Actinopterygii,0,NA,NA,Salmoniformes,0,NA,NA,Salmonidae,0,NA,NA,Onco
 E010,ASV72,Actinopterygii,0,NA,NA,Gadiformes,0,NA,NA,Gadidae,0,NA,NA,Gadus,0,NA,NA,Gadus chalcogrammus,0,NA,NA
 E010,ASV75,Elasmobranchii,0,NA,NA,Squaliformes,0,NA,NA,Squalidae,0,NA,NA,Squalus,0,NA,NA,Squalus suckleyi,0,NA,NA
 E010,ASV8,Actinopterygii,0,NA,NA,Clupeiformes,0,NA,NA,Clupeidae,0,NA,NA,Clupea,0,NA,NA,Clupea pallasii,0,NA,NA
-E010,ASV84,Actinopterygii,0,NA,NA,Pleuronectiformes,0,NA,NA,Pleuronectidae,0,NA,NA,Reinhardtius,0,NA,NA,Reinhardtius evermanni,0,NA,NA
+E010,ASV84,Actinopterygii,0,NA,NA,Pleuronectiformes,0,NA,NA,Pleuronectidae,0,NA,NA,Reinhardtius,0,NA,NA,Reinhardtius hippoglossoides,0,NA,NA
 E010,ASV9,Elasmobranchii,0,NA,NA,Squaliformes,0,NA,NA,Squalidae,0,NA,NA,Squalus,0,NA,NA,Squalus suckleyi,0,NA,NA
 E010,ASV91,Elasmobranchii,0,NA,NA,Rajiformes,0,NA,NA,Rajidae,0,NA,NA,Beringraja,0,NA,NA,Beringraja binoculata,0,NA,NA
 E010,ASV97,Actinopterygii,0,NA,NA,Scorpaeniformes,0,NA,NA,Anoplopomatidae,0,NA,NA,Anoplopoma,0,NA,NA,Anoplopoma fimbria,0,NA,NA
@@ -545,7 +545,7 @@ E011,ASV719,Actinopterygii,0,NA,NA,Salmoniformes,0,NA,NA,Salmonidae,0,NA,NA,Onco
 E011,ASV72,Actinopterygii,0,NA,NA,Gadiformes,0,NA,NA,Gadidae,0,NA,NA,Gadus,0,NA,NA,Gadus chalcogrammus,0,NA,NA
 E011,ASV75,Elasmobranchii,0,NA,NA,Squaliformes,0,NA,NA,Squalidae,0,NA,NA,Squalus,0,NA,NA,Squalus suckleyi,0,NA,NA
 E011,ASV8,Actinopterygii,0,NA,NA,Clupeiformes,0,NA,NA,Clupeidae,0,NA,NA,Clupea,0,NA,NA,Clupea pallasii,0,NA,NA
-E011,ASV84,Actinopterygii,0,NA,NA,Pleuronectiformes,0,NA,NA,Pleuronectidae,0,NA,NA,Reinhardtius,0,NA,NA,Reinhardtius evermanni,0,NA,NA
+E011,ASV84,Actinopterygii,0,NA,NA,Pleuronectiformes,0,NA,NA,Pleuronectidae,0,NA,NA,Reinhardtius,0,NA,NA,Reinhardtius hippoglossoides,0,NA,NA
 E011,ASV9,Elasmobranchii,0,NA,NA,Squaliformes,0,NA,NA,Squalidae,0,NA,NA,Squalus,0,NA,NA,Squalus suckleyi,0,NA,NA
 E011,ASV91,Elasmobranchii,0,NA,NA,Rajiformes,0,NA,NA,Rajidae,0,NA,NA,Beringraja,0,NA,NA,Beringraja binoculata,0,NA,NA
 E011,ASV97,Actinopterygii,0,NA,NA,Scorpaeniformes,0,NA,NA,Anoplopomatidae,0,NA,NA,Anoplopoma,0,NA,NA,Anoplopoma fimbria,0,NA,NA
@@ -600,7 +600,7 @@ E012,ASV719,Actinopterygii,198952,1,1,Salmoniformes,0,0,0,Salmonidae,0,0,0,Oncor
 E012,ASV72,Actinopterygii,198952,1,1,Gadiformes,0,0,0,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E012,ASV75,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E012,ASV8,Actinopterygii,198952,1,1,Clupeiformes,198952,1,1,Clupeidae,198952,1,1,Clupea,198952,1,1,Clupea pallasii,198952,1,1
-E012,ASV84,Actinopterygii,198952,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E012,ASV84,Actinopterygii,198952,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E012,ASV9,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E012,ASV91,Elasmobranchii,0,0,0,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E012,ASV97,Actinopterygii,198952,1,1,Scorpaeniformes,0,0,0,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -655,7 +655,7 @@ E013,ASV719,Actinopterygii,33621,1,1,Salmoniformes,0,0,0,Salmonidae,0,0,0,Oncorh
 E013,ASV72,Actinopterygii,33621,1,1,Gadiformes,0,0,0,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E013,ASV75,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E013,ASV8,Actinopterygii,33621,1,1,Clupeiformes,26663,0.7930460129085988,1,Clupeidae,26663,0.7930460129085988,1,Clupea,26663,0.7930460129085988,1,Clupea pallasii,26663,0.7930460129085988,1
-E013,ASV84,Actinopterygii,33621,1,1,Pleuronectiformes,6839,0.4186825655054734,1,Pleuronectidae,6839,0.4186825655054734,1,Reinhardtius,6839,1,1,Reinhardtius evermanni,6839,1,1
+E013,ASV84,Actinopterygii,33621,1,1,Pleuronectiformes,6839,0.4186825655054734,1,Pleuronectidae,6839,0.4186825655054734,1,Reinhardtius,6839,1,1,Reinhardtius hippoglossoides,6839,1,1
 E013,ASV9,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E013,ASV91,Elasmobranchii,0,0,0,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E013,ASV97,Actinopterygii,33621,1,1,Scorpaeniformes,0,0,0,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -710,7 +710,7 @@ E014,ASV719,Actinopterygii,7775,1,1,Salmoniformes,0,0,0,Salmonidae,0,0,0,Oncorhy
 E014,ASV72,Actinopterygii,7775,1,1,Gadiformes,0,0,0,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E014,ASV75,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E014,ASV8,Actinopterygii,7775,1,1,Clupeiformes,7775,1,1,Clupeidae,7775,1,1,Clupea,7775,1,1,Clupea pallasii,7775,1,1
-E014,ASV84,Actinopterygii,7775,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E014,ASV84,Actinopterygii,7775,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E014,ASV9,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E014,ASV91,Elasmobranchii,0,0,0,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E014,ASV97,Actinopterygii,7775,1,1,Scorpaeniformes,0,0,0,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -765,7 +765,7 @@ E015,ASV719,Actinopterygii,0,NA,NA,Salmoniformes,0,NA,NA,Salmonidae,0,NA,NA,Onco
 E015,ASV72,Actinopterygii,0,NA,NA,Gadiformes,0,NA,NA,Gadidae,0,NA,NA,Gadus,0,NA,NA,Gadus chalcogrammus,0,NA,NA
 E015,ASV75,Elasmobranchii,0,NA,NA,Squaliformes,0,NA,NA,Squalidae,0,NA,NA,Squalus,0,NA,NA,Squalus suckleyi,0,NA,NA
 E015,ASV8,Actinopterygii,0,NA,NA,Clupeiformes,0,NA,NA,Clupeidae,0,NA,NA,Clupea,0,NA,NA,Clupea pallasii,0,NA,NA
-E015,ASV84,Actinopterygii,0,NA,NA,Pleuronectiformes,0,NA,NA,Pleuronectidae,0,NA,NA,Reinhardtius,0,NA,NA,Reinhardtius evermanni,0,NA,NA
+E015,ASV84,Actinopterygii,0,NA,NA,Pleuronectiformes,0,NA,NA,Pleuronectidae,0,NA,NA,Reinhardtius,0,NA,NA,Reinhardtius hippoglossoides,0,NA,NA
 E015,ASV9,Elasmobranchii,0,NA,NA,Squaliformes,0,NA,NA,Squalidae,0,NA,NA,Squalus,0,NA,NA,Squalus suckleyi,0,NA,NA
 E015,ASV91,Elasmobranchii,0,NA,NA,Rajiformes,0,NA,NA,Rajidae,0,NA,NA,Beringraja,0,NA,NA,Beringraja binoculata,0,NA,NA
 E015,ASV97,Actinopterygii,0,NA,NA,Scorpaeniformes,0,NA,NA,Anoplopomatidae,0,NA,NA,Anoplopoma,0,NA,NA,Anoplopoma fimbria,0,NA,NA
@@ -820,7 +820,7 @@ E017,ASV719,Actinopterygii,47526,1,1,Salmoniformes,46,9.855282832109743e-4,1,Sal
 E017,ASV72,Actinopterygii,47526,1,1,Gadiformes,0,0,0,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E017,ASV75,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E017,ASV8,Actinopterygii,47526,1,1,Clupeiformes,42679,0.898013718806548,1,Clupeidae,42679,0.898013718806548,1,Clupea,42679,0.898013718806548,1,Clupea pallasii,42679,0.898013718806548,1
-E017,ASV84,Actinopterygii,47526,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E017,ASV84,Actinopterygii,47526,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E017,ASV9,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E017,ASV91,Elasmobranchii,0,0,0,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E017,ASV97,Actinopterygii,47526,1,1,Scorpaeniformes,0,0,0,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -875,7 +875,7 @@ E018,ASV719,Actinopterygii,60160,1,1,Salmoniformes,0,0,0,Salmonidae,0,0,0,Oncorh
 E018,ASV72,Actinopterygii,60160,1,1,Gadiformes,0,0,0,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E018,ASV75,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E018,ASV8,Actinopterygii,60160,1,1,Clupeiformes,49411,0.8213264627659574,1,Clupeidae,49411,0.8213264627659574,1,Clupea,49411,0.8213264627659574,1,Clupea pallasii,49411,0.8213264627659574,1
-E018,ASV84,Actinopterygii,60160,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E018,ASV84,Actinopterygii,60160,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E018,ASV9,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E018,ASV91,Elasmobranchii,0,0,0,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E018,ASV97,Actinopterygii,60160,1,1,Scorpaeniformes,0,0,0,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -930,7 +930,7 @@ E019,ASV719,Actinopterygii,90635,1,1,Salmoniformes,0,0,0,Salmonidae,0,0,0,Oncorh
 E019,ASV72,Actinopterygii,90635,1,1,Gadiformes,0,0,0,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E019,ASV75,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E019,ASV8,Actinopterygii,90635,1,1,Clupeiformes,82565,0.9109615490704474,1,Clupeidae,82565,0.9109615490704474,1,Clupea,82565,0.9109615490704474,1,Clupea pallasii,82565,0.9109615490704474,1
-E019,ASV84,Actinopterygii,90635,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E019,ASV84,Actinopterygii,90635,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E019,ASV9,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E019,ASV91,Elasmobranchii,0,0,0,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E019,ASV97,Actinopterygii,90635,1,1,Scorpaeniformes,0,0,0,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -985,7 +985,7 @@ E020,ASV719,Actinopterygii,65619,1,1,Salmoniformes,0,0,0,Salmonidae,0,0,0,Oncorh
 E020,ASV72,Actinopterygii,65619,1,1,Gadiformes,0,0,0,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E020,ASV75,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E020,ASV8,Actinopterygii,65619,1,1,Clupeiformes,64855,0.9883570307380485,1,Clupeidae,64855,0.9883570307380485,1,Clupea,64855,0.9883570307380485,1,Clupea pallasii,64855,0.9883570307380485,1
-E020,ASV84,Actinopterygii,65619,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E020,ASV84,Actinopterygii,65619,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E020,ASV9,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E020,ASV91,Elasmobranchii,0,0,0,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E020,ASV97,Actinopterygii,65619,1,1,Scorpaeniformes,764,0.019909165210281996,1,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -1040,7 +1040,7 @@ E022,ASV719,Actinopterygii,13524,0.9763211088651458,1,Salmoniformes,0,0,0,Salmon
 E022,ASV72,Actinopterygii,13524,0.9763211088651458,1,Gadiformes,0,0,0,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E022,ASV75,Elasmobranchii,328,0.04250008119809674,1,Squaliformes,328,0.04250008119809674,1,Squalidae,328,0.04250008119809674,1,Squalus,328,0.04250008119809674,1,Squalus suckleyi,328,0.04250008119809674,1
 E022,ASV8,Actinopterygii,13524,0.9763211088651458,1,Clupeiformes,13285,0.9590672827028588,1,Clupeidae,13285,0.9590672827028588,1,Clupea,13042,0.9415246895755126,1,Clupea pallasii,13042,0.9415246895755126,1
-E022,ASV84,Actinopterygii,13524,0.9763211088651458,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E022,ASV84,Actinopterygii,13524,0.9763211088651458,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E022,ASV9,Elasmobranchii,328,0.04250008119809674,1,Squaliformes,328,0.04250008119809674,1,Squalidae,328,0.04250008119809674,1,Squalus,328,0.04250008119809674,1,Squalus suckleyi,328,0.04250008119809674,1
 E022,ASV91,Elasmobranchii,328,0.04250008119809674,1,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E022,ASV97,Actinopterygii,13524,0.9763211088651458,1,Scorpaeniformes,0,0,0,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -1095,7 +1095,7 @@ E023,ASV719,Actinopterygii,25471,0.9818819629158475,1,Salmoniformes,0,0,0,Salmon
 E023,ASV72,Actinopterygii,25471,0.9818819629158475,1,Gadiformes,0,0,0,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E023,ASV75,Elasmobranchii,470,0.03251917679933839,1,Squaliformes,470,0.03251917679933839,1,Squalidae,470,0.03251917679933839,1,Squalus,470,0.03251917679933839,1,Squalus suckleyi,470,0.03251917679933839,1
 E023,ASV8,Actinopterygii,25471,0.9818819629158475,1,Clupeiformes,21381,0.824216491268648,1,Clupeidae,21381,0.824216491268648,1,Clupea,20972,0.8084499441039281,1,Clupea pallasii,20972,0.8084499441039281,1
-E023,ASV84,Actinopterygii,25471,0.9818819629158475,1,Pleuronectiformes,143,0.011346246731907966,1,Pleuronectidae,143,0.011346246731907966,1,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E023,ASV84,Actinopterygii,25471,0.9818819629158475,1,Pleuronectiformes,143,0.011346246731907966,1,Pleuronectidae,143,0.011346246731907966,1,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E023,ASV9,Elasmobranchii,470,0.03251917679933839,1,Squaliformes,470,0.03251917679933839,1,Squalidae,470,0.03251917679933839,1,Squalus,470,0.03251917679933839,1,Squalus suckleyi,470,0.03251917679933839,1
 E023,ASV91,Elasmobranchii,470,0.03251917679933839,1,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E023,ASV97,Actinopterygii,25471,0.9818819629158475,1,Scorpaeniformes,0,0,0,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -1150,7 +1150,7 @@ E024,ASV719,Actinopterygii,41258,0.9932591843613077,1,Salmoniformes,0,0,0,Salmon
 E024,ASV72,Actinopterygii,41258,0.9932591843613077,1,Gadiformes,0,0,0,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E024,ASV75,Elasmobranchii,280,0.012098759623254912,1,Squaliformes,280,0.012098759623254912,1,Squalidae,280,0.012098759623254912,1,Squalus,280,0.012098759623254912,1,Squalus suckleyi,280,0.012098759623254912,1
 E024,ASV8,Actinopterygii,41258,0.9932591843613077,1,Clupeiformes,21077,0.5074148972025615,1,Clupeidae,21077,0.5074148972025615,1,Clupea,20645,0.497014781645722,1,Clupea pallasii,20645,0.497014781645722,1
-E024,ASV84,Actinopterygii,41258,0.9932591843613077,1,Pleuronectiformes,20181,1,1,Pleuronectidae,20181,1,1,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E024,ASV84,Actinopterygii,41258,0.9932591843613077,1,Pleuronectiformes,20181,1,1,Pleuronectidae,20181,1,1,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E024,ASV9,Elasmobranchii,280,0.012098759623254912,1,Squaliformes,280,0.012098759623254912,1,Squalidae,280,0.012098759623254912,1,Squalus,280,0.012098759623254912,1,Squalus suckleyi,280,0.012098759623254912,1
 E024,ASV91,Elasmobranchii,280,0.012098759623254912,1,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E024,ASV97,Actinopterygii,41258,0.9932591843613077,1,Scorpaeniformes,0,0,0,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -1205,7 +1205,7 @@ E025,ASV719,Actinopterygii,6728,1,1,Salmoniformes,0,0,0,Salmonidae,0,0,0,Oncorhy
 E025,ASV72,Actinopterygii,6728,1,1,Gadiformes,0,0,0,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E025,ASV75,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E025,ASV8,Actinopterygii,6728,1,1,Clupeiformes,454,0.06747919143876338,1,Clupeidae,454,0.06747919143876338,1,Clupea,0,0,0,Clupea pallasii,0,0,0
-E025,ASV84,Actinopterygii,6728,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E025,ASV84,Actinopterygii,6728,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E025,ASV9,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E025,ASV91,Elasmobranchii,0,0,0,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E025,ASV97,Actinopterygii,6728,1,1,Scorpaeniformes,0,0,0,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -1260,7 +1260,7 @@ E026,ASV719,Actinopterygii,1730,0.9256286784376672,1,Salmoniformes,0,0,0,Salmoni
 E026,ASV72,Actinopterygii,1730,0.9256286784376672,1,Gadiformes,0,0,0,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E026,ASV75,Elasmobranchii,139,0.13348544014193225,1,Squaliformes,139,0.13348544014193225,1,Squalidae,139,0.13348544014193225,1,Squalus,139,0.13348544014193225,1,Squalus suckleyi,139,0.13348544014193225,1
 E026,ASV8,Actinopterygii,1730,0.9256286784376672,1,Clupeiformes,642,0.3434991974317817,1,Clupeidae,642,0.3434991974317817,1,Clupea,0,0,0,Clupea pallasii,0,0,0
-E026,ASV84,Actinopterygii,1730,0.9256286784376672,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E026,ASV84,Actinopterygii,1730,0.9256286784376672,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E026,ASV9,Elasmobranchii,139,0.13348544014193225,1,Squaliformes,139,0.13348544014193225,1,Squalidae,139,0.13348544014193225,1,Squalus,139,0.13348544014193225,1,Squalus suckleyi,139,0.13348544014193225,1
 E026,ASV91,Elasmobranchii,139,0.13348544014193225,1,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E026,ASV97,Actinopterygii,1730,0.9256286784376672,1,Scorpaeniformes,0,0,0,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -1315,7 +1315,7 @@ E027,ASV719,Actinopterygii,10731,0.8269245588348617,1,Salmoniformes,0,0,0,Salmon
 E027,ASV72,Actinopterygii,10731,0.8269245588348617,1,Gadiformes,0,0,0,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E027,ASV75,Elasmobranchii,2246,0.3106446269389504,1,Squaliformes,2246,0.3106446269389504,1,Squalidae,2246,0.3106446269389504,1,Squalus,2246,0.3106446269389504,1,Squalus suckleyi,2246,0.3106446269389504,1
 E027,ASV8,Actinopterygii,10731,0.8269245588348617,1,Clupeiformes,1519,0.11705324805424983,1,Clupeidae,1519,0.11705324805424983,1,Clupea,1519,0.11705324805424983,1,Clupea pallasii,1519,0.11705324805424983,1
-E027,ASV84,Actinopterygii,10731,0.8269245588348617,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E027,ASV84,Actinopterygii,10731,0.8269245588348617,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E027,ASV9,Elasmobranchii,2246,0.3106446269389504,1,Squaliformes,2246,0.3106446269389504,1,Squalidae,2246,0.3106446269389504,1,Squalus,2246,0.3106446269389504,1,Squalus suckleyi,2246,0.3106446269389504,1
 E027,ASV91,Elasmobranchii,2246,0.3106446269389504,1,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E027,ASV97,Actinopterygii,10731,0.8269245588348617,1,Scorpaeniformes,0,0,0,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -1370,7 +1370,7 @@ E028,ASV719,Actinopterygii,186732,0.9983426182354765,1,Salmoniformes,0,0,0,Salmo
 E028,ASV72,Actinopterygii,186732,0.9983426182354765,1,Gadiformes,57541,0.30773226160370676,1,Gadidae,57541,0.4148402768811125,1,Gadus,57541,0.4148402768811125,1,Gadus chalcogrammus,57541,0.4148402768811125,1
 E028,ASV75,Elasmobranchii,310,0.002974753301044998,1,Squaliformes,310,0.002974753301044998,1,Squalidae,310,0.002974753301044998,1,Squalus,310,0.002974753301044998,1,Squalus suckleyi,310,0.002974753301044998,1
 E028,ASV8,Actinopterygii,186732,0.9983426182354765,1,Clupeiformes,64828,0.34659595171138036,1,Clupeidae,64828,0.34659595171138036,1,Clupea,64729,0.3460666588252906,1,Clupea pallasii,64729,0.3460666588252906,1
-E028,ASV84,Actinopterygii,186732,0.9983426182354765,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E028,ASV84,Actinopterygii,186732,0.9983426182354765,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E028,ASV9,Elasmobranchii,310,0.002974753301044998,1,Squaliformes,310,0.002974753301044998,1,Squalidae,310,0.002974753301044998,1,Squalus,310,0.002974753301044998,1,Squalus suckleyi,310,0.002974753301044998,1
 E028,ASV91,Elasmobranchii,310,0.002974753301044998,1,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E028,ASV97,Actinopterygii,186732,0.9983426182354765,1,Scorpaeniformes,5709,0.05219275297876876,1,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -1425,7 +1425,7 @@ E029,ASV719,Actinopterygii,73268,1,1,Salmoniformes,0,0,0,Salmonidae,0,0,0,Oncorh
 E029,ASV72,Actinopterygii,73268,1,1,Gadiformes,6642,0.09068162532839519,1,Gadidae,6642,0.12224389592179062,1,Gadus,6642,0.12224389592179062,1,Gadus chalcogrammus,6642,0.12224389592179062,1
 E029,ASV75,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E029,ASV8,Actinopterygii,73268,1,1,Clupeiformes,8870,0.12106240104820658,1,Clupeidae,8870,0.12106240104820658,1,Clupea,8870,0.12106240104820658,1,Clupea pallasii,8870,0.12106240104820658,1
-E029,ASV84,Actinopterygii,73268,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E029,ASV84,Actinopterygii,73268,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E029,ASV9,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E029,ASV91,Elasmobranchii,0,0,0,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E029,ASV97,Actinopterygii,73268,1,1,Scorpaeniformes,0,0,0,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -1480,7 +1480,7 @@ E031,ASV719,Actinopterygii,13351,0.9853136531365314,1,Salmoniformes,1902,0.14292
 E031,ASV72,Actinopterygii,13351,0.9853136531365314,1,Gadiformes,0,0,0,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E031,ASV75,Elasmobranchii,199,0.026359804208993604,1,Squaliformes,199,0.026359804208993604,1,Squalidae,199,0.026359804208993604,1,Squalus,199,0.026359804208993604,1,Squalus suckleyi,199,0.026359804208993604,1
 E031,ASV8,Actinopterygii,13351,0.9853136531365314,1,Clupeiformes,1215,0.0896678966789668,1,Clupeidae,1215,0.0896678966789668,1,Clupea,1215,0.0896678966789668,1,Clupea pallasii,1215,0.0896678966789668,1
-E031,ASV84,Actinopterygii,13351,0.9853136531365314,1,Pleuronectiformes,91,0.013823085577369821,1,Pleuronectidae,91,0.013823085577369821,1,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E031,ASV84,Actinopterygii,13351,0.9853136531365314,1,Pleuronectiformes,91,0.013823085577369821,1,Pleuronectidae,91,0.013823085577369821,1,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E031,ASV9,Elasmobranchii,199,0.026359804208993604,1,Squaliformes,199,0.026359804208993604,1,Squalidae,199,0.026359804208993604,1,Squalus,199,0.026359804208993604,1,Squalus suckleyi,199,0.026359804208993604,1
 E031,ASV91,Elasmobranchii,199,0.026359804208993604,1,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E031,ASV97,Actinopterygii,13351,0.9853136531365314,1,Scorpaeniformes,0,0,0,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -1535,7 +1535,7 @@ E032,ASV719,Actinopterygii,1286,1,1,Salmoniformes,0,0,0,Salmonidae,0,0,0,Oncorhy
 E032,ASV72,Actinopterygii,1286,1,1,Gadiformes,0,0,0,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E032,ASV75,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E032,ASV8,Actinopterygii,1286,1,1,Clupeiformes,0,0,0,Clupeidae,0,0,0,Clupea,0,0,0,Clupea pallasii,0,0,0
-E032,ASV84,Actinopterygii,1286,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E032,ASV84,Actinopterygii,1286,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E032,ASV9,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E032,ASV91,Elasmobranchii,0,0,0,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E032,ASV97,Actinopterygii,1286,1,1,Scorpaeniformes,0,0,0,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -1590,7 +1590,7 @@ E033,ASV719,Actinopterygii,2746,1,1,Salmoniformes,2547,0.9444325277679984,1,Salm
 E033,ASV72,Actinopterygii,2746,1,1,Gadiformes,0,0,0,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E033,ASV75,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E033,ASV8,Actinopterygii,2746,1,1,Clupeiformes,0,0,0,Clupeidae,0,0,0,Clupea,0,0,0,Clupea pallasii,0,0,0
-E033,ASV84,Actinopterygii,2746,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E033,ASV84,Actinopterygii,2746,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E033,ASV9,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E033,ASV91,Elasmobranchii,0,0,0,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E033,ASV97,Actinopterygii,2746,1,1,Scorpaeniformes,0,0,0,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -1645,7 +1645,7 @@ E035,ASV719,Actinopterygii,15333,1,1,Salmoniformes,0,0,0,Salmonidae,0,0,0,Oncorh
 E035,ASV72,Actinopterygii,15333,1,1,Gadiformes,7493,0.48883619838456605,1,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E035,ASV75,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E035,ASV8,Actinopterygii,15333,1,1,Clupeiformes,7840,0.5113154633796387,1,Clupeidae,7840,0.5113154633796387,1,Clupea,7840,0.5113154633796387,1,Clupea pallasii,7840,0.5113154633796387,1
-E035,ASV84,Actinopterygii,15333,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E035,ASV84,Actinopterygii,15333,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E035,ASV9,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E035,ASV91,Elasmobranchii,0,0,0,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E035,ASV97,Actinopterygii,15333,1,1,Scorpaeniformes,0,0,0,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -1700,7 +1700,7 @@ E036,ASV719,Actinopterygii,32232,1,1,Salmoniformes,0,0,0,Salmonidae,0,0,0,Oncorh
 E036,ASV72,Actinopterygii,32232,1,1,Gadiformes,32222,1,1,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E036,ASV75,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E036,ASV8,Actinopterygii,32232,1,1,Clupeiformes,10,3.102506825515016e-4,1,Clupeidae,10,3.102506825515016e-4,1,Clupea,10,3.102506825515016e-4,1,Clupea pallasii,10,3.102506825515016e-4,1
-E036,ASV84,Actinopterygii,32232,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E036,ASV84,Actinopterygii,32232,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E036,ASV9,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E036,ASV91,Elasmobranchii,0,0,0,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E036,ASV97,Actinopterygii,32232,1,1,Scorpaeniformes,0,0,0,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -1755,7 +1755,7 @@ E038,ASV719,Actinopterygii,159740,0.9497817892095656,1,Salmoniformes,0,0,0,Salmo
 E038,ASV72,Actinopterygii,159740,0.9497817892095656,1,Gadiformes,151551,0.9013712995929135,1,Gadidae,14719,0.11801334259618186,1,Gadus,14719,0.11801334259618186,1,Gadus chalcogrammus,14719,0.11801334259618186,1
 E038,ASV75,Elasmobranchii,8446,0.09013420535875714,1,Squaliformes,8446,0.09013420535875714,1,Squalidae,8446,0.09013420535875714,1,Squalus,8446,0.09013420535875714,1,Squalus suckleyi,8446,0.09013420535875714,1
 E038,ASV8,Actinopterygii,159740,0.9497817892095656,1,Clupeiformes,6088,0.03619801886007159,1,Clupeidae,6088,0.03619801886007159,1,Clupea,5910,0.035139666797474226,1,Clupea pallasii,5910,0.035139666797474226,1
-E038,ASV84,Actinopterygii,159740,0.9497817892095656,1,Pleuronectiformes,191,0.002337472041910687,1,Pleuronectidae,191,0.002337472041910687,1,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E038,ASV84,Actinopterygii,159740,0.9497817892095656,1,Pleuronectiformes,191,0.002337472041910687,1,Pleuronectidae,191,0.002337472041910687,1,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E038,ASV9,Elasmobranchii,8446,0.09013420535875714,1,Squaliformes,8446,0.09013420535875714,1,Squalidae,8446,0.09013420535875714,1,Squalus,8446,0.09013420535875714,1,Squalus suckleyi,8446,0.09013420535875714,1
 E038,ASV91,Elasmobranchii,8446,0.09013420535875714,1,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E038,ASV97,Actinopterygii,159740,0.9497817892095656,1,Scorpaeniformes,0,0,0,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -1810,7 +1810,7 @@ E039,ASV719,Actinopterygii,5740,0.9043642665826375,1,Salmoniformes,0,0,0,Salmoni
 E039,ASV72,Actinopterygii,5740,0.9043642665826375,1,Gadiformes,0,0,0,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E039,ASV75,Elasmobranchii,607,0.17165189081403634,1,Squaliformes,607,0.17165189081403634,1,Squalidae,607,0.17165189081403634,1,Squalus,607,0.17165189081403634,1,Squalus suckleyi,607,0.17165189081403634,1
 E039,ASV8,Actinopterygii,5740,0.9043642665826375,1,Clupeiformes,2248,0.3541830786198204,1,Clupeidae,2248,0.3541830786198204,1,Clupea,2076,0.32708366157239643,1,Clupea pallasii,2076,0.32708366157239643,1
-E039,ASV84,Actinopterygii,5740,0.9043642665826375,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E039,ASV84,Actinopterygii,5740,0.9043642665826375,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E039,ASV9,Elasmobranchii,607,0.17165189081403634,1,Squaliformes,607,0.17165189081403634,1,Squalidae,607,0.17165189081403634,1,Squalus,607,0.17165189081403634,1,Squalus suckleyi,607,0.17165189081403634,1
 E039,ASV91,Elasmobranchii,607,0.17165189081403634,1,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E039,ASV97,Actinopterygii,5740,0.9043642665826375,1,Scorpaeniformes,0,0,0,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -1865,7 +1865,7 @@ E040,ASV719,Actinopterygii,8122,0.9821039903264812,1,Salmoniformes,8122,1,1,Salm
 E040,ASV72,Actinopterygii,8122,0.9821039903264812,1,Gadiformes,0,0,0,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E040,ASV75,Elasmobranchii,148,0.032120670681530857,1,Squaliformes,148,0.032120670681530857,1,Squalidae,148,0.032120670681530857,1,Squalus,148,0.032120670681530857,1,Squalus suckleyi,148,0.032120670681530857,1
 E040,ASV8,Actinopterygii,8122,0.9821039903264812,1,Clupeiformes,0,0,0,Clupeidae,0,0,0,Clupea,0,0,0,Clupea pallasii,0,0,0
-E040,ASV84,Actinopterygii,8122,0.9821039903264812,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E040,ASV84,Actinopterygii,8122,0.9821039903264812,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E040,ASV9,Elasmobranchii,148,0.032120670681530857,1,Squaliformes,148,0.032120670681530857,1,Squalidae,148,0.032120670681530857,1,Squalus,148,0.032120670681530857,1,Squalus suckleyi,148,0.032120670681530857,1
 E040,ASV91,Elasmobranchii,148,0.032120670681530857,1,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E040,ASV97,Actinopterygii,8122,0.9821039903264812,1,Scorpaeniformes,0,0,0,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -1920,7 +1920,7 @@ E042,ASV719,Actinopterygii,19981,0.9826882407908326,1,Salmoniformes,11632,0.5824
 E042,ASV72,Actinopterygii,19981,0.9826882407908326,1,Gadiformes,0,0,0,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E042,ASV75,Elasmobranchii,352,0.031072028157117636,1,Squaliformes,352,0.031072028157117636,1,Squalidae,352,0.031072028157117636,1,Squalus,352,0.031072028157117636,1,Squalus suckleyi,352,0.031072028157117636,1
 E042,ASV8,Actinopterygii,19981,0.9826882407908326,1,Clupeiformes,94,0.0046230266069935575,1,Clupeidae,94,0.0046230266069935575,1,Clupea,0,0,0,Clupea pallasii,0,0,0
-E042,ASV84,Actinopterygii,19981,0.9826882407908326,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E042,ASV84,Actinopterygii,19981,0.9826882407908326,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E042,ASV9,Elasmobranchii,352,0.031072028157117636,1,Squaliformes,352,0.031072028157117636,1,Squalidae,352,0.031072028157117636,1,Squalus,352,0.031072028157117636,1,Squalus suckleyi,352,0.031072028157117636,1
 E042,ASV91,Elasmobranchii,352,0.031072028157117636,1,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E042,ASV97,Actinopterygii,19981,0.9826882407908326,1,Scorpaeniformes,751,0.06315791376345974,1,Anoplopomatidae,751,0.06425975575405078,1,Anoplopoma,751,0.06425975575405078,1,Anoplopoma fimbria,751,0.06425975575405078,1
@@ -1975,7 +1975,7 @@ E044,ASV719,Actinopterygii,36246,0.44285068481434875,1,Salmoniformes,0,0,0,Salmo
 E044,ASV72,Actinopterygii,36246,0.44285068481434875,1,Gadiformes,24764,0.30265844114400436,1,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E044,ASV75,Elasmobranchii,45601,1,1,Squaliformes,45601,1,1,Squalidae,45601,1,1,Squalus,45601,1,1,Squalus suckleyi,45601,1,1
 E044,ASV8,Actinopterygii,36246,0.44285068481434875,1,Clupeiformes,0,0,0,Clupeidae,0,0,0,Clupea,0,0,0,Clupea pallasii,0,0,0
-E044,ASV84,Actinopterygii,36246,0.44285068481434875,1,Pleuronectiformes,11482,0.28874713023527177,1,Pleuronectidae,11482,0.28874713023527177,1,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E044,ASV84,Actinopterygii,36246,0.44285068481434875,1,Pleuronectiformes,11482,0.28874713023527177,1,Pleuronectidae,11482,0.28874713023527177,1,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E044,ASV9,Elasmobranchii,45601,1,1,Squaliformes,45601,1,1,Squalidae,45601,1,1,Squalus,45601,1,1,Squalus suckleyi,45601,1,1
 E044,ASV91,Elasmobranchii,45601,1,1,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E044,ASV97,Actinopterygii,36246,0.44285068481434875,1,Scorpaeniformes,0,0,0,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -2030,7 +2030,7 @@ E046,ASV719,Actinopterygii,5080,0.9350266887539113,1,Salmoniformes,3886,0.728292
 E046,ASV72,Actinopterygii,5080,0.9350266887539113,1,Gadiformes,0,0,0,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E046,ASV75,Elasmobranchii,353,0.11661741202075881,1,Squaliformes,353,0.11661741202075881,1,Squalidae,353,0.11661741202075881,1,Squalus,353,0.11661741202075881,1,Squalus suckleyi,353,0.11661741202075881,1
 E046,ASV8,Actinopterygii,5080,0.9350266887539113,1,Clupeiformes,337,0.0620283452972575,1,Clupeidae,337,0.0620283452972575,1,Clupea,0,0,0,Clupea pallasii,0,0,0
-E046,ASV84,Actinopterygii,5080,0.9350266887539113,1,Pleuronectiformes,255,0.09660583864015201,1,Pleuronectidae,255,0.09660583864015201,1,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E046,ASV84,Actinopterygii,5080,0.9350266887539113,1,Pleuronectiformes,255,0.09660583864015201,1,Pleuronectidae,255,0.09660583864015201,1,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E046,ASV9,Elasmobranchii,353,0.11661741202075881,1,Squaliformes,353,0.11661741202075881,1,Squalidae,353,0.11661741202075881,1,Squalus,353,0.11661741202075881,1,Squalus suckleyi,353,0.11661741202075881,1
 E046,ASV91,Elasmobranchii,353,0.11661741202075881,1,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E046,ASV97,Actinopterygii,5080,0.9350266887539113,1,Scorpaeniformes,0,0,0,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -2085,7 +2085,7 @@ E047,ASV719,Actinopterygii,630840,0.9893217114744945,1,Salmoniformes,26375,0.042
 E047,ASV72,Actinopterygii,630840,0.9893217114744945,1,Gadiformes,24693,0.0387370848188872,1,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E047,ASV75,Elasmobranchii,6809,0.019165936732682208,1,Squaliformes,425,0.0011962877238052487,1,Squalidae,425,0.0011962877238052487,1,Squalus,425,0.0011962877238052487,1,Squalus suckleyi,425,0.0011962877238052487,1
 E047,ASV8,Actinopterygii,630840,0.9893217114744945,1,Clupeiformes,109532,0.1717747538222439,1,Clupeidae,109532,0.1717747538222439,1,Clupea,109532,0.1717747538222439,1,Clupea pallasii,109532,0.1717747538222439,1
-E047,ASV84,Actinopterygii,630840,0.9893217114744945,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E047,ASV84,Actinopterygii,630840,0.9893217114744945,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E047,ASV9,Elasmobranchii,6809,0.019165936732682208,1,Squaliformes,425,0.0011962877238052487,1,Squalidae,425,0.0011962877238052487,1,Squalus,425,0.0011962877238052487,1,Squalus suckleyi,425,0.0011962877238052487,1
 E047,ASV91,Elasmobranchii,6809,0.019165936732682208,1,Rajiformes,6384,1,1,Rajidae,6384,1,1,Beringraja,6384,1,1,Beringraja binoculata,6384,1,1
 E047,ASV97,Actinopterygii,630840,0.9893217114744945,1,Scorpaeniformes,372900,1,1,Anoplopomatidae,366506,1,1,Anoplopoma,366506,1,1,Anoplopoma fimbria,366506,1,1
@@ -2140,7 +2140,7 @@ E049,ASV719,Actinopterygii,280844,1,1,Salmoniformes,10155,0.036817754893399716,1
 E049,ASV72,Actinopterygii,280844,1,1,Gadiformes,0,0,0,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E049,ASV75,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E049,ASV8,Actinopterygii,280844,1,1,Clupeiformes,157914,0.5622836877412372,1,Clupeidae,157914,0.5622836877412372,1,Clupea,157914,0.5622836877412372,1,Clupea pallasii,157914,0.5622836877412372,1
-E049,ASV84,Actinopterygii,280844,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E049,ASV84,Actinopterygii,280844,1,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E049,ASV9,Elasmobranchii,0,0,0,Squaliformes,0,0,0,Squalidae,0,0,0,Squalus,0,0,0,Squalus suckleyi,0,0,0
 E049,ASV91,Elasmobranchii,0,0,0,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E049,ASV97,Actinopterygii,280844,1,1,Scorpaeniformes,100251,0.6103976641298204,1,Anoplopomatidae,91888,0.569238470567133,1,Anoplopoma,91888,0.569238470567133,1,Anoplopoma fimbria,91888,0.569238470567133,1
@@ -2195,7 +2195,7 @@ E050,ASV719,Actinopterygii,76781,0.987854615632036,1,Salmoniformes,17322,0.22692
 E050,ASV72,Actinopterygii,76781,0.987854615632036,1,Gadiformes,1573,0.02024429946324249,1,Gadidae,1573,0.027290446412182458,1,Gadus,1573,0.027290446412182458,1,Gadus chalcogrammus,1573,0.027290446412182458,1
 E050,ASV75,Elasmobranchii,944,0.021799155158105033,1,Squaliformes,944,0.021799155158105033,1,Squalidae,944,0.021799155158105033,1,Squalus,944,0.021799155158105033,1,Squalus suckleyi,944,0.021799155158105033,1
 E050,ASV8,Actinopterygii,76781,0.987854615632036,1,Clupeiformes,50306,0.6472306207783853,1,Clupeidae,50306,0.6472306207783853,1,Clupea,50306,0.6472306207783853,1,Clupea pallasii,50306,0.6472306207783853,1
-E050,ASV84,Actinopterygii,76781,0.987854615632036,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E050,ASV84,Actinopterygii,76781,0.987854615632036,1,Pleuronectiformes,0,0,0,Pleuronectidae,0,0,0,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E050,ASV9,Elasmobranchii,944,0.021799155158105033,1,Squaliformes,944,0.021799155158105033,1,Squalidae,944,0.021799155158105033,1,Squalus,944,0.021799155158105033,1,Squalus suckleyi,944,0.021799155158105033,1
 E050,ASV91,Elasmobranchii,944,0.021799155158105033,1,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E050,ASV97,Actinopterygii,76781,0.987854615632036,1,Scorpaeniformes,373,0.008206111255301587,1,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -2250,7 +2250,7 @@ E051,ASV719,Actinopterygii,178491,0.983064009781567,1,Salmoniformes,16678,0.0935
 E051,ASV72,Actinopterygii,178491,0.983064009781567,1,Gadiformes,690,0.003801450378418085,1,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E051,ASV75,Elasmobranchii,3075,0.03039757881204542,1,Squaliformes,3075,0.03039757881204542,1,Squalidae,3075,0.03039757881204542,1,Squalus,3075,0.03039757881204542,1,Squalus suckleyi,3075,0.03039757881204542,1
 E051,ASV8,Actinopterygii,178491,0.983064009781567,1,Clupeiformes,137402,0.7567606269896346,1,Clupeidae,137402,0.7567606269896346,1,Clupea,137402,0.7567606269896346,1,Clupea pallasii,137402,0.7567606269896346,1
-E051,ASV84,Actinopterygii,178491,0.983064009781567,1,Pleuronectiformes,489,0.005543412959352144,1,Pleuronectidae,489,0.005543412959352144,1,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E051,ASV84,Actinopterygii,178491,0.983064009781567,1,Pleuronectiformes,489,0.005543412959352144,1,Pleuronectidae,489,0.005543412959352144,1,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E051,ASV9,Elasmobranchii,3075,0.03039757881204542,1,Squaliformes,3075,0.03039757881204542,1,Squalidae,3075,0.03039757881204542,1,Squalus,3075,0.03039757881204542,1,Squalus suckleyi,3075,0.03039757881204542,1
 E051,ASV91,Elasmobranchii,3075,0.03039757881204542,1,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E051,ASV97,Actinopterygii,178491,0.983064009781567,1,Scorpaeniformes,1697,0.0159822020192154,1,Anoplopomatidae,0,0,0,Anoplopoma,0,0,0,Anoplopoma fimbria,0,0,0
@@ -2305,7 +2305,7 @@ E052,ASV719,Actinopterygii,203505,0.9681309584974596,1,Salmoniformes,31766,0.153
 E052,ASV72,Actinopterygii,203505,0.9681309584974596,1,Gadiformes,1404,0.00668129877234946,1,Gadidae,0,0,0,Gadus,0,0,0,Gadus chalcogrammus,0,0,0
 E052,ASV75,Elasmobranchii,6699,0.05720018069468704,1,Squaliformes,6699,0.05720018069468704,1,Squalidae,6699,0.05720018069468704,1,Squalus,6699,0.05720018069468704,1,Squalus suckleyi,6699,0.05720018069468704,1
 E052,ASV8,Actinopterygii,203505,0.9681309584974596,1,Clupeiformes,135694,0.6455348137999277,1,Clupeidae,135694,0.6455348137999277,1,Clupea,135621,0.6451875321116629,1,Clupea pallasii,135621,0.6451875321116629,1
-E052,ASV84,Actinopterygii,203505,0.9681309584974596,1,Pleuronectiformes,487,0.00476859989397149,1,Pleuronectidae,487,0.00476859989397149,1,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E052,ASV84,Actinopterygii,203505,0.9681309584974596,1,Pleuronectiformes,487,0.00476859989397149,1,Pleuronectidae,487,0.00476859989397149,1,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E052,ASV9,Elasmobranchii,6699,0.05720018069468704,1,Squaliformes,6699,0.05720018069468704,1,Squalidae,6699,0.05720018069468704,1,Squalus,6699,0.05720018069468704,1,Squalus suckleyi,6699,0.05720018069468704,1
 E052,ASV91,Elasmobranchii,6699,0.05720018069468704,1,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E052,ASV97,Actinopterygii,203505,0.9681309584974596,1,Scorpaeniformes,13732,0.11170744491608016,1,Anoplopomatidae,1090,0.009021652943166888,1,Anoplopoma,1090,0.009021652943166888,1,Anoplopoma fimbria,1090,0.009021652943166888,1
@@ -2360,7 +2360,7 @@ E054,ASV719,Actinopterygii,377730,0.987519084767741,1,Salmoniformes,66602,0.1772
 E054,ASV72,Actinopterygii,377730,0.987519084767741,1,Gadiformes,10930,0.028583732699159377,1,Gadidae,9122,0.032158570448770504,1,Gadus,9122,0.032158570448770504,1,Gadus chalcogrammus,9122,0.032158570448770504,1
 E054,ASV75,Elasmobranchii,4774,0.022401383062097394,1,Squaliformes,4774,0.022401383062097394,1,Squalidae,4774,0.022401383062097394,1,Squalus,4774,0.022401383062097394,1,Squalus suckleyi,4774,0.022401383062097394,1
 E054,ASV8,Actinopterygii,377730,0.987519084767741,1,Clupeiformes,232643,0.6082106330914187,1,Clupeidae,232643,0.6082106330914187,1,Clupea,232643,0.6082106330914187,1,Clupea pallasii,232643,0.6082106330914187,1
-E054,ASV84,Actinopterygii,377730,0.987519084767741,1,Pleuronectiformes,4488,0.024150146339495134,1,Pleuronectidae,4488,0.024150146339495134,1,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E054,ASV84,Actinopterygii,377730,0.987519084767741,1,Pleuronectiformes,4488,0.024150146339495134,1,Pleuronectidae,4488,0.024150146339495134,1,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E054,ASV9,Elasmobranchii,4774,0.022401383062097394,1,Squaliformes,4774,0.022401383062097394,1,Squalidae,4774,0.022401383062097394,1,Squalus,4774,0.022401383062097394,1,Squalus suckleyi,4774,0.022401383062097394,1
 E054,ASV91,Elasmobranchii,4774,0.022401383062097394,1,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E054,ASV97,Actinopterygii,377730,0.987519084767741,1,Scorpaeniformes,22288,0.099637866025579655,1,Anoplopomatidae,3761,0.01710676724741421,1,Anoplopoma,3761,0.01710676724741421,1,Anoplopoma fimbria,3761,0.01710676724741421,1
@@ -2415,7 +2415,7 @@ E056,ASV719,Actinopterygii,345117,0.9876118198519943,1,Salmoniformes,73724,0.214
 E056,ASV72,Actinopterygii,345117,0.9876118198519943,1,Gadiformes,6843,0.01958850209846846,1,Gadidae,6843,0.026406394935216723,1,Gadus,6843,0.026406394935216723,1,Gadus chalcogrammus,6843,0.026406394935216723,1
 E056,ASV75,Elasmobranchii,4329,0.022234937404307417,1,Squaliformes,4329,0.022234937404307417,1,Squalidae,4329,0.022234937404307417,1,Squalus,4329,0.022234937404307417,1,Squalus suckleyi,4329,0.022234937404307417,1
 E056,ASV8,Actinopterygii,345117,0.9876118198519943,1,Clupeiformes,182919,0.5234542676121633,1,Clupeidae,182919,0.5234542676121633,1,Clupea,182919,0.5234542676121633,1,Clupea pallasii,182919,0.5234542676121633,1
-E056,ASV84,Actinopterygii,345117,0.9876118198519943,1,Pleuronectiformes,2577,0.015178793216696327,1,Pleuronectidae,2577,0.015178793216696327,1,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E056,ASV84,Actinopterygii,345117,0.9876118198519943,1,Pleuronectiformes,2577,0.015178793216696327,1,Pleuronectidae,2577,0.015178793216696327,1,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E056,ASV9,Elasmobranchii,4329,0.022234937404307417,1,Squaliformes,4329,0.022234937404307417,1,Squalidae,4329,0.022234937404307417,1,Squalus,4329,0.022234937404307417,1,Squalus suckleyi,4329,0.022234937404307417,1
 E056,ASV91,Elasmobranchii,4329,0.022234937404307417,1,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E056,ASV97,Actinopterygii,345117,0.9876118198519943,1,Scorpaeniformes,16822,0.08231649206773321,1,Anoplopomatidae,3036,0.015115492000170741,1,Anoplopoma,3036,0.015115492000170741,1,Anoplopoma fimbria,3036,0.015115492000170741,1
@@ -2470,7 +2470,7 @@ E057,ASV719,Actinopterygii,435598,0.9981599492210146,1,Salmoniformes,44671,0.104
 E057,ASV72,Actinopterygii,435598,0.9981599492210146,1,Gadiformes,12129,0.027801870752756714,1,Gadidae,6204,0.019170290760619667,1,Gadus,6204,0.019170290760619667,1,Gadus chalcogrammus,6204,0.019170290760619667,1
 E057,ASV75,Elasmobranchii,803,0.0033026169625143447,1,Squaliformes,803,0.0033026169625143447,1,Squalidae,803,0.0033026169625143447,1,Squalus,803,0.0033026169625143447,1,Squalus suckleyi,803,0.0033026169625143447,1
 E057,ASV8,Actinopterygii,435598,0.9981599492210146,1,Clupeiformes,274921,0.6299733501985559,1,Clupeidae,274921,0.6299733501985559,1,Clupea,274921,0.6299733501985559,1,Clupea pallasii,274921,0.6299733501985559,1
-E057,ASV84,Actinopterygii,435598,0.9981599492210146,1,Pleuronectiformes,5507,0.025973605441182206,1,Pleuronectidae,5507,0.025973605441182206,1,Reinhardtius,0,0,0,Reinhardtius evermanni,0,0,0
+E057,ASV84,Actinopterygii,435598,0.9981599492210146,1,Pleuronectiformes,5507,0.025973605441182206,1,Pleuronectidae,5507,0.025973605441182206,1,Reinhardtius,0,0,0,Reinhardtius hippoglossoides,0,0,0
 E057,ASV9,Elasmobranchii,803,0.0033026169625143447,1,Squaliformes,803,0.0033026169625143447,1,Squalidae,803,0.0033026169625143447,1,Squalus,803,0.0033026169625143447,1,Squalus suckleyi,803,0.0033026169625143447,1
 E057,ASV91,Elasmobranchii,803,0.0033026169625143447,1,Rajiformes,0,0,0,Rajidae,0,0,0,Beringraja,0,0,0,Beringraja binoculata,0,0,0
 E057,ASV97,Actinopterygii,435598,0.9981599492210146,1,Scorpaeniformes,37418,0.14661693389209546,1,Anoplopomatidae,1803,0.0071880416315269905,1,Anoplopoma,1803,0.0071880416315269905,1,Anoplopoma fimbria,1803,0.0071880416315269905,1

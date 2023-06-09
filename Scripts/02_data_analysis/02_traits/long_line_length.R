@@ -1,4 +1,7 @@
 #Long-line surveys of length 
+#See if missing spp of synoptic data are in long-line data 
+#Answer = no 
+
 #SET-Up ####
 #Load libraries 
 
@@ -105,15 +108,6 @@ syn <- data.frame(lapply(syn, function(x) {
 syn <- data.frame(lapply(syn, function(x) {
   gsub("Sebastes maliger","Sebastes caurinus/maliger", x) }))
 
-syn <- syn <- data.frame(lapply(syn, function(x) {
-  gsub("Coryphaenoides cinerus","Corphaenidoes sp", x) }))
-
-syn <- syn <- data.frame(lapply(syn, function(x) {
-  gsub("Coryphaenoides acrolepis","Corphaenidoes sp", x) }))
-
-syn <- syn <- data.frame(lapply(syn, function(x) {
-  gsub("Coryphaenoides filifer","Corphaenidoes sp", x) }))
-
 syn <- data.frame(lapply(syn, function(x) {
   gsub("Lumpenus sagitta","Xiphister atropurpureus/mucosus", x) }))
 
@@ -148,6 +142,12 @@ syn <- data.frame(lapply(syn, function(x) {
 syn <- data.frame(lapply(syn, function(x) {
   gsub("Hippoglossus stenolepis","Reinhardtius hippoglossoides", x) }))
 
+#pacific sandlance Ammodyte hexapterus corresponds to Ammodytes personatus
+
+syn <- data.frame(lapply(syn, function(x) {
+  gsub("Ammodytes personatus","Ammodytes hexapterus", x) }))
+
+
 #try again...
 
 syn_spp <- syn$Scientific.name #all species in synoptic trawl dataset 
@@ -155,3 +155,5 @@ det_spp <- detection$LCT #all species in our detection dataset
 
 missing <- detection[  !(detection$LCT %in% syn_spp), ] 
 unique(missing$LCT)
+
+#there are even more spp missing from long-line

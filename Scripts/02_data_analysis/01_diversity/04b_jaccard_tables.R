@@ -11,16 +11,15 @@ library(rempsyc)
 
 #read data
 data3 <- read.csv(here::here("Processed_data",
+                             "datasets",
                             "diversity",
                             "diversity_indices_all.csv"),
                  head=TRUE)
 
 #table w/ all sets ####
-
 data3$set_number <- as.numeric(data3$set_number) #make set-number numeric instead of character
 data3 <- data3 %>% arrange(set_number) #arrange numbers in increasing order 
 data3$set_number <- as.character(data3$set_number) #change set-number back to character
-
 colnames(data3) <- c('site','Jaccards','Jaccards Turnover', 'Jaccards Nestedness') #change column names 
 data3 <- select(data3, c('site','Jaccards','Jaccards Turnover', 'Jaccards Nestedness')) #select specific columns to be included in table
 
@@ -41,7 +40,7 @@ colnames(data) <- c('site','Turnover', 'Nestedness')
 data_long <- gather(data, dissimilarity, measurement, c('Turnover'):c('Nestedness'), factor_key=TRUE)
 
 #order in decreasing nestedness, increasing turnover 
-data_long$site <- factor(data_long$site,levels = c("1", "4", "5", "11",'16','15','6','10','12','9','13','14','8','3','2','7'))
+data_long$site <- factor(data_long$site,levels = c("1", "4", "5", "11",'16','15','6','10','9','14','12','8','3','13','2','7'))
 
 #plot
 plot <- ggplot(data_long, aes(fill=dissimilarity, y=measurement, x=site)) + 

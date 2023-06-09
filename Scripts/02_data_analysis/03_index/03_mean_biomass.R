@@ -1,5 +1,6 @@
 #Mean Biomass of Species 
-#goal: calculates the mean biomass per and creates euler plot for data visualization
+#goal: calculates the mean and summed biomass per species 
+#and creates euler plot for data visualization
 
 #SET UP 
 library(eulerr)
@@ -10,17 +11,17 @@ library(dplyr)
 
 #read data
 data <- read.csv(here::here("Processed_data", 
+                            "datasets",
                             "biomass",
                             "biomass_all.csv"),
                  head=TRUE)
 
 #MEAN BIOMASS PER SPECIES ####
-
 x <- data
 
-new <- x %>%
-  group_by(LCT) %>%
-  dplyr::summarise(mean_biomass = mean(biomass_index))
+new <- x %>% 
+  group_by(LCT) %>% #group by species 
+  dplyr::summarise(mean_biomass = mean(biomass_index)) #take mean biomass index 
 
 #merge w/ big data 
 data_count <- merge(x, new, by=c('LCT'))
@@ -32,15 +33,16 @@ df <- distinct(df) #ensure no replicates
 
 write_csv(df,
           here("Processed_data",
+               "datasets",
                "biomass",
-               "species_biomass_all.csv")) 
+               "species_biomass_mean_all.csv")) 
 
 #SUM BIOMASS PER SPECIES ####
 x <- data
 
 new <- x %>%
-  group_by(LCT) %>%
-  dplyr::summarise(sum_biomass = sum(biomass_index))
+  group_by(LCT) %>% #group by species 
+  dplyr::summarise(sum_biomass = sum(biomass_index)) #take sum biomass index
 
 data_count <- merge(x, new, by=c('LCT'))
 
@@ -49,41 +51,27 @@ df <- distinct(df) #ensure no replicates
 
 write_csv(df,
           here("Processed_data",
+               "datasets",
                "biomass",
                "species_biomass_sum_all.csv")) 
 
 #EULER PLOT ####
+#read data
 #make euler plot with only both + trawl categories 
 
-data <- read.csv(here::here("Processed_data", 
-                            "biomass",
-                            "biomass_all.csv"),
-                 head=TRUE)
-
+#Euler detection formatting method
 #rename categorical variables to binary TRUE/FALSE 
-data2 <- data.frame(lapply(data, function(x) { #change southern to S across all df
-  gsub("both eDNA/trawl", "both", x)
-  
-}))
+data2 <- data.frame(lapply(data, function(x) { #change both across all df
+  gsub("both eDNA/trawl", "both", x)}))
 
-data2 <- data.frame(lapply(data2, function(x) { #change southern to S across all df
-  gsub("only trawl", "trawl", x)
-  
-}))
-
-data2 <- data.frame(lapply(data2, function(x) { #change southern to S across all df
-  gsub("only eDNA", "eDNA", x)
-  
-}))
-
-data2 <- subset(data2, gamma_detection_method == c('trawl', 'both'))
+data2 <- data.frame(lapply(data2, function(x) { #change trawl across all df
+  gsub("only trawl", "trawl", x)}))
 
 #format
 data_long <- select(data2, c('LCT','set_number', 'gamma_detection_method'))
 data_long$var <- TRUE #add 'true' column
 data_wide <- spread(data_long, gamma_detection_method, var)
 data_wide[is.na(data_wide)] <- FALSE #replace NA with FALSE
-
 
 #need to change TRUE in 'both' to TRUE in eDNA and trawl only 
 #subset only both 

@@ -1,7 +1,8 @@
 # trawl_eDNA-scripts-dataQCv1
 
-01_initial_cleaning script
+FOLDER: DataQC
 
+01_initial_cleaning script
   goal: initial cleaning of raw data files and creation of key metatada files 
 
   inputs: 
@@ -170,7 +171,7 @@
     "trawlweight_allsets_" includes sets >50m
   
   outputs: 
+	"detections_all.csv_" detections for all sets (including >50m)
 
-	"detections_all.csv_" detectetions for all sets (including >50m)
 
 

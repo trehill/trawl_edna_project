@@ -1,6 +1,7 @@
+#eDNA index values (from reads)
 ### Goal = convert read numbers to eDNA index and output final quality controlled tables
 ### Authors = Anya Mueller + Tessa Rehill 
-### Date = ENTER DATE HERE
+
 
 # Set up ------------------------------------------------------------------
 ## install packages
@@ -27,9 +28,9 @@ data12se_asvmatrix_nc_lor_nfc <- read_csv(here("Processed_data",
                                         "asv",
                                         "matrix",
                                         "clean_data",
-                                        "data12Se_asvmatrix_nc_lor_nfc.csv")) #OUTPUT OF EARLIER SCRIPT + INPUT TO LCT
+                                        "data12Se_asvmatrix_nc_lor_nfc.csv")) 
 
-TRdata12se_taxonomy <- read_csv(here("Processed_data", #this file changes!!
+TRdata12se_taxonomy <- read_csv(here("Processed_data", 
                                                      "eDNA",
                                                      "12s",
                                                      "12s_e",
@@ -185,7 +186,7 @@ data12su_asvmatrix_nc_lor_nfc <- read_csv(here("Processed_data",
                                                "clean_data",
                                                "data12su_asvmatrix_nc_lor_nfc.csv"))
 
-TRdata12su_taxonomy <- read_csv(here("Processed_data", #this file changes!!
+TRdata12su_taxonomy <- read_csv(here("Processed_data", 
                                      "eDNA",
                                      "12s",
                                      "12s_u",
@@ -234,7 +235,6 @@ for(var in c("order","family","genus","species")){
   data12su_asv_taxonomy_nc_lor_nfc_ei_r_a_nt <- left_join(data12su_asv_taxonomy_nc_lor_nfc_ei_r_a_nt,
                                                           x)
 }
-
 
 
 ## calculate taxonomic read index - this needs to be done at each taxonomy level
@@ -307,7 +307,6 @@ data12su_taxonomy_long_nc_lor_nfc_ei_r_a_nt <- data12su_asv_taxonomy_nc_lor_nfc_
          starts_with("species")) %>%
   #take distinct rows
   distinct()
-
 
 
 data12su_taxonomy_long_nc_lor_nfc_ei_r_a_nt <- data12su_taxonomy_long_nc_lor_nfc_ei_r_a_nt %>% 

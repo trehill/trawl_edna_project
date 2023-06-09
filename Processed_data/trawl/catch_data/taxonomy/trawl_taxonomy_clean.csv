@@ -51,7 +51,7 @@ NA,NA,NA,NA,NA,NA,NA,not_fish,Hermit Crab
 NA,NA,NA,NA,NA,NA,NA,not_fish,Lion's Mane Jelly
 NA,NA,NA,NA,NA,NA,NA,not_fish,Jellyfish
 NA,NA,NA,NA,NA,NA,NA,not_fish,Larval Squid
-NA,NA,NA,NA,NA,NA,NA,not_fish,Larval Sand Lance
+Ammodytes hexapterus,Animalia,Chordata,Actinopterygii,Trachiniformes,Ammodytidae,Ammodytes,species,Larval Sand Lance
 NA,NA,NA,NA,NA,NA,NA,not_fish,Neomysis rayii
 NA,NA,NA,NA,NA,NA,NA,not_fish,Opalescent Inshore Squid
 NA,NA,NA,NA,NA,NA,NA,not_fish,Pasiphaea pacifica
@@ -72,10 +72,31 @@ NA,NA,NA,NA,NA,NA,NA,not_fish,Euphausia spp.
 NA,NA,NA,NA,NA,NA,NA,not_fish,Euphausid spp
 NA,NA,NA,NA,NA,NA,NA,not_fish,Euphausiid spp
 NA,NA,NA,NA,NA,NA,NA,not_fish,Euphausid spp
-NA,NA,NA,NA,NA,NA,NA,not_fish,Juvenile Pollock
+Gadus chalcogrammus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae ,Gadus,species,Juvenile Pollock
 NA,NA,NA,NA,NA,NA,NA,not_fish,Neomysis rayii
-NA,NA,NA,NA,NA,NA,NA,not_fish,Pacific Lamprey
+Entosphenus tridentatus,Animalia,Chordata,Cephalaspidomorphi,Petromyzontiformes,Petromyzontidae,Entosphenus,species,Pacific Lamprey
 NA,NA,NA,NA,NA,NA,NA,not_fish,Lion's Mane Jellyfish
 NA,NA,NA,NA,NA,NA,NA,not_fish,Siphonophore spp.
 NA,NA,NA,NA,NA,NA,NA,not_fish,Pink Shrimp
 Allosmerus elongatus,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Allosmerus,species,Whitebait Smelt
+NA,NA,NA,NA,NA,NA,NA,not_fish,Alaskan Pink Shrimp
+NA,NA,NA,NA,NA,NA,NA,not_fish,Clawed Armhook
+NA,NA,NA,NA,NA,NA,NA,not_fish,Glass Shrimp
+Merluccius productus,Animalia,Chordata,Actinopterygii,Gadiformes,Merlucciidae,Merluccius,species,Hake (Whiting)
+NA,NA,NA,NA,NA,NA,NA,not_fish,Hermit Crab
+Ammodytes hexapterus,Animalia,Chordata,Actinopterygii,Trachiniformes,Ammodytidae,Ammodytes,species,Larval Sand Lance
+NA,NA,NA,NA,NA,NA,NA,not_fish,Larval Squid
+NA,NA,NA,NA,NA,NA,NA,not_fish,Lion's Mane Jelly
+NA,NA,NA,NA,NA,NA,NA,not_fish,Myctophid (Diaphus theta)
+NA,NA,NA,NA,NA,NA,NA,not_fish,Opalescent Inshore Squid
+NA,NA,NA,NA,NA,NA,NA,not_fish,Osmeridae (Whitebait smelt)
+NA,NA,NA,NA,NA,NA,NA,not_fish,Pasiphaea pacifica
+NA,NA,NA,NA,NA,NA,NA,not_fish,Pasiphaea tarda
+NA,NA,NA,NA,NA,NA,NA,not_fish,Pyrosome spp
+NA,NA,NA,NA,NA,NA,NA,not_fish,Sea Nettle
+NA,NA,NA,NA,NA,NA,NA,not_fish,Siphonophore spp
+NA,NA,NA,NA,NA,NA,NA,not_fish,"Squid ""B"""
+NA,NA,NA,NA,NA,NA,NA,not_fish,Squid B
+NA,NA,NA,NA,NA,NA,NA,not_fish,Water Jellies
+NA,NA,NA,NA,NA,NA,NA,not_fish,Water Jelly
+NA,Animalia ,Chordata,Teleostei,Perciformes,Zoarcidae,NA,family,"Zoarcid ""A"""

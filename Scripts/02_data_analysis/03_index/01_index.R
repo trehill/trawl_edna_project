@@ -3,7 +3,6 @@
 #SET UP ####
 library(tidyr)
 library(tidyverse)
-library(RColorBrewer)
 library(here)
 library(dplyr)
 library(ggplot2)
@@ -11,6 +10,7 @@ library(geosphere)
 library(gmt)
 
 #function
+#this function converts angles to decimal coordinates 
 angle2dec <- function(angle) {
   angle <- as.character(angle)
   x <- do.call(rbind, strsplit(angle, split=' '))
@@ -21,7 +21,8 @@ angle2dec <- function(angle) {
   return(x)
 }
 
-beta_div <- read.csv(here::here("Processed_data", #should be ASV by sample
+#read data 
+beta_div <- read.csv(here::here("Processed_data",
                                 "datasets",
                                 "detections_all.csv"),
                      head=TRUE)
@@ -34,23 +35,20 @@ trawl_meta <- read.csv(here::here("Processed_data",
                        head=TRUE)
 
 #only want to look at species PRESENT in eDNA AND trawl 
-
-beta_div <- subset(beta_div, p_abs_eDNA == 1)
+beta_div <- subset(beta_div, pabs_eDNA == 1) 
 beta_div <- subset(beta_div, pabs_trawl == 1)
-beta_div <- subset(beta_div, weight_total_kg > 0 )
+beta_div <- subset(beta_div, weight_total_kg > 0 ) #and only species that had associated weight measurements
 
-
+#Determining trawl distance ####
 #determine distance of trawl by look at metadata + using function above 
+#rename columns
 trawl_meta <- trawl_meta %>% 
-  rename(
-    lat1 = start_latitude_n,
+  rename(lat1 = start_latitude_n,
     lon1 = start_longitude_w,
     lat2 = end_latitude_n,
-    lon2 = end_longitude_w
-    
-  )
+    lon2 = end_longitude_w)
 
-#select specific points 
+#select specific columns based on lat/lon
 trawl <- select(trawl_meta, c('lat1', 'lon1','lat2', 'lon2', 'set_number'))
 
 #change "." to "' 
@@ -64,8 +62,8 @@ trawl$lon1 <- angle2dec(trawl$lon1)
 trawl$lon2 <- angle2dec(trawl$lon2)
 
 
-#Standardize 'biomass' by length 
-#Do this by creating a biomass 'indices' 
+#Standardize 'biomass' by length ####
+#Do this by creating a biomass density
 #We will take biomass and divide by length of trawl 
 
 #Determining 'length of trawl'
@@ -91,11 +89,6 @@ plot <- ggplot(data,aes(set_read_index, biomass_index)) +
 
 plot 
 
-ggsave("./Outputs/biomass/biomass_index.png", 
-       plot = plot,
-       width = 10, height = 6, units = "in")
-
-
 #plot with log data
 
 plot <- ggplot(data,aes(set_read_index, biomass_index)) +
@@ -110,9 +103,6 @@ plot <- ggplot(data,aes(set_read_index, biomass_index)) +
 
 plot 
 
-ggsave("./Outputs/biomass/biomass_index_log.png", 
-       plot = plot,
-       width = 10, height = 6, units = "in")
 
 #plot only biomass as logged
 plot <- ggplot(data,aes(set_read_index, biomass_index)) +
@@ -125,3 +115,8 @@ plot <- ggplot(data,aes(set_read_index, biomass_index)) +
   theme_classic()
 
 plot 
+
+
+ggsave("./Outputs/biomass/biomass_index_log.png", 
+       plot = plot,
+       width = 10, height = 6, units = "in")

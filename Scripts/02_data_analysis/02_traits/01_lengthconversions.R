@@ -1,4 +1,7 @@
 #Converting Fork to Total Length for Species Caught in Trawl 
+#the individual spp lengths in the trawl catch dataset are either in fork length 
+#or total length
+#goal: convert all fork data to total length data so we can compare length distributions
 
 #By searching literature OR 
 #FISHBASE using length-length table
@@ -6,10 +9,8 @@
 
 #SET-UP ####
 #Load libraries 
-
 library(tidyr)
 library(tidyverse)
-library(RColorBrewer)
 library(here)
 library(dplyr)
 library(ggplot2)
@@ -28,6 +29,9 @@ fork <- subset(trawl_catch, length_type == 'Fork')
 fork <- select(fork, c('species', 'length_cm', 'sample_id'))
 fork_spp <- select(fork, c('species'))
 fork_spp <- distinct(fork_spp)
+unique(fork_spp$species)
+
+#12 different species have fork length data 
 
 #Fixing species that have fork length data instead of total length data 
 
@@ -187,5 +191,6 @@ final_df <- rbind(total, merge_fork)
 
 write_csv(length,
           here("Processed_data",
+               "datasets",
                "traits",
                "length_conversions.csv")) 

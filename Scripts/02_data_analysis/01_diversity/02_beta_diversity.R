@@ -1,4 +1,6 @@
 #Explore Gamma (N/S) Comparisons
+#Author: Tessa Rehill
+#goal: create Euler and Venn diagrams of species detections at the beta level (N/S)
 
 #Set-Up ####
 #download packages 
@@ -9,9 +11,8 @@ library(ggvenn)
 library(RColorBrewer)
 library(dplyr)
 
-#ALL SETS ####
-
 #read in data 
+  #used for Euler 
 data <- read.csv(here::here("Processed_data", 
                             "datasets",
                             "detections_all.csv"),
@@ -24,24 +25,39 @@ meta <- read.csv(here::here("Processed_data",
                             "trawl_metadata.csv"),
                  head=TRUE)
 
-#merge df together 
-data2 <- merge(data, meta, by=c('set_number'))
+  #Read in RAW data (this data separates eDNA species from trawl species - no 'both' category)
+  #used for Venn 
+trawl<- read.csv(here::here("Processed_data", 
+                            "trawl",
+                            "catch_data", 
+                            "clean_data",
+                            "trawl_catch_clean.csv"),
+                 head=TRUE)
 
-#rename categories 
-data2 <- data.frame(lapply(data2, function(x) { #both to both eDNA/trawl across whole dataset
-  gsub("both eDNA/trawl", "both", x)
-  
-}))
 
-data2 <- data.frame(lapply(data2, function(x) { #trawl to only trawl across whole dataset
-  gsub("only trawl", "trawl", x)
-  
-}))
+eDNA <- read.csv(here::here("Processed_data", 
+                            "eDNA",
+                            "datasets", 
+                            "eDNA_allsets.csv"),
+                 head=TRUE)
 
-data2 <- data.frame(lapply(data2, function(x) { #change only eDNA to eDNA across whole dataset
-  gsub("only eDNA", "eDNA", x)
-  
-}))
+
+#rename categories of data 
+data <- data.frame(lapply(data, function(x) { #both to both eDNA/trawl across whole dataset
+  gsub("both eDNA/trawl", "both", x)}))
+
+data <- data.frame(lapply(data, function(x) { #trawl to only trawl across whole dataset
+  gsub("only trawl", "trawl", x)}))
+
+data <- data.frame(lapply(data, function(x) { #change only eDNA to eDNA across whole dataset
+  gsub("only eDNA", "eDNA", x)}))
+
+
+#Plot Euler diagram for N/S by observation ####
+#merge df and meta data together 
+data2 <- merge(data, meta, by=c('set_number'), all.x=TRUE)
+
+#Euler detection formatting method:
 
 #format data to plot  (make categories T/F instead of characters)
 data_long <- select(data2, c('LCT','set_number', 'beta_detection_method','leg'))
@@ -77,40 +93,13 @@ ggsave("./Outputs/diversity/south_north_euler_allsets.png",
        width = 6, height = 6, units = "in")
 
 #Euler plots for S and N sites (species NOT observation comparisons) ####
-#read in data 
-data <- read.csv(here::here("Processed_data", 
-                            "datasets",
-                            "detections_all.csv"),
-                 head=TRUE)
-
-meta <- read.csv(here::here("Processed_data", 
-                            "trawl",
-                            "metadata", 
-                            "clean_data",
-                            "trawl_metadata.csv"),
-                 head=TRUE)
 
 #merge df together 
 data2 <- merge(data, meta, by=c('set_number'))
 data2 <- select(data2, c('beta_detection_method', 'LCT','leg'))
 data2<- distinct(data2)
 
-#rename categories 
-data2 <- data.frame(lapply(data2, function(x) { #both to both eDNA/trawl across whole dataset
-  gsub("both eDNA/trawl", "both", x)
-  
-}))
-
-data2 <- data.frame(lapply(data2, function(x) { #trawl to only trawl across whole dataset
-  gsub("only trawl", "trawl", x)
-  
-}))
-
-data2 <- data.frame(lapply(data2, function(x) { #change only eDNA to eDNA across whole dataset
-  gsub("only eDNA", "eDNA", x)
-  
-}))
-
+#Euler detection formatting method 
 #format data to plot  (make categories T/F instead of characters)
 data_long <- select(data2, c('LCT', 'beta_detection_method','leg'))
 data_long$var <- TRUE #add 'true' column
@@ -145,24 +134,8 @@ ggsave("./Outputs/diversity/SN_euler_spp.png",
        width = 6, height = 6, units = "in")
 
 
-#Qualitative Venn diagram showing species detection per method 
+#Qualitative Venn diagram showing species detection per method ####
 #Let's try to see this plot qualitatively using ggvenn
-
-#Read in RAW data (this data separates eDNA species from trawl species - no 'both' category)
-
-trawl<- read.csv(here::here("Processed_data", 
-                            "trawl",
-                            "catch_data", 
-                            "clean_data",
-                            "trawl_catch_clean.csv"),
-                 head=TRUE)
-
-
-eDNA <- read.csv(here::here("Processed_data", 
-                            "eDNA",
-                            "datasets", 
-                            "eDNA_allsets.csv"),
-                 head=TRUE)
 
 #South region 
 Strawl <- subset(trawl, trawl >= 7 ) #subset for only trawls in the southern sites 
@@ -182,9 +155,9 @@ ggsave("./Outputs/diversity/south_venn.png",
 
 
 #North region 
-Ntrawl <- subset(trawl, trawl <= 7 ) #subset for only trawls in the southern sites 
+Ntrawl <- subset(trawl, trawl <= 7 ) #subset for only trawls in the northern sites 
 
-NeDNA <- subset(eDNA, set_number <= 7) #subset for only eDNA samples in the southern sites 
+NeDNA <- subset(eDNA, set_number <= 7) #subset for only eDNA samples in the northern sites 
 
 df <- list(`eDNA` = c(NeDNA$LCT),
            `Trawl` = c(Ntrawl$LCT))
@@ -197,5 +170,5 @@ ggsave("./Outputs/diversity/north_venn.png",
        plot = plot,
        width = 6, height = 6, units = "in")
 
-
+data_north <- subset(data, set_number <= 7 )
 

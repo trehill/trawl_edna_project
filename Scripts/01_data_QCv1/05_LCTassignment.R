@@ -1,5 +1,7 @@
 #Taxonomic Assignments 
 #Authors: Tessa Rehill and Ben Millard-Martin 
+#goal: script to assign taxonomy to ASV based on top-ten BLAST hits. Species are clustered into Lowest Common Taxonomy
+#if not to the species level. The known range of the species is considered through FishBase data. 
 
 #read data ####
 # assign taxonomy
@@ -8,7 +10,6 @@
 
 # packages and data ####
 library(tidyverse)
-library(RColorBrewer)
 library(here)
 library(vegan)
 library(usedist)
@@ -181,8 +182,9 @@ r8 <- r7[with(r7, order(ASV, species)), ] %>%
   summarise(all_species = paste(species, collapse=", "))
 
 ##################################manual editing required on next lines###########################################
+#there are no species with multiple families so this part of code is removed with #
 #r9 <- data.frame(all_species = unique(r8$all_species))                         #table of family groups
-#r9$LCT <- c("Pleuronectidae1")                            #add a group name (in order) for each row in r9
+#r9$LCT <- c("")                            #add a group name (in order) for each row in r9
 #r10 <- merge(r8, r9, by = "all_species") %>%
 #  mutate(level = "family") %>%
 #  mutate(genus = LCT) %>%
@@ -242,7 +244,7 @@ spec_tax <- merge(spec, f2, by = c("ASV", "perc_ID"))%>%
 y1 <- spec_tax[c(1:21)] #changed these brackets from Ben's code... not sure if it will cause issues 
 y2 <- y1 %>%                              #species outside of range, assign taxa by next best hit
   filter(in_range != "y") %>%
-  mutate(LCT = c("Reinhardtius evermanni"))%>%             #new assignment goes here (between "")
+  mutate(LCT = c("Reinhardtius hippoglossoides"))%>%             #new assignment goes here (between "")
 mutate(level = c("species")) %>%             #level of assignment goes here (between "") 
 mutate(in_range = c("y"))%>%         
   mutate(all_species = LCT)%>%         
@@ -350,7 +352,7 @@ write_csv(LCT_by_site,
                "LCT_by_site12se.csv"))
 
 #LCT assignment for 12su ####
-ASVbysite <- read.csv(here::here("Processed_data", #should be ASV by sample
+ASVbysite <- read.csv(here::here("Processed_data", 
                                  "eDNA",
                                  "12s",
                                  "12s_u",
@@ -361,14 +363,14 @@ ASVbysite <- read.csv(here::here("Processed_data", #should be ASV by sample
                       head=TRUE)
 
 
-LCA_method <- read.csv(here::here("Raw_data", #should be ASV by sample
+LCA_method <- read.csv(here::here("Raw_data", 
                                   "eDNA",
                                   "12s",
                                   "12s_u",
                                  "MiFish_U_taxonomy_table.12S.NCBI_NT.96sim.LCA_ONLY.txt"),
                        head=TRUE)
 
-best_hit <-  read.csv(here::here("Raw_data", #should be ASV by sample
+best_hit <-  read.csv(here::here("Raw_data", 
                                  "eDNA",
                                  "12s",
                                  "12s_u",
@@ -649,7 +651,6 @@ write_csv(data,
                "ASV_taxonomy_12suDNA.csv"))
 
 
-#now merge both 12se and 12su data 
 
 #make LCT by site matrix ####
 

@@ -48,8 +48,8 @@ meta <- read.csv(here::here("Processed_data",
 
 #make data long
 a1 <- long %>%
-  dplyr::select(c("set_number", "LCT", "pabs_trawl", "p_abs_eDNA")) %>%
-  rename("trawl" = "pabs_trawl","eDNA" = "p_abs_eDNA")  %>%
+  dplyr::select(c("set_number", "LCT", "pabs_trawl", "pabs_eDNA")) %>%
+  rename("trawl" = "pabs_trawl","eDNA" = "pabs_eDNA")  %>%
   pivot_longer(!c("set_number", "LCT"), names_to = "method", values_to = "pa") %>%
   mutate(id = paste(set_number, method, sep = "_")) %>%
   dplyr::select(c("id", "pa", "LCT")) %>%
@@ -146,10 +146,14 @@ data <- beta_metrics
 
 write_csv(data,
           here("Processed_data",
+               "datasets",
                "diversity",
                "diversity_indices_all.csv")) 
 
 data3 <- data
+
+#Plots ###
+#make some plots to visualize diversity indices of nestedness and turnover 
 
 #plot nestedness and turnover
 b1 <- data %>%
@@ -171,6 +175,7 @@ betadiff <-
   xlab("Jaccards component") + 
   theme_classic()+ 
   scale_x_discrete(labels=c("Jac_nest" = "nestedness", "Jac_turn" = "turnover"))
+
 betadiff
 
 ggsave("./Outputs/diversity/jaccards_set_all.png", 
