@@ -227,7 +227,7 @@ plot <- physeq %>%
 plot 
 
 
-#more plots (based on Max's code), using ggplot
+#Plots using ggplot
 
 PCOA <- ordinate(physeq, "PCoA", "jaccard", binary=TRUE)
 
@@ -295,7 +295,7 @@ plot <- physeq %>%
 
 plot 
 
-
+#add elipses
 
 plot <- physeq %>% 
   dist_calc(dist = "jaccard", binary=TRUE) %>% 
@@ -340,11 +340,12 @@ ordination <- ord_calc(distances, "PCoA")
 # Create the ordination plot
 plot <- ord_plot(ordination, color = "method", shape = "region", size = 2, clip = 'on') +
   scale_color_manual(values = c("#FCC442", "#5491cf")) +
-  geom_line(aes(group = set), color = "black") +  #adds line between same sets 
+  geom_line(aes(group = set, linetype = region), color = "black") +  # Set linetype based on region
   geom_dl(aes(label = set), method = list(dl.trans(x = x + 0.2), "last.points", cex = 0.8)) +
-  geom_dl(aes(label = set), method = list(dl.trans(x = x - 0.2), "first.points", cex = 0.8)) 
+  geom_dl(aes(label = set), method = list(dl.trans(x = x - 0.2), "first.points", cex = 0.8))
 
-plot 
+plot
+
 
 ggsave("./Outputs/pcoa/PCoA_panel1.png", 
        plot = plot,
@@ -370,3 +371,60 @@ plot
 ggsave("./Outputs/pcoa/PCoA_panel2.png", 
        plot = plot,
        width = 12, height = 7, units = "in")
+
+#plot 
+#color = north or south region 
+#points = filled trawl, open eDNA
+#color of lines matches north or south region
+# Calculate distance and perform ordination
+distances <- dist_calc(physeq, dist = "jaccard", binary = TRUE)
+ordination <- ord_calc(distances, "PCoA")
+
+# Define custom shapes
+# Replace "1" and "2" with the desired shape values
+custom_shapes <- c("eDNA" = 1, "trawl" = 16)
+
+# Create the ordination plot
+plot <- ord_plot(ordination, color = "region", shape = "method", size = 4, clip = 'on') +
+  scale_color_manual(values = c("#FCC442", "#5491cf")) +
+  scale_shape_manual(values = custom_shapes) +  # Set custom shapes
+  geom_line(aes(group = set, color = region)) +  # Set linetype and color based on region
+  geom_dl(aes(label = set), method = list(dl.trans(x = x + 0.2), "last.points", cex = 0.8)) +
+  geom_dl(aes(label = set), method = list(dl.trans(x = x - 0.2), "first.points", cex = 0.8)) +
+  coord_cartesian(xlim = c(-2, 2))
+
+plot
+
+ggsave("./Outputs/pcoa/PCoA_panel1.png", 
+       plot = plot,
+       width = 12, height = 7, units = "in")
+
+
+#make plot with four ovals 
+#1. trawl S
+#2. trawl N
+#3. eDNA S
+#4. eDNA N 
+
+#we want northern to be yellow, and all southern to be blue 
+#we want eDNA to be dashed and unfilled
+#we want trawl to be solid and filled 
+plot <- physeq %>% 
+  dist_calc(dist = "jaccard", binary = TRUE) %>% 
+  ord_calc("PCoA") %>% 
+  ord_plot(color = "region", shape = "region_method", size = 2) +
+  scale_color_manual(values = c("#FCC442", "#5491cf")) +
+  scale_shape_manual(values = c(eDNA_northern = 1, eDNA_southern = 1, trawl_northern = 16, trawl_southern = 16)) +
+  stat_ellipse(aes(linetype = region_method, color = region)) +
+  scale_linetype_manual(values = c(trawl_northern = "solid", trawl_southern = "solid", eDNA_southern = 'dashed', eDNA_northern = 'dashed'))
+
+plot
+
+
+ggsave("./Outputs/pcoa/PCoA_panel2.png", 
+       plot = plot,
+       width = 12, height = 7, units = "in")
+
+
+
+
