@@ -189,7 +189,7 @@ physeq
 
 #do some plotting
 
-#Plots ####
+#PLOTS ####
 physeq %>% 
   dist_calc(dist = "jaccard", binary = TRUE) %>% 
   ord_calc("PCoA") %>% 
@@ -421,10 +421,21 @@ plot <- physeq %>%
 plot
 
 
+#PLOTS w/ convex hulls instead of ellipses 
+
+
+plot <- physeq %>% 
+  dist_calc(dist = "jaccard", binary = TRUE) %>% 
+  ord_calc("PCoA") %>% 
+  ord_plot(color = "region", shape = "region_method", size = 2) +
+  scale_color_manual(values = c("#FCC442", "#5491cf")) +
+  scale_shape_manual(values = c(eDNA_northern = 1, eDNA_southern = 1, trawl_northern = 16, trawl_southern = 16)) +
+  stat_chull(aes(linetype = region_method, color = region)) +
+  scale_linetype_manual(values = c(trawl_northern = "solid", trawl_southern = "solid", eDNA_southern = 'dashed', eDNA_northern = 'dashed'))
+
+plot
+
 ggsave("./Outputs/pcoa/PCoA_panel2.png", 
        plot = plot,
        width = 12, height = 7, units = "in")
-
-
-
 

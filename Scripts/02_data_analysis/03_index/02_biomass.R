@@ -11,6 +11,7 @@ library(geosphere)
 library(hrbrthemes)
 library(gmt)
 library(scales)
+library(skimr)
 
 #function
 #this function changes angle coordinates to decimal coordinates 
@@ -122,6 +123,20 @@ both <- subset(data, gamma_detection_method == c('both eDNA/trawl'))
 trawl_o <- subset(data, gamma_detection_method == c('only trawl'))
 mean(both$biomass_index) #1.109
 mean(trawl_o$biomass_index) #0.04536
+
+# Calculate standard errors for the 'both eDNA/trawl' group
+se_both <- data %>%
+  filter(gamma_detection_method == 'both eDNA/trawl') %>%
+  summarise(se_biomass = sd(biomass_index) / sqrt(n()))
+
+# Calculate standard errors for the 'only trawl' group
+se_trawl_only <- data %>%
+  filter(gamma_detection_method == 'only trawl') %>%
+  summarise(se_biomass = sd(biomass_index) / sqrt(n()))
+
+se_both$se_biomass  # Standard error for 'both eDNA/trawl' group, 0.338
+se_trawl_only$se_biomass  # Standard error for 'only trawl' group, 0.038
+
 
 #STAT ANALYSIS ####
 #perform t-test 

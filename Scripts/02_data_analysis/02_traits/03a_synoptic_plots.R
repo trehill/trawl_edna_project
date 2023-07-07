@@ -1,7 +1,7 @@
 #Plotting synoptic lengths 
 #goal: plot length distributions of synoptic lengths 
 
-#PLOT ####
+#SET-UP ####
 library(tidyr)
 library(tidyverse)
 library(here)
@@ -30,7 +30,7 @@ trawl_catch  <- read.csv(here::here("Processed_data",
 
 
 
-#Formatting data for plotting ####
+#Formatting data for plotting + analysis ####
 
 #merge detection data w/ trait data (mean lengths)
 data <- merge(detection, trait_data, by="LCT", all.x= TRUE)
@@ -99,6 +99,7 @@ plot
 ggsave("./Outputs/traits/syn_length/synop_eDNAtrawl_density.png", 
        plot = plot,
        width = 10, height = 6, units = "in")
+
 
 #Species + Individual Length Distributions 
 #goal: make a density plot like above with four rows 
@@ -207,4 +208,47 @@ plot
 ggsave("./Outputs/traits/syn_length/max_length_density.png", 
        plot = plot,
        width = 12, height = 7, units = "in")
+
+#T-TEST (all eDNA vs. all trawl) ####
+#T-test for statistical difference between mean lengths of ALL trawl and ALL eDNA 
+#perform t-test 
+#http://www.sthda.com/english/wiki/unpaired-two-samples-t-test-in-r
+
+#CHECK  T-TEST ASSUMPTIONS
+#first we will log the data to standardize 
+#check normality (p > 0.05)
+
+# Shapiro-Wilk normality test for eDNA length
+with(speciestraits, shapiro.test(total_mean_length_cm[method == "eDNA"])) #p = 0.01344 (not normal)
+
+# Shapiro-Wilk normality test for trawl length
+with(speciestraits, shapiro.test(total_mean_length_cm[method == "trawl"])) #p=0.02467 (not normal)
+
+#results: p values < 0.05 
+#the data is not normally distributed
+#we must standardize the data by logging it! (probably suppost to do anyways)
+
+speciestraits$total_mean_length_cm <- log(speciestraits$total_mean_length_cm)
+
+#now check for normal distribution
+# Shapiro-Wilk normality test for eDNA length
+with(speciestraits, shapiro.test(total_mean_length_cm[method == "eDNA"])) #p = 0.6581
+
+# Shapiro-Wilk normality test for trawl length
+with(speciestraits, shapiro.test(total_mean_length_cm[method == "trawl"])) #p=0.02207
+
+#now we have a normal distribution
+
+#check variance homogeneity 
+res.ftest <- var.test(total_mean_length_cm ~ method, data = speciestraits) #p=0.4427
+res.ftest
+#p > 0.05, there is difference in NO variance of two sets of data 
+
+#T-test 
+#P<0.05 = statistically significant 
+
+#one-sided
+t.test(total_mean_length_cm ~ method, data=speciestraits)
+#t=, df=, p-value= 0.1648
+#means are not statistically different
 

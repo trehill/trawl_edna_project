@@ -136,6 +136,8 @@ trait_collection.R
 
 03a_synoptic_plots 
 	goal: plot length distributions using mean lengths (instead of maximum spp lengths)
+	t-test analysis of NO significant difference in mean length of all spp in trawl vs. 
+	eDNA 
 
 	inputs: 
 	"traits_mean_lengths.csv"
