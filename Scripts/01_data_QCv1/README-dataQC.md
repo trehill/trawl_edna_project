@@ -26,7 +26,7 @@ FOLDER: DataQC
   (2) one trawl seems to have a towing time of 0 min (used trawl_metadata.cvs found in original repository)
 
 Number of ASVs in - 
-	12se (in file: sequence_table.12S.merged.w_ASV_names.length_var.txt  ) 764
+	12se (in file: sequence_table.12S.merged.w_ASV_names.length_var.txt  ) 764 (matt = 840 after filtering)
 	12su (in file: sequence_table.12S.merged.w_ASV_names.length_var.txt ) 647
 	
 Number of ASVs out- 
@@ -77,6 +77,21 @@ Number of ASVs out-
 Number of ASVs out (for all 03 scripts)
 	12se (in file: 12se_asvmatrix_lor_12s_u) = 49
 	12su (in file: data12su_asvmatrix_nc_lor) = 49
+	
+Occupancy models (meeting w/ Ben)
+- is there thresholds? can we manipulate these 
+- likely to remove the dataset singletons
+- diagnosis
+	1) know the list of species and frequencies in eDNA dataset (singletons or doubletons)
+	2) 
+	
+
+586ASV (MiFishE) to move on to analysis (Matt)
+- just filtering based on taxonomy (no singletons filtered or read cut-off)
+- removing low-read singletons done in Evans script 
+- no occupancy modelling 
+- of AVS retained, some have low-reads, 40ASVs with less than 100 reads 
+
 	
 Notes: this seems to me where things are going wrong, there is no 12se input and number of ASVs significantly decreases
 and after the field control removal we gain back to 85? The input to field removal is also different 
@@ -135,14 +150,14 @@ I took these files straight from the previous GitHub repo
   notes: 
   - code on line 298 shows issue + 611
   
-Number of ASVs (input) 
+Number of ASVs in -
 	 "MiFish_E_taxonomy_table.12S.NCBI_NT.96sim.LCA_ONLY.txt" = 839 (this is using LCA method)
 	 "MiFish_E_taxonomy_table.12S.NCBI_NT.96sim.txt" = 839 (this is using best hit method)
 	 "MiFish_U_taxonomy_table.12S.NCBI_NT.96sim.LCA_ONLY.txt" = 836
 	 "MiFish_U_taxonomy_table.12S.NCBI_NT.96si.txt" = 836
 
 
-Number of ASVs (output)
+Number of ASVs out - 
 	ASV_taxonomy_12seDNA.csv = 85
 	ASV_taxonomy_12suDNA.csv = 36
 	
