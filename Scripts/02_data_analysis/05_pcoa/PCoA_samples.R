@@ -342,10 +342,34 @@ plot <- ord_plot(ordination, color = "method", shape = "region", size = 2, clip 
   scale_color_manual(values = c("#FCC442", "#5491cf")) +
   geom_line(aes(group = set, linetype = region), color = "black") +  # Set linetype based on region
   geom_dl(aes(label = set), method = list(dl.trans(x = x + 0.2), "last.points", cex = 0.8)) +
-  geom_dl(aes(label = set), method = list(dl.trans(x = x - 0.2), "first.points", cex = 0.8))
+  geom_dl(aes(label = set), method = list(dl.trans(x = x - 0.2), "first.points", cex = 0.8)) 
+
+  
 
 plot
 
+#MDS1 = 21.3%
+#MDS2 = 14.3% 
+
+#going to change axis titles to PCoA because it is confusing that it is an MDS but they are the same thing
+plot <- ord_plot(ordination, color = "method", shape = "region", size = 2, clip = 'on') +
+  scale_color_manual(values = c("#FCC442", "#5491cf")) +
+  geom_line(aes(group = set, linetype = region), color = "black") +  # Set linetype based on region
+  geom_dl(aes(label = set), method = list(dl.trans(x = x + 0.2), "last.points", cex = 0.8)) +
+  geom_dl(aes(label = set), method = list(dl.trans(x = x - 0.2), "first.points", cex = 0.8)) +
+  labs(title = "",
+       x = "PCo1 [21.3%]",  # Change the X-axis title
+       y = "PCo2 [14.3%]")  # Change the Y-axis title
+
+#increase font size 
+plot <- plot + theme(
+  text = element_text(size = 14),  # Increase font size for all text elements
+  axis.title = element_text(size = 16),  # Increase font size for axis titles
+  legend.title = element_text(size = 16),  # Increase font size for legend title
+  legend.text = element_text(size = 14)  # Increase font size for legend text
+)
+
+plot
 
 ggsave("./Outputs/pcoa/PCoA_panel1.png", 
        plot = plot,
@@ -367,6 +391,29 @@ plot <- physeq %>%
 
 
 plot
+
+#add axis title change
+
+plot <- physeq %>% 
+  dist_calc(dist = "jaccard", binary = TRUE) %>% 
+  ord_calc("PCoA") %>% 
+  ord_plot(color = "method", shape= 'region', size = 2) +
+  scale_color_manual(values = c("#FCC442", "#5491cf")) +
+  stat_ellipse(aes(linetype = region_method, color=method)) +
+  scale_linetype_manual(values = c(trawl_northern = "solid", trawl_southern = "dashed", eDNA_southern = 'dashed', eDNA_northern = 'solid')) +
+  labs(title = "",
+       x = "PCo1 [21.3%]",  # Change the X-axis title
+       y = "PCo2 [14.3%]")  # Change the Y-axis title
+
+plot <- plot + theme(
+  text = element_text(size = 14),  # Increase font size for all text elements
+  axis.title = element_text(size = 16),  # Increase font size for axis titles
+  legend.title = element_text(size = 16),  # Increase font size for legend title
+  legend.text = element_text(size = 14)  # Increase font size for legend text
+)
+
+plot
+
 
 ggsave("./Outputs/pcoa/PCoA_panel2.png", 
        plot = plot,

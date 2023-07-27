@@ -33,7 +33,7 @@ data12Se_asvmatrix <- read_csv(here::here("Processed_data",
                                           "matrix",
                                           "clean_data",
                                           "data12se_asvmatrix_nc_lor.csv"))
-
+ncol(data12Se_asvmatrix)
 #join with meta_data
 data12Se_asvmatrix_meta<-left_join(metadata_trawl, rename(data12Se_asvmatrix, "sample_name"="X1"), by="sample_name")
 
@@ -99,6 +99,8 @@ data12Su_asvmatrix <- read_csv(here::here("Processed_data",
                                           "matrix",
                                           "clean_data",
                                           "data12su_asvmatrix_nc_lor.csv"))
+
+ncol(data12Su_asvmatrix)
 
 #join with meta_data
 data12Su_asvmatrix_meta<-left_join(metadata_trawl, rename(data12Su_asvmatrix, "sample_name"="...1"), by="sample_name")

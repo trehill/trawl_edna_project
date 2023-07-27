@@ -50,6 +50,8 @@ write_csv(df,
 #these numbers will be used to make the proportions for the spp. images in Fig. 1
 #n= incidence 
 
+#make table that includes the LCT, detection method (at gamma level), incidence, and mean biomass 
+
 #Plot 
 
 #at gamma level 
@@ -174,3 +176,6 @@ overlap <- overlap %>%
 overlap$overlap_perc <- ((overlap$spp_count / overlap$set_count)*100)
 
 mean(overlap$overlap_perc) #63% #percentage overlap by eDNA
+
+
+

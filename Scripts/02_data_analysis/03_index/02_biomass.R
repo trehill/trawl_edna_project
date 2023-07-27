@@ -89,6 +89,12 @@ mean(trawl_distances$distance) #16km
 min(trawl_distances$distance) #2.3 km
 max(trawl_distances$distance) #27.2 km 
 
+#convert km to nautical miles 
+#1km = 0.539956803 nm
+mean(trawl_distances$distance)*(0.539956) #8.649472 nm
+min(trawl_distances$distance)*(0.539956) #1.237387 nm
+max(trawl_distances$distance)*(0.539956) #14.68457 nm
+
 #merge to detection dataset 
 data <- merge(trawl_distances, beta_div, by=c('set_number'), all.y=TRUE)
 

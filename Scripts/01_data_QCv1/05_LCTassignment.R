@@ -27,7 +27,7 @@ ASVbysite <- read.csv(here::here("Processed_data",
                                    "12s_e",
                                   "asv",
                                    "matrix",
-                                    "clean_data",
+                                  "clean_data",
                                    "data12Se_asvmatrix_nc_lor_nfc.csv"),
                         head=TRUE)
 

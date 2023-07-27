@@ -14,6 +14,7 @@ library(usedist)
 dat <- read.csv("./Processed_data/eDNA/12s/12s_e/asv/matrix/clean_data/data12Se_asvmatrix_metadata_nc.csv")
 
 
+
 #extract usefull bits: t1 <- sample names; t2 <- ASV x site
 t1 <- dat[c("sample_name")]
 t2 <- dat[c(22:784)]
