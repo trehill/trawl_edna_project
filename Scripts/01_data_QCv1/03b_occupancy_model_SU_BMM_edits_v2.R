@@ -26,7 +26,7 @@ ProbOcc=function(x, psi=psi, p11=p11, p10=p10, K=K){
   (psi*(p11^x)*(1-p11)^(K-x)) / ((psi*(p11^x)*(1-p11)^(K-x))+(((1-psi)*(p10^x))*((1-p10)^(K-x))))
 }
 cumProb=function(x) 1-prod(1-x)  #define cumulative prob function
-sitesFun<-function(x, Nreplicates=3){rep(1:x, each=Nreplicates)}
+sitesFun<-function(x, Nreplicates=2){rep(1:x, each=Nreplicates)}
 
 
 
@@ -54,7 +54,7 @@ cat("model {
 								    } ",fill=TRUE)
 sink()
 #The Model####
-model_Bayesian <- function(datalist, COLUMN, nOTUs=length(datalist), S=56, K=3, doprint=FALSE,p10_max=0.1,
+model_Bayesian <- function(datalist, COLUMN, nOTUs=length(datalist), S=18, K=2, doprint=FALSE,p10_max=0.1,
                            ni=5000,nt=2,nc=10,nb=1000,myparallel=TRUE) {   
   psihat<-p11hat<-p10hat<-rep(nOTUs)
   modelSummaries<-list()
@@ -98,13 +98,13 @@ datalist = ASVlist
 #use 1:10 for trials
 
   List <- list()
-  for(i in 1:644){
+  for(i in 1:423){
     model <- model_Bayesian(datalist, i)
     List[[length(List)+1]] = model$modelSummaries[[i]][1:3]
   }
   
   out <- as.data.frame(List) 
-  colnames(out) = ASVs[c(1:644)]
+  colnames(out) = ASVs[c(1:423)]
   out <- as.data.frame(t(out))
   setnames(out, c("V1", "V2", "V3"), c("psi", "p11", "p10"))
   
@@ -112,15 +112,12 @@ datalist = ASVlist
 #calculate probability of occupancy for each ASV from psi, p11 and p10
 
   out$PoO.0 <-
-    (out$psi*(out$p11^0)*(1-out$p11)^(3-0)) / ((out$psi*(out$p11^0)*(1-out$p11)^(3-0))+(((1-out$psi)*(out$p10^0))*((1-out$p10)^(3-0))))
+    (out$psi*(out$p11^0)*(1-out$p11)^(2-0)) / ((out$psi*(out$p11^0)*(1-out$p11)^(2-0))+(((1-out$psi)*(out$p10^0))*((1-out$p10)^(2-0))))
   out$PoO.1 <-
-    (out$psi*(out$p11^1)*(1-out$p11)^(3-1)) / ((out$psi*(out$p11^1)*(1-out$p11)^(3-1))+(((1-out$psi)*(out$p10^1))*((1-out$p10)^(3-1))))
+    (out$psi*(out$p11^1)*(1-out$p11)^(2-1)) / ((out$psi*(out$p11^1)*(1-out$p11)^(2-1))+(((1-out$psi)*(out$p10^1))*((1-out$p10)^(2-1))))
   out$PoO.2 <-
-    (out$psi*(out$p11^2)*(1-out$p11)^(3-2)) / ((out$psi*(out$p11^2)*(1-out$p11)^(3-2))+(((1-out$psi)*(out$p10^2))*((1-out$p10)^(3-2))))
-  out$PoO.3 <-
-    (out$psi*(out$p11^3)*(1-out$p11)^(3-3)) / ((out$psi*(out$p11^3)*(1-out$p11)^(3-3))+(((1-out$psi)*(out$p10^3))*((1-out$p10)^(3-3))))
-  
-  
+    (out$psi*(out$p11^2)*(1-out$p11)^(2-2)) / ((out$psi*(out$p11^2)*(1-out$p11)^(2-2))+(((1-out$psi)*(out$p10^2))*((1-out$p10)^(2-2))))
+
  write.csv(out, "./Scripts/occupancy_modelling/royle_link/scratch/occProb_royallink_u.csv")
  saveRDS(out, "./Scripts/occupancy_modelling/royle_link/scratch/occProb_royallink_u.rds")
 

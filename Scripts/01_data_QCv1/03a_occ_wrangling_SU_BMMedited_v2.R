@@ -28,14 +28,29 @@ colnames(ASV_by_sample)[1] <- "sample"               #rename column
 #make a list of dataframes, if you get "Error: `n()` must only be used inside dplyr verbs." restart R. 
 # There is a conflict with one of the packages from OccupancyModel.R
 
-a1 <- dat[c("sample_name")]
-
-a1 <- ASV_by_sample %>%
+a1 <- dat[c("sample_name", "site")] %>%
+  distinct() %>%
+  .[-c(49,53,22,27),] 
+a2 <- a1 %>% group_by(site) %>% summarise(length = length(site)) %>% filter(length == 2)
+a3 <- a1 %>%filter(site %in% a2$site)
+a4 <- ASV_by_sample %>%
   group_by(sample) %>%
   summarise_all(sum) %>%
-  merge()
+  filter(sample %in% a3$sample_name) %>%
+  merge(a1,., by.x = "sample_name", by.y = "sample", all.x = F, all.y = T) %>%
+  dplyr::select(-c("sample_name", "site"))
+a5 <-  as.data.frame(ifelse(a4 == 0, 0, 1)) 
+ASVcount <- as.data.frame(colSums(a5))           #find number of observations of each ASV
+ASVcountNo0s <- filter(ASVcount, ASVcount[1] != 0)   #count of detections by ASV
+ASV0count <- filter(ASVcount, ASVcount[1] == 0)      #find ASVs with 0 observations
+ASVswith0count <- rownames(ASV0count)
+ASV1count <- filter(ASVcount, ASVcount[1] == 1)      #find ASVs with 1 observation (one PCR detection in dataset)
 
-
+a6 <- a5 %>%
+  cbind(a3[c("site")],.)
+a6[,c(ASVswith0count)] <- NULL    
+ASV_by_sample <- a6 %>%
+  rename("sample" = "site")
 
 ASVs <- colnames(ASV_by_sample)
 ASVs <- ASVs[-1]
