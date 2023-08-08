@@ -8,10 +8,10 @@ library(here)
 library(dplyr)
 
 
-dat <- read.csv("./Processed_data/eDNA/12s/12s_u/asv/matrix/clean_data/data12Su_asvmatrix_metadata_nc.csv")
+dat <- read.csv("./Processed_data/eDNA/12s/12s_e/asv/matrix/clean_data/data12Se_asvmatrix_metadata_nc.csv")
 
 
-spec <- dat[c(22:667)]                               #select Asv Matrix
+spec <- dat[c(22:784)]                               #select Asv Matrix
 spec01 <- as.data.frame(ifelse(spec == 0, 0, 1))     #convert to binary
 ASVcount <- as.data.frame(colSums(spec01))           #find number of observations of each ASV
 ASVcountNo0s <- filter(ASVcount, ASVcount[1] != 0)   #count of detections by ASV
@@ -44,7 +44,7 @@ for(i in ASVs){
 
 ASVlist[1] #check to see that it is formatted properly
 
-save(ASVlist, file="./Scripts/occupancy_modelling/royle_link/scratch/ASVlist_u.RData")
-save(ASVs, file="./Scripts/occupancy_modelling/royle_link/scratch/ASVs_u.RData")
+save(ASVlist, file="./Scripts/occupancy_modelling/royle_link/scratch/ASVlist_e.RData")
+save(ASVs, file="./Scripts/occupancy_modelling/royle_link/scratch/ASVs_e.RData")
 
 

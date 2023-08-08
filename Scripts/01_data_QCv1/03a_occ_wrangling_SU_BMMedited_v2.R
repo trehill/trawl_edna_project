@@ -28,6 +28,15 @@ colnames(ASV_by_sample)[1] <- "sample"               #rename column
 #make a list of dataframes, if you get "Error: `n()` must only be used inside dplyr verbs." restart R. 
 # There is a conflict with one of the packages from OccupancyModel.R
 
+a1 <- dat[c("sample_name")]
+
+a1 <- ASV_by_sample %>%
+  group_by(sample) %>%
+  summarise_all(sum) %>%
+  merge()
+
+
+
 ASVs <- colnames(ASV_by_sample)
 ASVs <- ASVs[-1]
 ASVlist <- list()

@@ -2,7 +2,7 @@ library(tidyverse)
 
 #####plotting Royal Link Model#######
 
-out <- readRDS("./Scripts/occupancy_modelling/royle_link/scratch/occProb_royallink.rds")
+out <- readRDS("./Scripts/occupancy_modelling/royle_link/scratch/occProb_royallink_u.rds")
 
 #or
 t5 <- out    #from OccupancyModel.R
@@ -43,7 +43,7 @@ colnames(reps_occprob)[1] <- "det_count"               #rename column
 
 
 # plot the data####
-# each ASV if found in 0, 1, 2 or 3 PCR replicates 595 ASVs x 4 = 2380
+# each ASV if found in 0, 1, 2 or 3 PCR replicates 763 ASVs x 4 = 3052
 p1 <- ggplot(reps_occprob, aes(factor(pos_reps), prob)) +
   scale_y_continuous(breaks = seq(0,1,0.2)) +
   geom_violin(scale = "width", trim = F, adjust = 2, size = 0.5, fill = "grey") +
@@ -51,7 +51,7 @@ p1 <- ggplot(reps_occprob, aes(factor(pos_reps), prob)) +
 #  geom_jitter(aes(colour = det_count)) +
 #  scale_color_gradientn(colours = rainbow(5)) +
   theme_classic( base_size = 12) +
-  xlab("number of positive detection in 3 PCR replicates (595 ASVs)") +
+  xlab("number of positive detection in 3 PCR replicates (763 ASVs)") +
   ylab("occupancy probability") +
   ggtitle("Occupancy Probability by replicate PCR - RL model") + 
   geom_hline(yintercept = 0.8, linetype = "dashed") +
@@ -69,7 +69,7 @@ p2 <- ggplot(r1, aes(prob, color = pos_reps)) +
   ylab("number of detections (n = ###)") +
   geom_vline(xintercept = 0.8, linetype = "dashed") +
   annotate("text", x=0.785, y = 500, angle = 90, label = "80% probability threshold") +
-  ggtitle("distribution of occupancy probabilities")
+  ggtitle("distribution of occupancy probabilities - mifishE")
 
 p2
 
