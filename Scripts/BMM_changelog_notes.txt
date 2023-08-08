@@ -1,0 +1,9 @@
+Change Log
+
+E - errors in scripts
+Q - a few questions regarding code
+N - notes regarding code
+
+01		E: first two datasets had wrong path									fixed
+		E: missing folder for trawl_zero_min_duration.csv (line 244)			added folder
+		

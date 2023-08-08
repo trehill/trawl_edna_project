@@ -1,4 +1,4 @@
-kingdom,phylum,order,family,genus,species,kingdom_id,phylum_id,order_id,family_id,genus_id,species_id,query
+kingdom,phylum,order,family,genus,species,kingdom_id,phylum_id,order_id,family_id,genus_id,species_id,ids
 Animalia,Chordata,Clupeiformes,Clupeidae,Clupea,Clupea pallasii,1,44,538,7332,2346676,4284072,Clupea pallasii
 Animalia,Chordata,Gadiformes,Gadidae,Gadus,Gadus chalcogrammus,1,44,549,3701,2335052,2415769,Gadus chalcogrammus
 Animalia,Chordata,Salmoniformes,Salmonidae,Oncorhynchus,Oncorhynchus keta,1,44,1313,8615,2351426,5204014,Oncorhynchus keta
